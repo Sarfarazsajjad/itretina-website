@@ -1,30 +1,10 @@
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-
-.dropdown-content {
-    overflow-wrap: break-word;
-    display: none;
-    position: absolute;
-    background-color: rgba(66, 64, 57,0.2);;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px;
-    z-index: 1;
-  }
-
-  ul{
-    list-style-type: none;
-    padding: 15px
-}
-
-ul li {
-   text-align: left; 
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
+.paralex_content{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    flex-direction: column
 }
 
 .contentPage{

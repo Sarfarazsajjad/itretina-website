@@ -1,86 +1,102 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <title>IT Retina</title>
 
-    <link rel="canonical" href="cover.css">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Jekyll v3.8.5">
+  <title>IT Retina</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="./services.styles.css" >
-    <link href="cover.css" rel="stylesheet">
-  </head>
-  <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">IT Retina</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#" onclick="handleMenuClick('home')">Home</a>
-        <span class="nav-link active dropdown" href="#">Services
-          <ul class="dropdown-content">
-            <li><a href="#" onclick="handleMenuClick('crm_details')">SugarCRM/SuiteCRM</a></li>
-            <li><a href="#" onclick="handleMenuClick('iot_details')">internet of Things (ioT) Based Solutions</a></li>
-            </ul> 
-        </span>
-        <!-- <a class="nav-link" href="#">Features</a> -->
-        <!-- <a class="nav-link" href="#">Contact</a> -->
-      </nav>
+  <!-- <link rel="canonical" href="cover.css"> -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <!-- Custom styles for this template -->
+  <link rel="stylesheet" href="./services.styles.css">
+  <link href="cover.css" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">IT Retina</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="#home">Home
+                <!-- <span class="sr-only">(current)</span>--></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                aria-expanded="false">Services <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#crm_details">SugarCRM/SuiteCRM</a></li>
+                <li><a href="#iot_details">internet of Things (ioT) Based Solutions</a></li>
+                <!-- <li role="separator" class="divider"></li>                           -->
+              </ul>
+            </li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    </nav>
+    <div class="row">
+      <div class="col-md-12">
+        <main id="main" role="main" class="inner cover">
+
+          <content id="home" class="paralex_content">
+            <h1 class="cover-heading">Software Development Services</h1>
+            <p class="lead">We build customized software systems and solutions</p>
+            <p class="lead">
+              email us at info@itretina.com
+              <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
+            </p>
+          </content>
+
+          <content id="crm_details" class="paralex_content">
+            <h1 class="cover-heading">CRM Consultancy Service</h1>
+            <p class="lead">We build customized software systems and solutions</p>
+            <p class="lead">
+              email us at info@itretina.com
+              <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
+            </p>
+          </content>
+
+          <content id="iot_details" class="paralex_content">
+            <h1 class="cover-heading">i.o.t Hardware and Software Development Solutions and Services</h1>
+            <p class="lead">We build customized software systems and solutions</p>
+            <p class="lead">
+              email us at info@itretina.com
+              <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
+            </p>
+          </content>
+
+        </main>
+
+        <footer class="mastfoot mt-auto">
+          <div class="inner">
+            <p>All rights reserved 2019.</p>
+          </div>
+        </footer>
+      </div>
     </div>
-  </header>
-
-  <main id="main" role="main" class="inner cover">
-      <h1 class="cover-heading">Software Development Services</h1>
-      <p class="lead">We build customized software systems and solutions</p>
-      <p class="lead">
-          email us at info@itretina.com
-        <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-      </p>
-  </main>
-
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p>All rights reserved 2019.</p>
-    </div>
-  </footer>
-</div>
-
-  <span id="home" class="contentPage">
-    <h1 class="cover-heading">Software Development Services</h1>
-    <p class="lead">We build customized software systems and solutions</p>
-    <p class="lead">
-        email us at info@itretina.com
-      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-    </p>
-  </span>
-
-  <span id="crm_details" class="contentPage">
-    <h1 class="cover-heading">CRM Consultancy Service</h1>
-    <p class="lead">We build customized software systems and solutions</p>
-    <p class="lead">
-        email us at info@itretina.com
-      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-    </p>
-  </span>
-
-  <span id="iot_details" class="contentPage">
-    <h1 class="cover-heading">i.o.t Hardware and Software Development Solutions and Services</h1>
-    <p class="lead">We build customized software systems and solutions</p>
-    <p class="lead">
-        email us at info@itretina.com
-      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-    </p>
-  </span>
-
-<script src="./main.js"></script>
-
+  </div>
+  <script src="./main.js"></script>
 </body>
+
 </html>

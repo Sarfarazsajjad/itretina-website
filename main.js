@@ -1,7 +1,13 @@
 let mainContainer;
 
 window.onload = async function(){
-    mainContainer =  await document.getElementById("main")
+    mainContainer =  await document.getElementById("main");
+    let contents = $("content");
+    contents.each((i,element) => {
+            console.log('XX', element);
+            element.style.height = "92vh";
+            // element.style.display = "block";
+    });
 }
 
 function handleMenuClick(menuClicked){
