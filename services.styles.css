@@ -10,3 +10,24 @@
 .contentPage{
     display: none;
 }
+
+#scrollHelper{
+    position: fixed;
+    bottom: 30px;
+    right: 10vw;
+    display: flex;
+    flex-direction: row;
+    flex:1;
+}
+
+#scrollHelper > a {
+    text-decoration: none;
+    padding: 20px;
+    border: 2px white solid;
+    border-width: 2px;
+    border-radius: 30px;
+    line-height: 18px;
+    font-size: 35px;
+    font-weight: 700;
+    color: white
+}
