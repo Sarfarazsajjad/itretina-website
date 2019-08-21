@@ -14,23 +14,8 @@
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
     <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./services.styles.css" >
     <link href="cover.css" rel="stylesheet">
   </head>
   <body class="text-center">
@@ -39,20 +24,26 @@
     <div class="inner">
       <h3 class="masthead-brand">IT Retina</h3>
       <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="#">Home</a>
+        <a class="nav-link active" href="#" onclick="handleMenuClick('home')">Home</a>
+        <span class="nav-link active dropdown" href="#">Services
+          <ul class="dropdown-content">
+            <li><a href="#" onclick="handleMenuClick('crm_details')">SugarCRM/SuiteCRM</a></li>
+            <li><a href="#" onclick="handleMenuClick('iot_details')">internet of Things (ioT) Based Solutions</a></li>
+            </ul> 
+        </span>
         <!-- <a class="nav-link" href="#">Features</a> -->
         <!-- <a class="nav-link" href="#">Contact</a> -->
       </nav>
     </div>
   </header>
 
-  <main role="main" class="inner cover">
-    <h1 class="cover-heading">Software Development Services</h1>
-    <p class="lead">We build customized software systems and solutions</p>
-    <p class="lead">
-        email us at info@itretina.com
-      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
-    </p>
+  <main id="main" role="main" class="inner cover">
+      <h1 class="cover-heading">Software Development Services</h1>
+      <p class="lead">We build customized software systems and solutions</p>
+      <p class="lead">
+          email us at info@itretina.com
+        <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
+      </p>
   </main>
 
   <footer class="mastfoot mt-auto">
@@ -61,5 +52,35 @@
     </div>
   </footer>
 </div>
+
+  <span id="home" class="contentPage">
+    <h1 class="cover-heading">Software Development Services</h1>
+    <p class="lead">We build customized software systems and solutions</p>
+    <p class="lead">
+        email us at info@itretina.com
+      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
+    </p>
+  </span>
+
+  <span id="crm_details" class="contentPage">
+    <h1 class="cover-heading">CRM Consultancy Service</h1>
+    <p class="lead">We build customized software systems and solutions</p>
+    <p class="lead">
+        email us at info@itretina.com
+      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
+    </p>
+  </span>
+
+  <span id="iot_details" class="contentPage">
+    <h1 class="cover-heading">i.o.t Hardware and Software Development Solutions and Services</h1>
+    <p class="lead">We build customized software systems and solutions</p>
+    <p class="lead">
+        email us at info@itretina.com
+      <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a> -->
+    </p>
+  </span>
+
+<script src="./main.js"></script>
+
 </body>
 </html>
