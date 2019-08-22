@@ -1,14 +1,25 @@
 .paralex_content{
     display: flex;
-    align-content: center;
     align-items: center;
     justify-content: center;
-    flex: 1;
     flex-direction: column
 }
 
-.contentPage{
-    display: none;
+.crm_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.crm_content_img {
+    flex: 0.1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.crm_content_img img {
+    width: 10vw;
 }
 
 #scrollHelper{
@@ -29,5 +40,37 @@
     line-height: 18px;
     font-size: 35px;
     font-weight: 700;
-    color: white
+    color: white;
+    background-color: #ccc;
+}
+
+.content_ourexpertise{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.content_ourexpertise p{
+    padding: 20px;
+    width: 50%;
+    text-align: justify;
+}
+
+.imgs_ourexpertise{
+    flex: 0.3;
+}
+
+.imgs_ourexpertise img {
+    width: 30px
+}
+
+.text_ourexpertise{
+    flex: 0.5;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    /* border: 5px black solid; */
 }

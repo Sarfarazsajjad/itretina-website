@@ -21,7 +21,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container-fluid">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -39,7 +39,7 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="#home">Home
+            <li class=""><a href="#home">Home
                 <!-- <span class="sr-only">(current)</span>--></a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
@@ -59,7 +59,7 @@
       <div class="col-md-12">
         <main id="main" role="main" class="inner cover">
 
-          <content id="home" class="paralex_content">
+          <content id="home" class="paralex_content ">
             <h1 class="cover-heading">Software Development Services</h1>
             <p class="lead">We build customized software systems and solutions</p>
             <p class="lead">
@@ -68,13 +68,92 @@
             </p>
           </content>
 
-          <content id="crm_details" class="paralex_content">
+          <content id="home" class="paralex_content ">
+            <div class="content_ourexpertise">
+              <div class="text_ourexpertise">
+                <h3>Our Expertiese</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                  dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
+                  officia deserunt mollit anim id est laborum
+                </p>
+              </div>
+              <div class="imgs_ourexpertise">
+                <div class="row">
+                  <div class="col-sm-4"><img src="https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/300/thumb/angular2.png" /></div>
+                  <div class="col-sm-4"><img src="https://ionicframework.com/blog/wp-content/uploads/2015/05/cropped-logo.png" /></div>
+                  <div class="col-sm-4"><img src="https://png2.kisspng.com/sh/a351106b9fdcb4e6da1c48a0aae1bcf1/L0KzQYm3V8E2N5tsjJH0aYP2gLBuTgdmal5pfehubHBzfbb1lL1vd5VqRdx8LXrkhrL6gCJqeKUyi9HvdIfkgra0hPV3bZ10RdD4ZHWwesS0ifNwdl46eqZqZna3R7W9UsJmOV81TKgCM0e0RYK8U8E3PGI7T6MDN0e0PsH1h5==/kisspng-web-development-node-js-javascript-software-develo-node-js-icon-5b4aff47d622e1.0467371515316416718771.png"></div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4"><img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" /></div>
+                  <div class="col-sm-4"><img src="http://www.pngall.com/wp-content/uploads/2016/05/WordPress-Logo-Free-PNG-Image.png"></div>
+                  <div class="col-sm-4"><img style="-webkit-user-select: none;margin: auto;" src="data:image/png;base64,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"></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4"><img src="https://banner2.kisspng.com/20180810/brz/kisspng-magento-scalable-vector-graphics-logo-e-commerce-c-inlinevision-web-design-e-commerce-ppc-soci-5b6d375336dfc4.0430166315338842432248.jpg"></div>
+                    <div class="col-sm-4"><img src="data:image/png;base64,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"></div>
+                    <div class="col-sm-4"><img src="https://www.pngkit.com/png/detail/373-3738691_react-native-svg-transformer-allows-you-import-svg.png" ></div>
+                  </div>
+                <div>
+                </div>
+              </div>
+            </div>
+          </content>
+
+          <content id="crm_details" class="paralex_content ">
             <h1 class="cover-heading">CRM Consultancy Service</h1>
-            <p class="lead">We build customized software systems and solutions</p>
-            <p class="lead">
-              email us at info@itretina.com
-              <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
-            </p>
+            <p class="lead">We customize SuiteCRM/SugarCRM to fit your business need.</p>
+            <div class="crm_content">
+              <div class="crm_content_img">
+                <img src="https://suitecrm.com/wp-content/uploads/2019/08/ft_360.png">
+              </div>
+              <div class="">
+                <h3>360 Degree View</h3>
+                <p>
+                  Know your customer by creating a central repository for all your customer data enabling you to gain
+                  key insights that can be used to enhance and nurture your business relationships.
+                  <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
+                </p>
+              </div>
+              <div class="crm_content_img">
+                <img src="https://suitecrm.com/wp-content/uploads/2019/08/ft_freedom-2.png">
+              </div>
+              <div class="">
+                <h3>Freedom</h3>
+                <p>
+                  Dramatically reduce your total cost of ownership with open source CRM providing the freedom and
+                  flexibility to customise your CRM to your own bespoke needs.
+                  <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
+                </p>
+              </div>
+            </div>
+            <div class="crm_content">
+              <div class="crm_content_img">
+                <img src="https://suitecrm.com/wp-content/uploads/2019/08/ft_relationships-2.png">
+              </div>
+              <div class="">
+                <h3>Build Relationships</h3>
+                <p>
+                  Our flexible data model allows you to create a single tailored repository for all your customer data
+                  and use those key insights to improve efficiency, understand your customers needs and automate key
+                  actions. Our powerful reporting and dashboards give you quick visibility of key metrics to support
+                  your business.
+                  <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
+                </p>
+              </div>
+              <div class="crm_content_img">
+                <img src="https://suitecrm.com/wp-content/uploads/2019/08/ft_sales-2.png">
+              </div>
+              <div class="">
+                <h3>Increase Sales</h3>
+                <p>
+                  Capitalise on your rich customer profiles to convert more leads and sell smarter. Our Open Source CRM
+                  provides you with all the tools to capture important leads, manage your opportunities and create
+                  personalised quotations freeing up precious time to sell. </p>
+              </div>
+            </div>
           </content>
 
           <content id="iot_details" class="paralex_content">
@@ -86,8 +165,16 @@
             </p>
           </content>
 
+          <content id="iot_details" class="paralex_content ">
+            <h1 class="cover-heading">i.o.t Hardware and Software Development Solutions and Services</h1>
+            <p class="lead">We build customized software systems and solutions</p>
+            <p class="lead">
+              email us at info@itretina.com
+              <!-- <a href="#" class="btn btn-lg btn-secondary">Learn more</a>-->
+            </p>
+          </content>
         </main>
-<div id="scrollHelper"><a href="#home">^</a></div>
+        <div id="scrollHelper"><a href="#home">^</a></div>
         <footer class="mastfoot mt-auto">
           <div class="inner">
             <p>All rights reserved 2019.</p>

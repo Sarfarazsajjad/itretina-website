@@ -6,6 +6,9 @@ window.onload = async function(){
     contents.each((i,element) => {
             console.log('XX', element);
             element.style.height = "92vh";
+            if(i%2 == 1){
+                element.style.backgroundColor = "#f5f5f5";
+            }
             // element.style.display = "block";
     });
 }
