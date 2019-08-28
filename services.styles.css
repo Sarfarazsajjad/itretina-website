@@ -5,6 +5,15 @@
     flex-direction: column
 }
 
+.section_heading{
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #5c82ff;
+    padding: 20px;
+    color: #fff;
+}
+
 .crm_content{
     display: flex;
     flex-direction: row;
@@ -50,17 +59,19 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
-
 }
 
-.content_ourexpertise p{
-    padding: 20px;
-    width: 50%;
-    text-align: justify;
+.content_ourexpertise li{
+    font-size: 20px;
+    padding: 8px;
 }
 
-.imgs_ourexpertise{
-    flex: 0.3;
+.content_ourexpertise img{
+    width: 100%
+}
+
+.img_ourexpertise{
+    flex: 0.5;
 }
 
 .imgs_ourexpertise img {
@@ -73,4 +84,8 @@
     align-content: center;
     justify-content: center;
     /* border: 5px black solid; */
+}
+
+.noPadding{
+    padding: 0px !important;
 }

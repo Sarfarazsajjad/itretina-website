@@ -1,7 +1,7 @@
 let mainContainer;
 
 window.onload = async function(){
-    mainContainer =  await document.getElementById("main");
+    mainContainer =  await document.getElementsByTagName("main")[0];
     let contents = $("content");
     contents.each((i,element) => {
             console.log('XX', element);
