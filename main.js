@@ -5,7 +5,7 @@ window.onload = async function(){
     let contents = $("content");
     contents.each((i,element) => {
             console.log('XX', element);
-            element.style.height = "92vh";
+            element.style.height = "75vh";
             if(i%2 == 1){
                 element.style.backgroundColor = "#f5f5f5";
             }
