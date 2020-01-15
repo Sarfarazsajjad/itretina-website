@@ -1,0 +1,16 @@
+#logo-left{
+ font-size: 25px;
+ font-weight: 300;
+ color:white;
+}
+
+#logo-right{
+ font-size: 25px;
+ font-weight: bolder;
+ color:white;
+}
+
+
+.bg-blue{
+    background-color: blue
+}
