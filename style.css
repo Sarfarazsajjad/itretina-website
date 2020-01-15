@@ -1,6 +1,6 @@
 #logo-left{
  font-size: 25px;
- font-weight: 300;
+ font-weight: 100;
  color:white;
 }
 
@@ -13,4 +13,13 @@
 
 .bg-blue{
     background-color: blue
+}
+
+.custom-padding{
+    padding: 0px 3rem;
+    /* border: 2px solid green; */ /*for debugging*/
+}
+
+.bg-white{
+    background: white;
 }
