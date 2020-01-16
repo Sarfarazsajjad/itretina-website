@@ -4,11 +4,8 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
   color: #5a5a5a;
 }
-
-
 /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
 
@@ -58,12 +55,12 @@ body {
 /* RESPONSIVE CSS
   -------------------------------------------------- */
 
-@media (min-width:myCarousel0em) {
+@media (min-width:myCarousel) {
 
   /* Bump up size myCarousel carousel content */
-  .carousel-captiomyCarouselp {
-    margin-bottom: myCarousel.25rem;
-    font-size: 1.2myCarouselem;
+  .carousel-caption {
+    margin-bottom: 1.25rem;
+    font-size: 1.2em;
     line-height: 1.4;
   }
 }

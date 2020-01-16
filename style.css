@@ -25,7 +25,7 @@
     background: white;
 }
 
-.bg-orange{
+.bg-orange {
     background-color: orange;
 }
 
@@ -54,10 +54,33 @@
 
 .featurette-heading {
     font-size: 35px;
-  }
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.footer {
+    background-color: blue;
+    height: 100px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.footer a {
+    color: white;
+}
+
+@media(max-width: 400px) {
+    .title {
+        font-size: 15px;
+        line-height: 15px;
+    }
+}
 
 @media (min-width: 62em) {
     .featurette-heading {
-      margin-top: 3rem;
+        margin-top: 3rem;
     }
-  }
+}
