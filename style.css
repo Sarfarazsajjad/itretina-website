@@ -1,25 +1,41 @@
-#logo-left{
- font-size: 25px;
- font-weight: 100;
- color:white;
+#logo-left {
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
 }
 
-#logo-right{
- font-size: 25px;
- font-weight: bolder;
- color:white;
+#logo-right {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
 }
 
 
-.bg-blue{
+.bg-blue {
     background-color: blue
 }
 
-.custom-padding{
+.custom-padding {
     padding: 0px 3rem;
-    /* border: 2px solid green; */ /*for debugging*/
+    /* border: 2px solid green; */
+    /*for debugging*/
 }
 
-.bg-white{
+.bg-white {
     background: white;
+}
+
+/* Featurettes
+  ------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0;
+    /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
 }
