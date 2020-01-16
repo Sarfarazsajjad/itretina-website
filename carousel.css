@@ -66,14 +66,4 @@ body {
     font-size: 1.2myCarouselem;
     line-height: 1.4;
   }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-@media (min-width: 62em) {
-  .featurette-heading {
-    margin-top: 7rem;
-  }
 }

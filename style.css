@@ -25,11 +25,23 @@
     background: white;
 }
 
+.bg-orange{
+    background-color: orange;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
 /* Featurettes
   ------------------------- */
 
 .featurette-divider {
-    margin: 5rem 0;
+    margin: 3rem 3rem;
     /* Space out the Bootstrap <hr> more */
 }
 
@@ -39,3 +51,13 @@
     line-height: 1;
     letter-spacing: -.05rem;
 }
+
+.featurette-heading {
+    font-size: 35px;
+  }
+
+@media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 3rem;
+    }
+  }
