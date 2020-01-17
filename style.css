@@ -79,6 +79,17 @@
     }
 }
 
+@media(max-width: 375px) {
+    
+    .sm-font-heading{
+        font: 16px;
+        font-weight: 300;
+    }
+    .sm-font{
+        font-size: 14px;
+    }
+}
+
 @media (min-width: 62em) {
     .featurette-heading {
         margin-top: 3rem;
