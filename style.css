@@ -1,101 +1,83 @@
+.logo, #logo-left, #logo-right {
+  font-size: 25px;
+  color: white;
+}
+
 #logo-left {
-    font-size: 25px;
-    font-weight: 100;
-    color: white;
+  font-weight: 100;
+  color: white;
 }
 
 #logo-right {
-    font-size: 25px;
-    font-weight: bolder;
-    color: white;
+  font-weight: bolder;
 }
 
-#dp{
-    border-radius: 5%;
+#dp {
+  border-radius: 5%;
 }
-
 
 .bg-blue {
-    background-color: blue
-}
-
-.custom-padding {
-    padding: 0px 3rem;
-    /* border: 2px solid green; */
-    /*for debugging*/
+  background-color: blue;
 }
 
 .bg-white {
-    background: white;
+  background: white;
 }
 
-.bg-orange {
-    background-color: orange;
+.custom-padding {
+  padding: 0px 3rem;
 }
-
-.bg-red {
-    background-color: red;
-}
-
-.bg-green {
-    background-color: green;
-}
-
-/* Featurettes
-  ------------------------- */
 
 .featurette-divider {
-    margin: 3rem 3rem;
-    /* Space out the Bootstrap <hr> more */
-}
-
-/* Thin out the marketing headings */
-.featurette-heading {
-    font-weight: 300;
-    line-height: 1;
-    letter-spacing: -.05rem;
+  margin: 3rem 3rem;
 }
 
 .featurette-heading {
-    font-size: 35px;
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+.featurette-heading {
+  font-size: 35px;
 }
 
 .title {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .footer {
-    background-color: blue;
-    height: 100px;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
+  background-color: blue;
+  height: 100px;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .footer a {
-    color: white;
+  color: white;
 }
 
-@media(max-width: 400px) {
-    .title {
-        font-size: 15px;
-        line-height: 15px;
-    }
+@media (max-width: 400px) {
+  .title {
+    font-size: 15px;
+    line-height: 15px;
+  }
 }
 
-@media(max-width: 375px) {
-    
-    .sm-font-heading{
-        font: 16px;
-        font-weight: 300;
-    }
-    .sm-font{
-        font-size: 14px;
-    }
+@media (max-width: 375px) {
+  .sm-font-heading {
+    font: 16px;
+    font-weight: 300;
+  }
+  .sm-font {
+    font-size: 14px;
+  }
 }
 
 @media (min-width: 62em) {
-    .featurette-heading {
-        margin-top: 3rem;
-    }
+  .featurette-heading {
+    margin-top: 3rem;
+  }
 }
+/*# sourceMappingURL=style.css.map */
