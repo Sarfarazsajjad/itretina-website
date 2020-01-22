@@ -5,7 +5,6 @@
 
 #logo-left {
   font-weight: 100;
-  color: white;
 }
 
 #logo-right {
@@ -16,8 +15,16 @@
   border-radius: 5%;
 }
 
-.bg-blue {
-  background-color: blue;
+.bg-blue, .footer {
+  background-color: #10316b;
+}
+
+.bg-orange {
+  background: orange;
+}
+
+.white-text {
+  color: white;
 }
 
 .bg-white {
@@ -47,8 +54,7 @@
 }
 
 .footer {
-  background-color: blue;
-  height: 100px;
+  height: 120px;
   color: white;
   font-size: 1rem;
   font-weight: bold;
@@ -79,5 +85,15 @@
   .featurette-heading {
     margin-top: 3rem;
   }
+}
+
+.custom-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
