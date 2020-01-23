@@ -1,6 +1,7 @@
 $bf: 25px
 $hover-effect-color: #F2F2F2
 $background-color: #10316b
+$box-shadow: lightgrey
 
 .custom-container
   height: 100vh
@@ -64,6 +65,8 @@ $background-color: #10316b
 .hover-effect:hover
     background: $hover-effect-color
     color: $background-color
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 1s;
 
 @media(max-width: 400px)
   .title
