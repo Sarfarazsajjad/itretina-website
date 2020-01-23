@@ -1,3 +1,13 @@
+.custom-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .logo, #logo-left, #logo-right {
   font-size: 25px;
   color: white;
@@ -64,6 +74,11 @@
   color: white;
 }
 
+.hover-effect:hover {
+  background: #F2F2F2;
+  color: #10316b;
+}
+
 @media (max-width: 400px) {
   .title {
     font-size: 15px;
@@ -85,15 +100,5 @@
   .featurette-heading {
     margin-top: 3rem;
   }
-}
-
-.custom-container {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */

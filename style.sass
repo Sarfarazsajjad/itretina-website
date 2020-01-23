@@ -1,4 +1,12 @@
 $bf: 25px
+$hover-effect-color: #F2F2F2
+$background-color: #10316b
+
+.custom-container
+  height: 100vh
+  display: flex
+  align-items: center
+
 .logo
   font-size: $bf
   color: white
@@ -15,7 +23,7 @@ $bf: 25px
   border-radius: 5%
 
 .bg-blue 
-  background-color: #10316b
+  background-color: $background-color
 
 .bg-orange
   background: orange
@@ -50,10 +58,12 @@ $bf: 25px
   color: white
   font-size: 1rem
   font-weight: bold
-
-.footer
   a
     color: white
+  
+.hover-effect:hover
+    background: $hover-effect-color
+    color: $background-color
 
 @media(max-width: 400px)
   .title
@@ -73,9 +83,3 @@ $bf: 25px
 @media (min-width: 62em)
   .featurette-heading
     margin-top: 3rem
-
-
-.custom-container
-  height: 100vh
-  display: flex
-  align-items: center
