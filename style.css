@@ -87,6 +87,48 @@ html {
   transition: all 1s;
 }
 
+#return-to-top {
+  z-index: 1;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top span {
+  color: green;
+  margin: 0;
+  position: relative;
+  left: 8px;
+  top: 6px;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top span img {
+  width: 25px;
+}
+
+#return-to-top:hover {
+  background: rgba(0, 0, 0, 0.9);
+  width: 45px;
+  height: 45px;
+}
+
+#return-to-top:hover span {
+  left: 10px;
+  top: 4px;
+}
+
 @media (max-width: 400px) {
   .title {
     font-size: 15px;

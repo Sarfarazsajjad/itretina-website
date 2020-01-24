@@ -71,6 +71,49 @@ html
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: all 1s;
 
+#return-to-top
+  z-index: 1
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+  width: 40px;
+  height: 40px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 50%;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  
+  span 
+    color: green;
+    margin: 0;
+    position: relative;
+    left: 8px;
+    top: 6px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    img 
+      width: 25px
+    
+  &:hover 
+    background: rgba(0, 0, 0, 0.9);
+    width: 45px
+    height: 45px
+  
+  &:hover span 
+    left: 10px
+    top: 4px
+
 @media(max-width: 400px)
   .title
     font-size: 15px
