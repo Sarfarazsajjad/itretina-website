@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .custom-container {
   height: 100vh;
   display: -webkit-box;
