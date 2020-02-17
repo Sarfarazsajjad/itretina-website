@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 .custom-container {
   height: 100vh;
   display: -webkit-box;
@@ -14,15 +18,14 @@ html {
 
 .logo, #logo-left, #logo-right {
   font-size: 25px;
-  color: white;
 }
 
 #logo-left {
-  font-weight: 100;
+  color: #d90000;
 }
 
 #logo-right {
-  font-weight: bolder;
+  color: black;
 }
 
 #dp {
@@ -31,6 +34,14 @@ html {
 
 .bg-blue, .footer {
   background-color: #10316b;
+}
+
+.bg-logo-red {
+  background-color: #d90000;
+}
+
+.bg-white {
+  background-color: white;
 }
 
 .bg-orange {
@@ -150,5 +161,26 @@ html {
   .featurette-heading {
     margin-top: 3rem;
   }
+}
+
+.carousel-caption {
+  color: black;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23f00' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators .active {
+  background-color: #f00;
+}
+
+.carousel-indicators li {
+  background-color: #999;
+  background-color: rgba(70, 70, 70, 0.25);
 }
 /*# sourceMappingURL=style.css.map */
