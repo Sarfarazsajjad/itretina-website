@@ -184,3 +184,20 @@ body {
   background-color: rgba(70, 70, 70, 0.25);
 }
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 768px) {
+  #contact-us {
+    flex-direction: column !important;
+  }
+  .card {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (min-width: 769px) {
+
+  .card {
+    width: 30%;
+  }
+}
