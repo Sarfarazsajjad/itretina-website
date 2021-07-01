@@ -4,6 +4,7 @@ html {
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: black;
 }
 
 .custom-container {
@@ -200,4 +201,26 @@ body {
   .card {
     width: 30%;
   }
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+.impact-box span{
+  color :red;
+  font-size: 80px;
+}
+
+.custom-btn {
+  margin-top: 24px;
+  border-radius: 4px;
+  border: 2px solid #0c7ec2;
+  display: inline-block;
+  text-align: center;
+  color: #0c7ec2;
+  min-width: 160px;
+  padding: 9px 0;
+  font-size: 16px;
 }
