@@ -14,7 +14,8 @@
 
         .logo-text {
             font-size: 36px;
-            font-weight: bold;
+            font-weight: 500;
+            /* Reduced weight */
         }
 
         .logo-text .itr {
@@ -37,6 +38,15 @@
 
         .shadow-elevation {
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .elevated-button {
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+        }
+
+        .elevated-button:hover {
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
         }
     </style>
 </head>
@@ -66,7 +76,7 @@
                     <div class="card-body">
                         <h2 class="card-title">IT Services</h2>
                         <p class="card-text">Custom software development, cloud services, IT support, and more.</p>
-                        <a href="#" class="btn btn-primary">Explore Our IT Solutions</a>
+                        <a href="#" class="btn btn-primary elevated-button">Explore Our IT Solutions</a>
                     </div>
                 </div>
             </div>
@@ -77,7 +87,7 @@
                         <h2 class="card-title">Medical Billing Services</h2>
                         <p class="card-text">Efficient and reliable medical billing services for hospitals, clinics, and
                             doctors.</p>
-                        <a href="#" class="btn btn-primary">Discover Our Medical Billing Services</a>
+                        <a href="#" class="btn btn-primary elevated-button">Discover Our Medical Billing Services</a>
                     </div>
                 </div>
             </div>
