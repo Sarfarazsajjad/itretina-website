@@ -69,6 +69,13 @@ p,
     color: var(--neutral-dark);
 }
 
+/* Center align text in tables */
+.table th,
+.table td {
+    text-align: center;
+}
+
+
 /* Additional styles for Medical Billing Page */
 
 /* Hero Section */
