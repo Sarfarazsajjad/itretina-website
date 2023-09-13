@@ -1,0 +1,70 @@
+/* Theme Colors */
+:root {
+    --primary-color: #FF0000;
+    --secondary-color: #1a1aff;
+    --accent-color: #f5f5f5;
+    --neutral-dark: #000000;
+    --neutral-light: #ffffff;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--neutral-light);
+}
+
+.logo-text {
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.logo-text .itr {
+    color: var(--primary-color);
+}
+
+.navbar {
+    background-color: var(--accent-color);
+}
+
+.cta-container {
+    margin-top: 50px;
+}
+
+.card {
+    background-color: var(--accent-color);
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.shadow-elevation {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.elevated-button {
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.elevated-button:hover {
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+h1,
+h2,
+.card-title {
+    color: var(--secondary-color);
+}
+
+p,
+.card-text {
+    color: var(--neutral-dark);
+}
