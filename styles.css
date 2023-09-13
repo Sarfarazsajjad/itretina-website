@@ -68,3 +68,47 @@ p,
 .card-text {
     color: var(--neutral-dark);
 }
+
+/* Additional styles for Medical Billing Page */
+
+/* Hero Section */
+.container.text-center.my-5 {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+/* Pricing Section */
+#pricing {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+#pricing h2,
+#services h2,
+#billing h2,
+#contact h2 {
+    margin-bottom: 30px;
+}
+
+/* Services Offered */
+#services {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+/* Insurance Billing & AR */
+#billing {
+    background-color: #ffffff;
+    padding: 50px 0;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+}
+
+address {
+    font-style: normal;
+    line-height: 1.5;
+}
