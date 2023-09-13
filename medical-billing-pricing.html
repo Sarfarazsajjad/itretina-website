@@ -24,10 +24,17 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="it-services.html">IT Services</a>
+                        <a class="nav-link" href="work-in-progress.html">IT Services</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="medical-billing-pricing.html">Medical Billing</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Medical Billing
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="medical-billing.html">Overview</a>
+                            <a class="dropdown-item" href="medical-billing-pricing.html">Pricing</a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -168,24 +175,50 @@
         </div>
 
     </div>
-    <!-- Contact -->
-    <div class="container my-5" id="contact">
-        <h2>Contact Us</h2>
-        <address>
-            <strong>USA, Texas</strong><br>
-            827 Overdell Dr Sugarland TX 77479<br>
-            <abbr title="Phone">P:</abbr> +18015574513
-        </address>
-        <address>
-            <strong>Pakistan, Karachi</strong><br>
-            R-43, block 7, Gulshan-e-Johar<br>
-            <abbr title="Phone">P:</abbr> +923132604692
-        </address>
-        <address>
-            <strong>Email:</strong><br>
-            <a href="mailto:emailinfo@itretina.com">emailinfo@itretina.com</a>
-        </address>
-    </div>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Dental Billing Services -->
+                <div class="col-lg-6">
+                    <h4 class="text-uppercase mb-4">Our Dental Billing Services</h4>
+                    <ul class="list-group list-group-flush bg-dark">
+                        <li class="list-group-item bg-dark text-white">Dental Insurance Eligibility Verification</li>
+                        <li class="list-group-item bg-dark text-white">Dental Insurance Billing and AR/Collection</li>
+                        <li class="list-group-item bg-dark text-white">Patient Follow-ups/Fill the Chair</li>
+                        <li class="list-group-item bg-dark text-white">Appointment Scheduling</li>
+                        <li class="list-group-item bg-dark text-white">Appointment Confirmation</li>
+                        <li class="list-group-item bg-dark text-white">Inbound and Outbound Calls</li>
+                    </ul>
+                </div>
+                <!-- Contact Details -->
+                <div class="col-lg-6">
+                    <h4 class="text-uppercase mb-4">Contact Details</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <div class="mb-3">
+                            <h5>USA, Texas</h5>
+                            <p class="text-white">827 Overdell Dr Sugarland TX 77479<br>
+                                +18015574513</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5>Pakistan, Karachi</h5>
+                            <p class="text-white">R-43, block 7, Gulshan-e-Johar<br>
+                                +923132604692</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5>Email</h5>
+                            <p><a href="mailto:info@itretina.com" class="text-white">info@itretina.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center bg-white text-dark">
+                <p class="mb-0">Copyright © 2023 ITRetina. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
 
     <!-- Include Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>

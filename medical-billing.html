@@ -9,6 +9,8 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -16,8 +18,7 @@
     <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
         <div class="container">
             <a class="navbar-brand logo-text" href="index.html"><span class="itr">ITR</span>etina</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -26,12 +27,18 @@
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="it-services.html">IT Services</a>
+                        <a class="nav-link" href="work-in-progress.html">IT Services</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="medical-billing.html">Medical Billing</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Medical Billing
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="medical-billing.html">Overview</a>
+                            <a class="dropdown-item" href="medical-billing-pricing.html">Pricing</a>
+                        </div>
                     </li>
-                    <!-- Additional items can go here -->
                 </ul>
             </div>
         </div>
@@ -129,15 +136,108 @@
             <a href="medical-billing-pricing.html" class="btn btn-primary">Check Our Prices</a>
         </div>
     </div>
+    <!-- Our Dental Billing Services Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Our Dental Billing Services</h2>
+        <p class="text-center mb-5">With industry knowledge for over 10 years, our team knows how to get things done
+            quickly and efficiently. Take your practice to maximum capacity without worrying about a thing!</p>
+        <div class="row">
+            <!-- Feature 1 -->
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-check-circle-fill" style="font-size: 48px;"></i>
+                <h4>Dental Insurance Eligibility Verification</h4>
+                <p>Prior verification allows you to be proactive, save time, and have confidence while delivering
+                    patient treatment plans.</p>
+            </div>
+            <!-- Feature 2 -->
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-cash" style="font-size: 48px;"></i>
+                <h4>Dental Insurance Billing and AR/Collection</h4>
+                <p>Our dental team is here to make it quick and convenient for you to track and collect any outstanding
+                    claims and payments from insurance companies. Get paid what you are owed.</p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-person-check-fill" style="font-size: 48px;"></i>
+                <h4>Patient Follow-ups/Fill the Chair</h4>
+                <p>Are you struggling to juggle all of your responsibilities? Let us take care of that for you. We will
+                    handle everything from appointments and follow-ups with active and inactive patients, so don’t worry
+                    about a thing!</p>
+            </div>
+            <!-- Feature 4 -->
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-calendar-check-fill" style="font-size: 48px;"></i>
+                <h4>Appointment Scheduling</h4>
+                <p>Need a more efficient way to schedule your patient appointments? Our technology schedules and
+                    streamlines new appointments in real-time and syncs them with your daily calendar.</p>
+            </div>
+            <!-- Feature 5 -->
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-telephone-forward-fill" style="font-size: 48px;"></i>
+                <h4>Appointment Confirmation</h4>
+                <p>Our team makes sure that patient appointments are confirmed and there are no last-minute
+                    cancellations. Our system follows up via phone and text before an appointment.</p>
+            </div>
+            <!-- Feature 6 -->
+            <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-telephone-fill" style="font-size: 48px;"></i>
+                <h4>Inbound and Outbound Calls</h4>
+                <p>Whether you have 1 call per day or 100+, we will create a customized solution so you can be confident
+                    that each call is answered professionally and taken care of.</p>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Content Sections Go Here -->
 
     <!-- For example: Benefits, Services, Pricing CTA etc. -->
 
     <!-- Footer -->
-    <footer class="container text-center my-5">
-        <p>Copyright © 2023 ITRetina. All rights reserved.</p>
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Dental Billing Services -->
+                <div class="col-lg-6">
+                    <h4 class="text-uppercase mb-4">Our Dental Billing Services</h4>
+                    <ul class="list-group list-group-flush bg-dark">
+                        <li class="list-group-item bg-dark text-white">Dental Insurance Eligibility Verification</li>
+                        <li class="list-group-item bg-dark text-white">Dental Insurance Billing and AR/Collection</li>
+                        <li class="list-group-item bg-dark text-white">Patient Follow-ups/Fill the Chair</li>
+                        <li class="list-group-item bg-dark text-white">Appointment Scheduling</li>
+                        <li class="list-group-item bg-dark text-white">Appointment Confirmation</li>
+                        <li class="list-group-item bg-dark text-white">Inbound and Outbound Calls</li>
+                    </ul>
+                </div>
+                <!-- Contact Details -->
+                <div class="col-lg-6">
+                    <h4 class="text-uppercase mb-4">Contact Details</h4>
+                    <div class="d-flex flex-column align-items-start">
+                        <div class="mb-3">
+                            <h5>USA, Texas</h5>
+                            <p class="text-white">827 Overdell Dr Sugarland TX 77479<br>
+                                +18015574513</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5>Pakistan, Karachi</h5>
+                            <p class="text-white">R-43, block 7, Gulshan-e-Johar<br>
+                                +923132604692</p>
+                        </div>
+                        <div class="mb-3">
+                            <h5>Email</h5>
+                            <p><a href="mailto:info@itretina.com" class="text-white">info@itretina.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col text-center bg-white text-dark">
+                <p class="mb-0">Copyright © 2023 ITRetina. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
+
     <!-- Include Bootstrap JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
         integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
