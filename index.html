@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+    <canvas id="animationCanvas"></canvas>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
         <div class="container">
@@ -86,6 +86,49 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
+
+    <script>
+        const canvas = document.getElementById("animationCanvas");
+        const ctx = canvas.getContext("2d");
+        canvas.width = window.innerWidth;
+        canvas.height = window.innerHeight;
+
+        const shapes = [];
+
+        for (let i = 0; i < 50; i++) {
+            shapes.push({
+                x: Math.random() * canvas.width,
+                y: Math.random() * canvas.height,
+                size: Math.random() * 20,
+                xSpeed: Math.random() * 4 - 2,  // Random speed between -2 and 2
+                ySpeed: Math.random() * 4 - 2
+            });
+        }
+
+        function update() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            for (const shape of shapes) {
+                shape.x += shape.xSpeed;
+                shape.y += shape.ySpeed;
+
+                if (shape.x < 0 || shape.x > canvas.width || shape.y < 0 || shape.y > canvas.height) {
+                    shape.x = Math.random() * canvas.width;
+                    shape.y = Math.random() * canvas.height;
+                }
+
+                ctx.beginPath();
+                ctx.arc(shape.x, shape.y, shape.size, 0, Math.PI * 2);
+                ctx.fillStyle = "#2196F3"; // Color of the shape
+                ctx.fill();
+            }
+
+            requestAnimationFrame(update);
+        }
+
+        update();
+    </script>
+
 
 </body>
 
