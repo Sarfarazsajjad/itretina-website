@@ -94,8 +94,10 @@
         canvas.height = window.innerHeight;
 
         const shapes = [];
+        const maxShapes = 50;
+        const maxConnections = 3;
 
-        for (let i = 0; i < 50; i++) {
+        for (let i = 0; i < maxShapes; i++) {
             shapes.push({
                 x: Math.random() * canvas.width,
                 y: Math.random() * canvas.height,
@@ -105,21 +107,39 @@
             });
         }
 
+        function connectShapes() {
+            for (let i = 0; i < maxShapes; i++) {
+                for (let j = 0; j < maxConnections; j++) {
+                    const nextIdx = (i + j + 1) % maxShapes;
+                    ctx.beginPath();
+                    ctx.moveTo(shapes[i].x, shapes[i].y);
+                    ctx.lineTo(shapes[nextIdx].x, shapes[nextIdx].y);
+                    ctx.strokeStyle = "#2196F3";
+                    ctx.stroke();
+                }
+            }
+        }
+
         function update() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            connectShapes(); // Draw connections before the bubbles
 
             for (const shape of shapes) {
                 shape.x += shape.xSpeed;
                 shape.y += shape.ySpeed;
 
-                if (shape.x < 0 || shape.x > canvas.width || shape.y < 0 || shape.y > canvas.height) {
-                    shape.x = Math.random() * canvas.width;
-                    shape.y = Math.random() * canvas.height;
+                if (shape.x + shape.size > canvas.width || shape.x - shape.size < 0) {
+                    shape.xSpeed = -shape.xSpeed;
+                }
+
+                if (shape.y + shape.size > canvas.height || shape.y - shape.size < 0) {
+                    shape.ySpeed = -shape.ySpeed;
                 }
 
                 ctx.beginPath();
                 ctx.arc(shape.x, shape.y, shape.size, 0, Math.PI * 2);
-                ctx.fillStyle = "#2196F3"; // Color of the shape
+                ctx.fillStyle = "#2196F3";
                 ctx.fill();
             }
 
@@ -128,6 +148,7 @@
 
         update();
     </script>
+
 
 
 </body>
