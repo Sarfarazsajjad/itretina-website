@@ -94,15 +94,15 @@
         canvas.height = window.innerHeight;
 
         const shapes = [];
-        const maxShapes = 50;
+        const maxShapes = 150;  // Increase the number of bubbles
         const maxConnections = 3;
 
         for (let i = 0; i < maxShapes; i++) {
             shapes.push({
                 x: Math.random() * canvas.width,
                 y: Math.random() * canvas.height,
-                size: Math.random() * 20,
-                xSpeed: Math.random() * 4 - 2,  // Random speed between -2 and 2
+                size: Math.random() * 5,  // Decrease the size
+                xSpeed: Math.random() * 4 - 2,
                 ySpeed: Math.random() * 4 - 2
             });
         }
@@ -114,7 +114,8 @@
                     ctx.beginPath();
                     ctx.moveTo(shapes[i].x, shapes[i].y);
                     ctx.lineTo(shapes[nextIdx].x, shapes[nextIdx].y);
-                    ctx.strokeStyle = "#2196F3";
+                    ctx.strokeStyle = "#B0E0E6";  // Lighter color for the lines
+                    ctx.lineWidth = 0.5;  // Thinner line width
                     ctx.stroke();
                 }
             }
@@ -123,7 +124,7 @@
         function update() {
             ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-            connectShapes(); // Draw connections before the bubbles
+            connectShapes();
 
             for (const shape of shapes) {
                 shape.x += shape.xSpeed;
@@ -148,6 +149,7 @@
 
         update();
     </script>
+
 
 
 
