@@ -1,7 +1,7 @@
 /* Theme Colors */
 :root {
     --primary-color: #FF0000;
-    --secondary-color: #1a1aff;
+    --secondary-color: #0055a5;
     --accent-color: #f5f5f5;
     --neutral-dark: #000000;
     --neutral-light: #ffffff;
@@ -175,4 +175,41 @@ address {
     object-fit: cover;
     border-radius: 15px;
     /* Round the corners of the image */
+}
+
+/* Styling for "Why Choose Us" section */
+.why-choose-us-container {
+    background-color: #f6f8fa;
+    padding: 50px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-choose-us-container h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+.why-choose-us-container h4 {
+    color: #0055a5;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.why-choose-us-container p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #555;
+}
+
+.why-choose-us-container .col-md-4 {
+    padding: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+    color: #555;
 }
