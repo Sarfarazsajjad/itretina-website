@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ .Title }} - ITRetina</title>
+    <!-- Include your CSS and JavaScript links here -->
+    <link href="/css/styles.css" rel="stylesheet">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <!-- Include the header here -->
+    {{ partial "header.html" . }}
+
+    <!-- Content goes here -->
+    {{ block "main" . }}
+    {{ end }}
+
+    <!-- Include the footer here -->
+    {{ partial "footer.html" . }}
+</body>
+</html>

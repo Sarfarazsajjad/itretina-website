@@ -1,0 +1,6 @@
+baseURL = "http://localhost/"
+languageCode = "en-us"
+title = "ITRetina - IT Services & Medical Billing"
+#theme = "your-theme-name"  # If you are using a custom theme
+
+# Other configuration options...

@@ -3,16 +3,16 @@ title: "ITRetina Medical Billing Home"
 date: 2023-10-14
 ---
 
-{{< header >}}
+{{- header -}}
 
-{{< billing-intro >}}
+{{- billing-intro -}}
 
-{{< medical-billing >}}
+{{- medical-billing -}}
 
-{{< dental-billing >}}
+{{- dental-billing -}}
 
-{{< cta >}}
+{{- cta -}}
 
-{{< testimonials >}}
+{{- testimonials -}}
 
-{{< contact-cta >}}
+{{- contact-cta -}}

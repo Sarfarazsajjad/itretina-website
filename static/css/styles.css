@@ -1,0 +1,15 @@
+/* Add your custom CSS styles here */
+
+/* Example styles for the IT Services and Billing Services sections */
+.card.shadow-elevation {
+    border: none;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    text-align: center;
+}
+
+.elevated-button {
+    margin-top: 20px;
+}
