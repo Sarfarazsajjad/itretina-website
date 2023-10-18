@@ -1,191 +1,309 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ITRetina - Software Development</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Software Development</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
-
-</head>
-
-<body>
+  <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
-        <div class="container">
-            <a class="navbar-brand logo-text" href="index.html"><span class="itr">ITR</span>etina</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="itServicesDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            IT Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="itServicesDropdown">
-                            <a class="dropdown-item" href="it-services.html">IT Overview</a>
-                            <a class="dropdown-item" href="software-development.html">Software Development</a>
-                            <a class="dropdown-item" href="cloud-services.html">Cloud Services</a>
-                            <a class="dropdown-item" href="it-support.html">IT Support</a>
-                            <a class="dropdown-item" href="integration-and-customization.html">Integration and Customization</a>
-                            <a class="dropdown-item" href="restaurant-management.html">Restaurant Management</a>
-                            <a class="dropdown-item" href="it-products.html">IT Products</a>
-                        </div>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Billing Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                            <a class="dropdown-item" href="billing-services.html">Overview</a>
-                            <a class="dropdown-item" href="medical-billing.html">Medical Billing</a>
-                            <a class="dropdown-item" href="dental-billing.html">Dental Billing</a>
-                            <a class="dropdown-item" href="medical-billing-pricing.html">Pricing</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+      <div class="container">
+        <a class="navbar-brand logo-text" href="index.html"
+          ><span class="itr">ITR</span>etina</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="itServicesDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                IT Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="itServicesDropdown">
+                <a class="dropdown-item" href="it-services.html">IT Overview</a>
+                <a class="dropdown-item" href="software-development.html"
+                  >Software Development</a
+                >
+                <a class="dropdown-item" href="cloud-services.html"
+                  >Cloud Services</a
+                >
+                <a class="dropdown-item" href="it-support.html">IT Support</a>
+                <a class="dropdown-item" href="integration-and-customization.html"
+                  >Integration and Customization</a
+                >
+                <a class="dropdown-item" href="restaurant-management.html"
+                  >Restaurant Management</a
+                >
+                <a class="dropdown-item" href="it-products.html">IT Products</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Billing Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="billing-services.html"
+                  >Overview</a
+                >
+                <a class="dropdown-item" href="medical-billing.html"
+                  >Medical Billing</a
+                >
+                <a class="dropdown-item" href="dental-billing.html"
+                  >Dental Billing</a
+                >
+                <a class="dropdown-item" href="medical-billing-pricing.html"
+                  >Pricing</a
+                >
+              </div>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
-    <!-- Hero Section -->
-    <div class="container text-center my-5">
-        <h1>Software Development</h1>
-        <p> We excel in software development, offering a wide range of services to cater to your unique needs </p>
-
-        <p class="card-text">
-        We're experts in mobile and web app development, including native and cross-platform solutions with Codeigniter and Node.js. 
-        We excel in single-page apps with React.js and Angular, and we have web scraping experience. Our services cover CRMs and Billing 
-        Systems with the latest tech and best practices.
-        </p>
+    <!-- Top Hero Section -->
+    <div class="container text-center my-5 bg-light p-5 shadow-elevation">
+      <h1 class="mb-4">
+        "Turning Ideas into Code, Code into Solutions."
+      </h1>
+      <!-- <p class="lead">Plans starting as low as $499/month</p> -->
     </div>
 
-    <div class="container my-5 why-choose-us-container">
-        <h2 class="text-center">Our key Software Development Services:</h2>
-
-        <div class="row">
-            <div class="col-md-3">
-                <h4>1. Custom Software Develoment</h4>
-                <p>We create custom software solutions that enhance operational efficiency and customer satisfaction. Our expert team 
-                ensures reliability and scalability using cutting-edge technologies, from concept to deployment.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>2. Single Page Applications</h4>
-                <p>we specialize in creating fast, interactive Single Page Applications (SPAs) using ReactJS and Angular. Our SPAs engage 
-                users seamlessly, ensuring a great user experience across devices.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>3. Web Scraping Services</h4>
-                <p>we use Python-based technology to gather valuable data from diverse online sources. Our custom solutions ensure accurate 
-                and up-to-date information for tracking market trends, monitoring competitors, and supporting your business decisions.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>4. Specialized Systems</h4>
-                <p>we specialize in building specialized software systems, including CRM, Billing, and Multi-vendor platforms. Our expert 
-                developers use cutting-edge technology to create scalable and efficient solutions that drive your business success.</p>
-            </div>
+    <!-- Unique Software Development Services Section -->
+    <div class="container my-5">
+      <div class="row align-items-center">
+        <!-- Text Content -->
+        <div class="col-md-6">
+          <h3 class="text-muted">
+            What Distinguishes Our IT Support Services from the Rest?
+          </h3>
+          <h2 class="font-weight-bold">
+            "Custom Code, Tailored Solutions, Unique Results."
+          </h2>
+          <p>
+            From mobile and web apps to CRM, Billing, and multi-vendor platforms, we deliver it all. Experts in native and 
+            cross-platform mobile development, with PHP and TypeScript for web. Proficient in React and Angular for sleek single-page apps. 
+            Skilled in web scraping with Python and cutting-edge tech like Node, serverless, and microservices. Our best practices include 
+            unit testing, CI/CD, and segregated environments (UAT, DEV, PROD). Turn your vision into exceptional software with us.
+          </p>
         </div>
+        <!-- Image Content -->
+        <div class="col-md-6">
+          <img
+            src="assets/IT-support1.jpg"
+            alt="IT Support"
+            class="img-fluid"
+          />
+        </div>
+      </div>
     </div>
+ 
+    <!-- Unique Features Section -->
+    <div class="container my-5">
+      <h2 class="text-center mb-4">What sets Us Apart?</h2>
+      <div class="row justify-content-lg-center">
 
-    <!-- Our Process -->
-    <section class="container my-5">
-        <h2>Here's what makes us Unique</h2>
-        <div class="row">
-            <div class="col-md-4">
-                <h4>1. Expertise</h4>
-                <p>Our team consists of highly skilled developers, designers, and project managers with extensive experience in the field. 
-                    We are well-versed in various technologies and platforms, ensuring your project is in capable hands.</p>
-            </div>
+        <!-- Added justify-content-lg-center -->
 
-            <div class="col-md-4">
-                <h4>2. Custom Solutions</h4>
-                <p> We understand that one-size-fits-all solutions don't work. Our approach is entirely tailored to your unique business 
-                    needs. We closely collaborate with you to grasp your requirements and create software that's a perfect fit.</p>
+        <!-- Expert Team -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="card-title">Expertise</h4>
+              <p class="card-text">
+                Our team consists of highly skilled developers, designers, and project managers with extensive experience in the field. 
+                We are well-versed in various technologies and platforms, ensuring your project is in capable hands
+              </p>
             </div>
-
-            <div class="col-md-4">
-                <h4>4. Cutting-Edge Technologies</h4>
-                <p>We stay at the forefront of technology trends, utilizing the latest tools and frameworks to craft innovative solutions 
-                that provide your business with a competitive edge.</p>
-            </div>
+          </div>
         </div>
-    </section>
+
+        <!-- Custom Solutions -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="card-title">Custom Solutions</h4>
+              <p class="card-text">
+                We understand that one-size-fits-all solutions don't work. Our approach is entirely tailored to your unique business needs. 
+                We closely collaborate with you to grasp your requirements and create software that's a perfect fit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Cutting-Edge Technologies -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="card h-100">
+            <div class="card-body">
+              <h4 class="card-title">Cutting-Edge Technologies</h4>
+              <p class="card-text">
+                We stay at the forefront of technology trends, utilizing the latest tools and frameworks to craft innovative solutions that 
+                provide your business with a competitive edge.
+              </p>
+            </div>
+          </div>
+        </div>
 
         <!-- Check Our Prices Button -->
         <div class="text-center mt-4">
-            <a href="medical-billing-pricing.html" class="btn btn-primary">Check Our Prices</a>
+          <a href="medical-billing-pricing.html" class="btn btn-primary"
+            >Check Our Prices</a
+          >
         </div>
-    </div>
+      </div>
 
-    <!-- Add a line space between sections -->
-        <div class="my-4"></div>
+      <!-- Our IT Support Services Section -->
+      <div class="container my-5">
+        <h2 class="text-center mb-4">Our Software Development Services</h2>
+        <!-- <p class="text-center mb-5">With industry knowledge for over 10 years, our team knows how to get things done -->
+        <!-- quickly and efficiently. Take your practice to maximum capacity without worrying about a thing!</p> -->
+        <div class="row">
 
-
-       <!-- Footer -->
-       <footer class="bg-dark text-white py-5">
-        <div class="container" style="text-align: center;">
-          <h4 class="text-uppercase mb-4" align="center">Contact Details</h4>
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="d-flex flex-column">
-                <div class="mb-3">
-                  <h5>USA, Texas</h5>
-                  <p class="text-white">
-                    827 Overdell Dr Sugarland TX 77479<br />
-                    +18015574513
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="d-flex flex-column ">
-                <div class="mb-3">
-                  <h5>Pakistan, Karachi</h5>
-                  <p class="text-white">
-                    R-43, block 7, Gulshan-e-Johar<br />
-                    +923132604692
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="mb-3">
-            <h5>Email</h5>
+          <!-- Feature 1 -->
+          <div class="col-lg-6 col-md-6 mb-4 text-center">
+            <i class="bi bi-pc-display-horizontal" style="font-size: 48px"></i>
+            <h4>Custom Software Develoment</h4>
             <p>
-              <a href="mailto:info@itretina.com" class="text-white"
-                >info@itretina.com</a
-              >
+              We create custom software solutions that enhance operational efficiency and customer satisfaction. Our expert team ensures 
+              reliability and scalability using cutting-edge technologies, from concept to deployment.
             </p>
           </div>
-          <!--</div>-->
-          <!--</div>-->
+
+          <!-- Feature 2 -->
+          <div class="col-lg-6 col-md-6 mb-4 text-center">
+            <i class="bi bi-modem-fill" style="font-size: 48px"></i>
+            <h4>Single Page Applications</h4>
+            <p>
+              We specialize in creating fast, interactive Single Page Applications (SPAs) using ReactJS and Angular. Our SPAs engage users 
+              seamlessly, ensuring a great user experience across devices.
+            </p>
+          </div>
+
+          <!-- Feature 3 -->
+            <div class="col-lg-6 col-md-6 mb-4 text-center">
+              <i class="bi bi-pc-display-horizontal" style="font-size: 48px"></i>
+                <h4>Web Scraping Services</h4>
+                  <p>
+                    We use Python-based technology to gather valuable data from diverse online sources. Our custom solutions ensure 
+                    accurate and up-to-date information for tracking market trends, monitoring competitors, and supporting your business 
+                    decisions.
+                  </p>
+              </div>
+
+  <!-- Feature 4 -->
+    <div class="col-lg-6 col-md-6 mb-4 text-center">
+      <i class="bi bi-pc-display-horizontal" style="font-size: 48px"></i>
+        <h4>Specialized Systems</h4>
+          <p>
+            We specialize in building specialized software systems, including CRM, Billing, and Multi-vendor platforms. Our expert 
+            developers use cutting-edge technology to create scalable and efficient solutions that drive your business success.
+          </p>
+    </div>
+
+
         </div>
-        <div class="row mt-4">
-          <div class="col text-center bg-white text-dark">
-            <p class="mb-0">Copyright © 2023 ITRetina. All rights reserved.</p>
+      </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+      <div class="container" style="text-align: center;">
+        <h4 class="text-uppercase mb-4" align="center">Contact Details</h4>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="d-flex flex-column">
+              <div class="mb-3">
+                <h5>USA, Texas</h5>
+                <p class="text-white">
+                  827 Overdell Dr Sugarland TX 77479<br />
+                  +18015574513
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex flex-column ">
+              <div class="mb-3">
+                <h5>Pakistan, Karachi</h5>
+                <p class="text-white">
+                  R-43, block 7, Gulshan-e-Johar<br />
+                  +923132604692
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        
+        <div class="mb-3">
+          <h5>Email</h5>
+          <p>
+            <a href="mailto:info@itretina.com" class="text-white"
+              >info@itretina.com</a
+            >
+          </p>
+        </div>
+        <!--</div>-->
+        <!--</div>-->
+      </div>
+      <div class="row mt-4">
+        <div class="col text-center bg-white text-dark">
+          <p class="mb-0">Copyright © 2023 ITRetina. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
     <!-- Include Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-
-      </footer>
-    
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
