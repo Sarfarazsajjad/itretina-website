@@ -1,23 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IT Retina</title>
-    <link>https://example.org/</link>
-    <description>Recent content on IT Retina</description>
+    <title>Home on IT Retina</title>
+    <link>http://localhost/</link>
+    <description>Recent content in Home on IT Retina</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ITRetina - IT Services &amp; Medical Billing</title>
-      <link>https://example.org/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>ITRetina Medical Billing Home</title>
+      <link>http://localhost/billing-services/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://example.org/</guid>
-      <description>Welcome to ITRetina Your Solution for IT Services and Medical Billing
-IT Services Custom software development, cloud services, IT support, and more.
-Explore Our IT Solutions
-Billing Services Efficient and reliable billing services for hospitals, clinics, and doctors.
-Discover Our Billing Services
-Image Caption</description>
+      <guid>http://localhost/billing-services/</guid>
+      <description>{{- header -}}
+{{- billing-intro -}}
+{{- medical-billing -}}
+{{- dental-billing -}}
+{{- cta -}}
+{{- testimonials -}}
+{{- contact-cta -}}</description>
     </item>
     
   </channel>
