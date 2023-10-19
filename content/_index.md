@@ -1,7 +1,6 @@
 ---
 title: Home
 date: 2023-10-16
-layout: _default/baseof.html
 ---
 
 Welcome to ITRetina
