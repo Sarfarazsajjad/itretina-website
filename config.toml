@@ -4,3 +4,46 @@ title = "ITRetina - IT Services & Medical Billing"
 #theme = "your-theme-name"  # If you are using a custom theme
 
 # Other configuration options...
+
+
+[menu]
+# Main menu
+
+[[menu.main]]
+    name       = "Home"
+    identifier = "menu.home"
+    url        = "/"
+    weight     = 1
+
+[[menu.main]]
+    name       = "IT Services"
+    identifier = "menu.it-services"
+    url        = "/itServices/"
+    weight     = 2
+
+[[menu.main]]
+    name       = "Billing Services"
+    identifier = "menu.billingServices"
+    url        = "/billingServices/"
+    weight     = 3
+
+[[menu.main]]
+    name       = "Menu Items"
+    url        = "/menu-items/"
+    weight     = 1
+    parent     = "menu.it-services"
+    post       = 1
+
+[[menu.main]]
+    name       = "Software Development"
+    url        = "/software-development/"
+    weight     = 2
+    parent     = "menu.it-services"
+    post       = 1
+
+[[menu.main]]
+    name       = "Cloud Services"
+    url        = "/cloud-services/"
+    weight     = 3
+    parent     = "menu.it-services"
+    post       = 1
