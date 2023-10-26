@@ -1,5 +1,9 @@
 <!-- Calls to Action -->
 <div class="container cta-container">
+    <!-- {{ range .Pages }}
+    {{/* The context, ".", is now each one of the pages as it goes through the loop */}}
+    {{ printf "%#v" . }} 
+{{ end }}-->
     <div class="row">
         <!-- IT Services -->
         <div class="col-md-6 mb-4">
@@ -7,7 +11,7 @@
                 <div class="card-body">
                     <h2 class="card-title">IT Services</h2>
                     <p class="card-text">Custom software development, cloud services, IT support, and more.</p>
-                    <a href="it-services.html" class="btn btn-primary elevated-button">Explore Our IT
+                    <a href= " {{"index.html" | relURL }}" class="btn btn-primary elevated-button">Explore Our IT
                         Solutions</a>
                 </div>
             </div>
