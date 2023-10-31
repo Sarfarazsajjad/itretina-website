@@ -13,13 +13,16 @@
       <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/billing-services/</guid>
-      <description>{{- header -}}
-{{- billing-intro -}}
-{{- medical-billing -}}
-{{- dental-billing -}}
-{{- cta -}}
-{{- testimonials -}}
-{{- contact-cta -}}</description>
+      <description>Hello world</description>
+    </item>
+    
+    <item>
+      <title>ITRetina Services</title>
+      <link>http://localhost/it-services/</link>
+      <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/it-services/</guid>
+      <description></description>
     </item>
     
   </channel>
