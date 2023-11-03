@@ -3,26 +3,25 @@ title: IT Services
 date:  2023-10-31T14:14:35+05:00
 draft:  false
 layout: it-services.html
+images: ["slider-mobileapp-mobile.svg"]
 ---
 
 Our Services
 ============
 
-![Responsive image]{{ $asset := resources.Get "/slider-webapp-mobile.svg.png" }}
-
-We Build Web Applicationzzzz
+We Build Web Applications
 -------------------------
 
 So you can operate beyond the limits of workspace, increase efficiency and reduce costs.
 
-![Responsive image](assets/slider-mobileapp-mobile.svg)
+![Responsive image](slider-mobileapp-mobile.svg)
 
 We Build Mobile Applications
 ----------------------------
 
 So you can increase customer loyalty, communicate directly via ads, promotions and notifications sent to their phones.
 
-![Responsive image](assets/slider-entapp-mobile.svg)
+![Responsive image](slider-entapp-mobile.svg)
 
 We Build Enterprise Applications
 --------------------------------
@@ -30,9 +29,6 @@ We Build Enterprise Applications
 So you can easily share information, simplify processes, improve efficiency and functionality, reduce time and effort, and have better control of your business.
 
 * * *
-
-Our Experties
-=============
 
 Our Experties
 =============
