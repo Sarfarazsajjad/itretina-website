@@ -4,92 +4,10 @@ date: 2023-10-14
 draft: false
 layout: billing-services.html
 ---
-
-Hello world
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <title>ITRetina - IT Services</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="ITRETINA Software Development Company">
-
-
-    <!-- Bootstrap core CSS -->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-    <!-- Favicons -->
-    <meta name="theme-color" content="#563d7c">
-
-
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-</head>
-
-<body>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
-        <div class="container">
-            <a class="navbar-brand logo-text" href="index.html"><span class="itr">ITR</span>etina</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="it-services.html">IT Services</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Billing Services
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-
-                            <a class="dropdown-item" href="billing-services.html">Overview</a>
-                            <a class="dropdown-item" href="medical-billing.html">Medical Billing</a>
-                            <a class="dropdown-item" href="dental-billing.html">Dental Billing</a>
-                            <a class="dropdown-item" href="medical-billing-pricing.html">Pricing</a>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <main role="main">
+<br>
         <h1 class="d-none d-sm-block mt-5" style="font-size: 75px; text-align: center;">Our Services</h1>
         <h1 class="d-block d-sm-none mt-5" style="text-align: center;">Our Services</h1>
         <div class="container marketing">
-
             <!-- Three columns of text below the carousel -->
             <div class="row">
                 <div class="col-lg-4">
@@ -116,21 +34,16 @@ Hello world
                         reduce time and effort, and have better control of your business.</p>
                 </div><!-- /.col-lg-4 -->
             </div><!-- /.row -->
-
-
             <!-- START THE FEATURETTES -->
-
             <a name="expertise">
                 <hr class="featurette-divider">
             </a>
             <h1 class="d-none d-sm-block" style="font-size: 75px; text-align: center;">Our Experties</h1>
             <h1 class="d-block d-sm-none" style="text-align: center;">Our Experties</h1>
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/crm.svg">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -143,14 +56,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/salesforce.svg">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -167,14 +77,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/angular.svg">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -188,14 +95,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/mobile-application-development.svg">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -208,14 +112,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/nodejs.svg">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -228,14 +129,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/RPA.svg">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -248,14 +146,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/E2ETesting.png">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -269,14 +164,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/Scrapy-Cloud.png">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -289,14 +181,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/gis-logo.png">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -308,14 +197,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/ai-logo.png">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -328,14 +214,11 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/machine-learning.png">
-
                     </img>
                 </div>
                 <div class="col-md-9">
@@ -348,16 +231,13 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <hr class="featurette-divider">
-
             <div class="row featurette">
                 <div class="col-md-3">
                     <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
                         height="500" aria-label="Placeholder: Angular" src="assets/deep-learning.svg">
                     </img>
                 </div>
-
                 <div class="col-md-9">
                     <h2 class="featurette-heading d-none d-sm-block">Deep Learning</h2>
                     <h3 class="d-block d-sm-none" style="text-align: center;">Deep Learning</h3>
@@ -367,11 +247,9 @@ Hello world
                     </p>
                 </div>
             </div>
-
             <a name="contactus">
                 <hr class="featurette-divider">
             </a>
-
             <div class="d-flex flex-column align-items-center">
                 <h1 class="display-4">CONTACT US</h1>
                 <p class="lead">Have unanswered questions ? How can we help you today</p>
@@ -380,9 +258,6 @@ Hello world
                 </h4>
                 <div class="mb-5"></div>
             </div>
-
-
-
             <div class="d-flex justify-content-around">
                 <div class="card mb-5" style="width: 18rem;">
                     <div class="card-body">
@@ -398,9 +273,7 @@ Hello world
                         <h6 class="mt-3"><i class="material-icons mr-2">call</i> +923132604692</h6>
                     </div>
                 </div>
-
                 <!-- For future locations uncomment -->
-
                 <!-- <div class="card mb-5" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title"><i class="material-icons">business</i>Karachi</h5>
@@ -408,8 +281,7 @@ Hello world
                         <h6 class="mt-3"><i class="material-icons mr-2">call</i> +92 3132604692</h6>
                         <h6><i class="material-icons mr-2">call</i> +92 3312226034</h6>
                     </div>
-                </div>
-    
+                </div>    
                 <div class="card mb-5" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title"><i class="material-icons">business</i>Karachi</h5>
@@ -419,28 +291,5 @@ Hello world
                     </div>
                 </div> -->
             </div>
-
             <!-- /END THE FEATURETTES -->
-
         </div><!-- /.container -->
-
-
-        <!-- FOOTER -->
-        <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
-            <p>&copy; 2019-2023 ITRetina, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-        </footer>
-    </main>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-
-</body>
-
-</html>

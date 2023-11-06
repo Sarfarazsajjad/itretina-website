@@ -1,3 +1,7 @@
 baseURL = 'http://localhost/'
 languageCode = 'en-us'
 title = 'IT Retina'
+
+
+[markup.goldmark.renderer]
+      unsafe = true

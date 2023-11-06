@@ -8,51 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Mon, 16 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>It Products</title>
-      <link>http://localhost/it-products/</link>
-      <pubDate>Wed, 01 Nov 2023 01:23:49 +0500</pubDate>
-      
-      <guid>http://localhost/it-products/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Integration and Customization</title>
-      <link>http://localhost/integration-and-customization/</link>
-      <pubDate>Wed, 01 Nov 2023 01:23:38 +0500</pubDate>
-      
-      <guid>http://localhost/integration-and-customization/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>It Support</title>
-      <link>http://localhost/it-support/</link>
-      <pubDate>Wed, 01 Nov 2023 01:22:54 +0500</pubDate>
-      
-      <guid>http://localhost/it-support/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Cloud Services</title>
-      <link>http://localhost/cloud-services/</link>
-      <pubDate>Wed, 01 Nov 2023 01:22:35 +0500</pubDate>
-      
-      <guid>http://localhost/cloud-services/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Software Development</title>
-      <link>http://localhost/software-development/</link>
-      <pubDate>Wed, 01 Nov 2023 01:22:19 +0500</pubDate>
-      
-      <guid>http://localhost/software-development/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Dental Billing</title>
       <link>http://localhost/dental-billing/</link>
       <pubDate>Wed, 01 Nov 2023 01:21:34 +0500</pubDate>
@@ -72,23 +27,14 @@ We are experts in medical billing and related services with over 09 years of exp
     </item>
     
     <item>
-      <title>Medical Billing Pricing</title>
-      <link>http://localhost/medical-billing-pricing/</link>
-      <pubDate>Wed, 01 Nov 2023 01:20:42 +0500</pubDate>
-      
-      <guid>http://localhost/medical-billing-pricing/</guid>
-      <description>{{ partial &amp;ldquo;header.html&amp;rdquo; . }}
-&amp;lt;!-- Navbar --&amp;gt;&amp;lt;nav class=&amp;quot;navbar navbar-expand-lg navbar-light shadow-elevation&amp;quot;&amp;gt;&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;navbar-brand logo-text&amp;quot; href=&amp;quot;index.html&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;itr&amp;quot;&amp;gt;ITR&amp;lt;/span&amp;gt;etina&amp;lt;/a&amp;gt;&amp;lt;button class=&amp;quot;navbar-toggler&amp;quot; type=&amp;quot;button&amp;quot; data-bs-toggle=&amp;quot;collapse&amp;quot; data-bs-target=&amp;quot;#navbarNav&amp;quot;&amp;gt;&amp;lt;span class=&amp;quot;navbar-toggler-icon&amp;quot;&amp;gt;&amp;lt;/span&amp;gt;&amp;lt;/button&amp;gt;&amp;lt;div class=&amp;quot;collapse navbar-collapse&amp;quot; id=&amp;quot;navbarNav&amp;quot;&amp;gt;&amp;lt;ul class=&amp;quot;navbar-nav ml-auto&amp;quot;&amp;gt;&amp;lt;li class=&amp;quot;nav-item&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;nav-link&amp;quot; href=&amp;quot;index.html&amp;quot;&amp;gt;Home&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;nav-item&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;nav-link&amp;quot; href=&amp;quot;it-services.html&amp;quot;&amp;gt;IT Services&amp;lt;/a&amp;gt;&amp;lt;/li&amp;gt;&amp;lt;li class=&amp;quot;nav-item dropdown&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;nav-link dropdown-toggle&amp;quot; href=&amp;quot;#&amp;quot; id=&amp;quot;navbarDropdown&amp;quot; role=&amp;quot;button&amp;quot;data-bs-toggle=&amp;quot;dropdown&amp;quot; aria-haspopup=&amp;quot;true&amp;quot; aria-expanded=&amp;quot;false&amp;quot;&amp;gt;Billing Services&amp;lt;/a&amp;gt;&amp;lt;div class=&amp;quot;dropdown-menu&amp;quot; aria-labelledby=&amp;quot;navbarDropdown&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;dropdown-item&amp;quot; href=&amp;quot;billing-services.html&amp;quot;&amp;gt;Overview&amp;lt;/a&amp;gt;&amp;lt;a class=&amp;quot;dropdown-item&amp;quot; href=&amp;quot;medical-billing.</description>
-    </item>
-    
-    <item>
       <title>ITRetina Medical Billing Home</title>
       <link>http://localhost/billing-services/</link>
       <pubDate>Sat, 14 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>http://localhost/billing-services/</guid>
-      <description>Hello world
-&amp;lt;meta name=&amp;quot;viewport&amp;quot; content=&amp;quot;width=device-width, initial-scale=1, shrink-to-fit=no&amp;quot;&amp;gt;&amp;lt;meta name=&amp;quot;description&amp;quot; content=&amp;quot;ITRETINA Software Development Company&amp;quot;&amp;gt;&amp;lt;!-- Bootstrap core CSS --&amp;gt;&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/icon?family=Material+Icons&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;&amp;lt;!-- Favicons --&amp;gt;&amp;lt;meta name=&amp;quot;theme-color&amp;quot; content=&amp;quot;#563d7c&amp;quot;&amp;gt;&amp;lt;style&amp;gt;.bd-placeholder-img {font-size: 1.125rem;text-anchor: middle;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}@media (min-width: 768px) {.bd-placeholder-img-lg {font-size: 3.5rem;}}&amp;lt;/style&amp;gt;&amp;lt;link href=&amp;quot;https://fonts.googleapis.com/css?family=Roboto&amp;amp;display=swap&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;./style.css&amp;quot;&amp;gt;&amp;lt;!-- Navbar --&amp;gt;&amp;lt;nav class=&amp;quot;navbar navbar-expand-lg navbar-light shadow-elevation&amp;quot;&amp;gt;&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;&amp;lt;a class=&amp;quot;navbar-brand logo-text&amp;quot; href=&amp;quot;index.</description>
+      <description>Our ServicesOur ServicesWe Build Web ApplicationsSo you can operate beyond the limits of workspace, increase efficiency and reduce costs.
+We Build Mobile ApplicationsSo you can increase customer loyalty, communicate directly via ads, promotions and notificationssent to their phones.
+We Build Enterprise ApplicationsSo you can easily share information, simplify processes, improve efficiency and functionality,reduce time and effort, and have better control of your business.</description>
     </item>
     
     <item>
