@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "65be32f4830b6dd01d1b0039be726ddb",
+    "content-hash": "9ac32eaab6c916e035319bcca11603c0",
     "packages": [
         {
             "name": "dflydev/dot-access-data",
@@ -4267,64 +4267,6 @@
                 "source": "https://github.com/tighten/jigsaw/tree/v1.7.1"
             },
             "time": "2023-09-01T14:45:57+00:00"
-        },
-        {
-            "name": "tightenco/jigsaw-blog-template",
-            "version": "v1.3.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/tighten/jigsaw-blog-template.git",
-                "reference": "d5576ac939d5b2e2942efaace0d0dddfd4403d7f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/tighten/jigsaw-blog-template/zipball/d5576ac939d5b2e2942efaace0d0dddfd4403d7f",
-                "reference": "d5576ac939d5b2e2942efaace0d0dddfd4403d7f",
-                "shasum": ""
-            },
-            "require": {
-                "samdark/sitemap": "^2.2.1",
-                "tightenco/jigsaw": "^1.6"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "App\\Listeners\\": "listeners/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Anthony Terrell",
-                    "email": "anthony@tighten.co"
-                },
-                {
-                    "name": "Keith Damiani",
-                    "email": "keith@tighten.co"
-                },
-                {
-                    "name": "Matt Stauffer",
-                    "email": "matt@tighten.co"
-                }
-            ],
-            "description": "Blog starter template for Jigsaw static site generator by Tighten",
-            "keywords": [
-                "blog",
-                "generator",
-                "jigsaw",
-                "site",
-                "starter",
-                "static",
-                "template"
-            ],
-            "support": {
-                "issues": "https://github.com/tighten/jigsaw-blog-template/issues",
-                "source": "https://github.com/tighten/jigsaw-blog-template/tree/v1.3.0"
-            },
-            "time": "2023-01-13T16:42:49+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
