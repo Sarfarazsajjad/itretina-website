@@ -6,4 +6,6 @@ return [
     'title' => 'ITRetina',
     'description' => 'Website description.',
     'collections' => [],
+    'homePageButtonITText' => 'IT Services',
+    'homePageButtonBillingText' => 'Billing Services',
 ];

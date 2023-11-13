@@ -2,7 +2,10 @@
 
 @section('body')
 <div id="p5-canvas-container"></div>
-<div class="p-8">
-    <h1 class="text-3xl font-bold">Hello world!</h1>
-</div>
+<!-- Hero Section -->
+<div class="container text-center my-5">
+        <h1>Welcome to ITRetina</h1>
+        <p>Your Solution for IT Services and Medical Billing</p>
+    </div>
+    @include('_partials.homepage-cta')
 @endsection
