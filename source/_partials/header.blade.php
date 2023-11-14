@@ -19,25 +19,25 @@
                             IT Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="itServicesDropdown">
-                            <li><a class="dropdown-item" href="it-services.html">Overview</a></li>
-                            <li><a class="dropdown-item" href="software-development.html">Software Development</a></li>
-                            <li><a class="dropdown-item" href="web-scrapping.html">Web Scrapping and Data Collection</a>
+                            <li><a class="dropdown-item" href="/it-services">Overview</a></li>
+                            <li><a class="dropdown-item" href="/software-development">Software Development</a></li>
+                            <li><a class="dropdown-item" href="/web-scrapping">Web Scrapping and Data Collection</a>
                             </li>
-                            <li><a class="dropdown-item" href="work-in-progress.html">ERP Next</a></li>
-                            <li><a class="dropdown-item" href="cloud-services.html">Cloud Services</a></li>
-                            <li><a class="dropdown-item" href="it-support.html">IT Support</a></li>
-                            <li><a class="dropdown-item" href="integration-and-customization.html">Integration and
+                            <li><a class="dropdown-item" href="/work-in-progress">ERP Next</a></li>
+                            <li><a class="dropdown-item" href="/cloud-services">Cloud Services</a></li>
+                            <li><a class="dropdown-item" href="/it-support">IT Support</a></li>
+                            <li><a class="dropdown-item" href="/integration-and-customization">Integration and
                                     Customization</a></li>
                             <li>
-                                <a class="dropdown-item" href="it-products.html">
+                                <a class="dropdown-item" href="/it-products">
                                     Our Products &raquo;
                                 </a>
                                 <ul class="dropdown-menu dropdown-submenu">
                                     <li>
-                                        <a class="dropdown-item" href="work-in-progress.html">Pizza App</a>
+                                        <a class="dropdown-item" href="/work-in-progress">Pizza App</a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" href="work-in-progress.html">Burger App</a>
+                                        <a class="dropdown-item" href="/work-in-progress">Burger App</a>
                                     </li>
                                 </ul>
                             </li>
@@ -49,10 +49,10 @@
                             Billing Services
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="billingServicesDropdown">
-                            <li><a class="dropdown-item" href="billing-services.html">Overview</a></li>
-                            <li><a class="dropdown-item" href="medical-billing.html">Medical Billing</a></li>
-                            <li><a class="dropdown-item" href="dental-billing.html">Dental Billing</a></li>
-                            <li><a class="dropdown-item" href="medical-billing-pricing.html">Pricing</a></li>
+                            <li><a class="dropdown-item" href="/billing-services">Overview</a></li>
+                            <li><a class="dropdown-item" href="/medical-billing">Medical Billing</a></li>
+                            <li><a class="dropdown-item" href="/dental-billing">Dental Billing</a></li>
+                            <li><a class="dropdown-item" href="/medical-billing-pricing">Pricing</a></li>
                         </ul>
                     </li>
                 </ul>

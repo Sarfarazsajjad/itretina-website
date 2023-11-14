@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <h2 class="card-title">{{ $page->homePageButtonITText }}</h2>
                     <p class="card-text">Custom software development, cloud services, IT support, and more.</p>
-                    <a href= "" class="btn btn-primary elevated-button">Explore Our IT
+                    <a href= "/it-services" class="btn btn-primary elevated-button">Explore Our IT
                         Solutions</a>
                 </div>
             </div>
@@ -21,7 +21,7 @@
                     <h2 class="card-title">{{ $page->homePageButtonBillingText }}</h2>
                     <p class="card-text">Efficient and reliable billing services for hospitals, clinics, and
                         doctors.</p>
-                    <a href="" class="btn btn-primary elevated-button">Discover Our
+                    <a href="/billing-services" class="btn btn-primary elevated-button">Discover Our
                         Billing Services</a>
                 </div>
             </div>
