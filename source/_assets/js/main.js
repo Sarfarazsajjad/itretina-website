@@ -11,5 +11,6 @@ $(document).ready(function () {
       });
     } else {
       // jQuery is not loaded
-    }
+    }  
+
   });

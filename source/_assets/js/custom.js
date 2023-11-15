@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
   if (jQuery) {
     // jQuery is loaded

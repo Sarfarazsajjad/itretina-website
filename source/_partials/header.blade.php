@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ $page->language ?? 'en' }}">
+    <header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
         <div class="container">
@@ -59,4 +60,5 @@
             </div>
         </div>
     </nav>
+</header>
 </html>
