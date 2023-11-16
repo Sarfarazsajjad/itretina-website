@@ -14,7 +14,7 @@
             </ul>
             <!-- Center aligned Get More Info Button for Medical Billing -->
             <div class="text-center mt-3">
-                <a href="medical-billing.html" class="btn btn-primary">Get More Info</a>
+                <a href="/medical-billing" class="btn btn-primary">Get More Info</a>
             </div>
         </div>
         <div class="col-md-6">

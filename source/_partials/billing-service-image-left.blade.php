@@ -22,7 +22,7 @@
             </ul>
             <!-- Center aligned Get More Info Button for Dental Billing -->
             <div class="text-center mt-3">
-                <a href="dental-billing.html" class="btn btn-primary">Get More Info</a>
+                <a href="/dental-billing" class="btn btn-primary">Get More Info</a>
             </div>
         </div>
     </div>

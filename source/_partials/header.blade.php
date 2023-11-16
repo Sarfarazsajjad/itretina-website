@@ -4,15 +4,15 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
         <div class="container">
-            <a class="navbar-brand logo-text" href="index.html"><span class="itr">ITR</span>etina</a>
+            <a class="navbar-brand logo-text" href="/index"><span class="itr">ITR</span>etina</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav">   
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="/index">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="itServicesDropdown" role="button"

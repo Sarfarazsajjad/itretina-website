@@ -18,7 +18,7 @@
                 <li>Customized Billing Plans: Why fit in, when you can stand out? Choose plans that resonate with your needs.</li>
             </ul>
             <div class="text-center mt-3">
-                <a href="dental-billing.html" class="btn btn-primary">Get More Info</a>
+                <a href="/dental-billing" class="btn btn-primary">Get More Info</a>
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
         <div class="card-body">
             <h2 class="card-title">Billing Services</h2>
             <p class="card-text">Efficient and reliable billing services for hospitals, clinics, and doctors.</p>
-            <a href="{{ .Site.BaseURL }}billing-services.html" class="btn btn-primary elevated-button">Discover Our Billing Services</a>
+            <a href="/billing-services" class="btn btn-primary elevated-button">Discover Our Billing Services</a>
         </div>
     </div>
 </div>

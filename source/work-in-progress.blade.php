@@ -1,9 +1,6 @@
 @extends('_layouts.main')
-
 <head>
-
     <title>Work in Progress - ITRetina</title>
- 
 </head>
 @section('body')
 
@@ -14,7 +11,7 @@
             <span class="sr-only"></span>
         </div>
         <p>We appreciate your patience and invite you to check back soon.</p>
-        <a href="index.html" class="btn btn-primary">Back to Home</a>
+        <a href="/index" class="btn btn-primary">Back to Home</a>
     </div>
     <footer class="container text-center my-5">
         <p>Copyright © 2023 ITRetina. All rights reserved.</p>

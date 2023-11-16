@@ -21,7 +21,7 @@
                      secure, and innovative software solutions that drive your business forward.</p>
 
         <div class="text-center mt-3">
-          <a href="software-development.html" class="btn btn-primary">Get More Info</a>
+          <a href="/software-development" class="btn btn-primary">Get More Info</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -47,7 +47,7 @@
                 resources, enhance efficiency, and provide ongoing support, enabling you to embrace the future of IT with confidence</p>
                 
                 <div class="text-center mt-3">
-                    <a href="cloud-services.html" class="btn btn-primary">Get More Info</a>
+                    <a href="/cloud-services" class="btn btn-primary">Get More Info</a>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
         </p>
 
         <div class="text-center mt-3">
-          <a href="it-support.html" class="btn btn-primary">Get More Info</a>
+          <a href="/it-support" class="btn btn-primary">Get More Info</a>
         </div>
       </div>
       <div class="col-md-6">
@@ -98,7 +98,7 @@
           effective.</p>
 
         <div class="text-center mt-3">
-          <a href="integration-and-customization.html" class="btn btn-primary">Get More Info</a>
+          <a href="/integration-and-customization" class="btn btn-primary">Get More Info</a>
         </div>
       </div>
     </div>
@@ -119,7 +119,7 @@
           your unique needs</p>
 
         <div class="text-center mt-3">
-          <a href="it-support.html" class="btn btn-primary">Get More Info</a>
+          <a href="/it-support" class="btn btn-primary">Get More Info</a>
         </div>
       </div>
       <div class="col-md-6">

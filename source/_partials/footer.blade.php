@@ -33,7 +33,7 @@
         </div>
         <div class="row">
             <div class="text-center bg-white text-dark">
-                <p class="mb-0">Copyright © {{ now.Year }} ITRetina. All rights reserved.</p>
+                <p class="mb-0">Copyright © {{ $page->year }} ITRetina. All rights reserved.</p>
             </div>
         </div>
     </div>

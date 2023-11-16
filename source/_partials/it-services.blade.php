@@ -3,7 +3,7 @@
         <div class="card-body">
             <h2 class="card-title">IT Services</h2>
             <p class="card-text">Custom software development, cloud services, IT support, and more.</p>
-            <a href="{{ .Site.BaseURL }}layouts/it-services.html" class="btn btn-primary elevated-button">Explore Our IT Solutions</a>
+            <a href="/it-services" class="btn btn-primary elevated-button">Explore Our IT Solutions</a>
         </div>
     </div>
 </div>
