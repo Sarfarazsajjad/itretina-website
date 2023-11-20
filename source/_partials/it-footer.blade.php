@@ -39,7 +39,7 @@
     </div>
     <div class="row mt-4">
       <div class="col text-center bg-white text-dark">
-        <p class="mb-0">Copyright © 2023 ITRetina. All rights reserved.</p>
+        <p class="mb-0">Copyright © {{ $page->year }} ITRetina. All rights reserved.</p>
       </div>
     </div>
   </footer>

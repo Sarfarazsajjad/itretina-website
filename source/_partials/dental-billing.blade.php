@@ -3,7 +3,7 @@
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="custom-img-container">
-                <img src="assets/billing-image-1.jpeg" alt="Dental Billing Services" class="img-fluid">
+                <img src="assets/images/billing-image-1.jpeg" alt="Dental Billing Services" class="img-fluid">
             </div>
         </div>
         <div class="col-md-6">
