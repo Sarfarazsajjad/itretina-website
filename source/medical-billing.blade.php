@@ -1,12 +1,8 @@
 @extends('_layouts.main')
-
-
 <head>
-
     <title>Medical Billing Services</title>
 </head>
 @section('body')
-
     <!-- Hero Section -->
     <div class="container text-center my-5">
         <h1>Medical Billing Services</h1>
@@ -18,26 +14,17 @@
             payments. With experience in using a variety of healthcare software, EMRs, and portals, we
             also strictly adhere to HIPAA & PHI rules, ensuring no data or privacy breaches.</p>
     </div>
-
+    
     <div class="container my-5 why-choose-us-container">
         <h2 class="text-center">Why Choose Our Medical Billing Services?</h2>
 
         <div class="row">
-            <div class="col-md-4">
-                <h4>Streamlined Operations</h4>
-                <p>We optimize your billing operations to ensure timely and accurate claim submissions, reducing denials
-                    and accelerating reimbursements.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Experienced Professionals</h4>
-                <p>Our team comprises skilled professionals with years of experience in handling diverse medical billing
-                    needs, ensuring precision at every step.</p>
-            </div>
-            <div class="col-md-4">
-                <h4>Advanced Technology</h4>
-                <p>Integrating the latest technology, we offer solutions that not only simplify billing processes but
-                    also offer insightful analytics to help you make informed decisions.</p>
-            </div>
+            @include('_partials.billing-process',['class'=>'col-md-4','heading' => 'Streamlined Operations','desc'=>'We optimize your billing operations to ensure timely and accurate claim submissions, reducing denials
+                    and accelerating reimbursements.'])
+            @include('_partials.billing-process',['class'=>'col-md-4','heading' => 'Experienced Professionals','desc'=>'Our team comprises skilled professionals with years of experience in handling diverse medical billing
+                    needs, ensuring precision at every step.'])
+            @include('_partials.billing-process',['class'=>'col-md-4','heading' => 'Advanced Technology','desc'=>'Integrating the latest technology, we offer solutions that not only simplify billing processes but
+                    also offer insightful analytics to help you make informed decisions.'])
         </div>
     </div>
 
@@ -45,27 +32,15 @@
     <section class="container my-5">
         <h2>Our Medical Billing Process</h2>
         <div class="row">
-            <div class="col-md-3">
-                <h4>1. Patient Verification</h4>
-                <p>We begin by verifying patient details to avoid discrepancies in the later stages of billing.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>2. Claim Creation</h4>
-                <p>Our team meticulously creates claims, ensuring all services rendered are accurately coded and
-                    documented.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>3. Submission and Tracking</h4>
-                <p>We submit claims to the respective insurance companies and track them until they are settled.</p>
-            </div>
-            <div class="col-md-3">
-                <h4>4. Revenue Collection</h4>
-                <p>Upon approval, we ensure prompt collection of payments and handle any denials or discrepancies
-                    efficiently.</p>
-            </div>
-        </div>
+            @include('_partials.billing-process',['class'=>'col-md-3','heading' => '1. Patient Verification','desc'=>'We begin by verifying patient details to avoid discrepancies in the later stages of billing.'])
+            @include('_partials.billing-process',['class'=>'col-md-3','heading' => '2. Claim Creation','desc'=>'Our team meticulously creates claims, ensuring all services rendered are accurately coded and
+                    documented.'])
+            @include('_partials.billing-process',['class'=>'col-md-3','heading' => '3. Submission and Tracking','desc'=>'We submit claims to the respective insurance companies and track them until they are settled.'])
+            @include('_partials.billing-process',['class'=>'col-md-3','heading' => '4. Revenue Collection','desc'=>'Upon approval, we ensure prompt collection of payments and handle any denials or discrepancies
+                    efficiently.'])
+        </div>       
     </section>
-
+    
     <!-- Testimonials Section -->
     <div class="container my-5">
         <h2 class="text-center mb-4">What Our Clients Say</h2>
@@ -97,9 +72,10 @@
             </div>
         </div>
     </div>
-
+    
     <!-- Call to Action -->
-    <section class="container my-5 cta-section text-center">
+    
+    <section class="container my-5 cta-section text-center">    
         <h2>Ready to Transform Your Billing Process?</h2>
         <p>Join hands with a team that's committed to your success. Get in touch with us today.</p>
         <div class="mt-3">
