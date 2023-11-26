@@ -1,246 +1,60 @@
 @extends('_layouts.main')
 
 <head>
-  <title>ITRetina - Web Scrapping and Data Collection</title>
+    <title>ITRetina - Web Scrapping and Data Collection</title>
 </head>
 @section('body')
 
-
 <!-- Top Hero Section -->
 <div class="container text-center my-5 bg-light p-5 shadow-elevation">
-  <h1 class="mb-4">
-    Transforming Web Data into Wisdom
-  </h1>
+    <h1 class="mb-4">
+        Transforming Web Data into Wisdom
+    </h1>
 </div>
 
 <!-- Unique Software Development Services Section -->
-<div class="container my-5">
-  <div class="row align-items-center">
-    <!-- Text Content -->
-    <div class="col-md-6">
-      <h2 class="font-weight-bold">
-        Elevate Your Data Game with Our Web Scraping Expertise.
-      </h2>
-      <p>Unlock the Power of Web Data with Our Web Scraping Services! Our team is adept in the art of data extraction from the web, 
-        harnessing the capabilities of Python-based technologies. Whether you're on a quest for market insights, aiming to outshine your 
-        competitors, or pursuing any data-driven ambition, our web scraping expertise has you covered. We're your passport to a world of 
-        valuable data, empowering you with the insights needed for informed, strategic decision-making
-      </p>
-    </div>
-    <!-- Image Content -->
-    <div class="col-md-6">
-      <div class="custom-img-container">
-      <img
-        src="assets/software.jpg"
-        alt="Software Development"
-        class="img-fluid"
-      />
-    </div>
-    </div>
-  </div>
-</div>
+
+@include('_partials.right-image-left-text',
+['cardHeading1' => 'Elevate Your Data Game with Our Web Scraping Expertise.',
+'desc' => 'Unlock the Power of Web Data with Our Web Scraping Services! Our team is adept in the art of data
+extraction from the web,
+harnessing the capabilities of Python-based technologies. Whether you`re on a quest for market insights,
+aiming to outshine your
+competitors, or pursuing any data-driven ambition, our web scraping expertise has you covered. We`re
+your passport to a world of
+valuable data, empowering you with the insights needed for informed, strategic decision-making.',
+'image'=>'assets/images/software.jpg',
+'imageAlt'=>'Software Development'])
 
 <!-- Unique Features Section -->
 <div class="container my-5">
-  <h2 class="text-center mb-4">What Sets Us Apart?</h2>
-  <div class="row justify-content-center">
-    
-    <!-- Expert Team -->
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card h-100">
-        <div class="card-body">
-          <h4 class="card-title">Customized Precision</h4>
-          <p class="card-text">
-            Our web scraping services are customized to your specific needs. We don't believe in one-size-fits-all solutions. Whether you 
-            require data from a single source or multiple websites, we ensure you get the precise information you need.
-          </p>
-        </div>
-      </div>
-    </div>
+    <h2 class="text-center mb-4">What Sets Us Apart?</h2>
+    <div class="row justify-content-center">
 
-    <!-- Custom Solutions -->
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card h-100">
-        <div class="card-body">
-          <h4 class="card-title">Robust Technology</h4>
-          <p class="card-text">
-            We employ advanced technology and techniques for deep and accurate data extraction. Our advanced scraping techniques go beyond 
-            the surface, delving deep to retrieve comprehensive and accurate information that you can rely on.
-          </p>
-        </div>
-      </div>
-    </div>
+        <!-- Expert Team -->
+        @include('_partials.what-set-us-apart',['cardTitle' => 'Customized Precision','desc'=>
+        'Our web scraping services are customized to your specific needs. We don`t believe in
+        one-size-fits-all solutions. Whether you
+        require data from a single source or multiple websites, we ensure you get the precise
+        information you need.'])
 
-    <!-- Cutting-Edge Technologies -->
-    <div class="col-lg-4 col-md-6 mb-4">
-      <div class="card h-100">
-        <div class="card-body">
-          <h4 class="card-title">Compliance and Ethics</h4>
-          <p class="card-text">
-            We prioritize ethical and legal web scraping practices by respecting terms of use and privacy policies, ensuring your data collection is reliable and 
-            responsible. Maintaining your compliance and reputation while delivering valuable data.
-          </p>
-        </div>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Top Hero Section -->
-  <div class="container text-center my-5 bg-light p-5 shadow-elevation">
-    <h1 class="mb-4">
-      Transforming Web Data into Wisdom
-    </h1>
-  </div>
+        <!-- Custom Solutions -->
+        @include('_partials.what-set-us-apart',['cardTitle' => 'Robust Technology','desc'=>
+        'We employ advanced technology and techniques for deep and accurate data extraction. Our advanced
+        scraping techniques go beyond
+        the surface, delving deep to retrieve comprehensive and accurate information that you can rely
+        on.'])
 
-  <!-- Our Services Section 
-  <div class="container my-5">
-    <h2 class="text-center mb-4">Our Web Scrapping Services</h2>
-    <div class="row">
 
-   
-      <div class="col-lg-6 col-md-6 mb-4 text-center">
-        <i class="bi bi-file-code-fill" style="font-size: 48px"></i>
-        <h4>Custom Software Development</h4>
-        <p>
-          We create custom software solutions that enhance operational efficiency and customer satisfaction. Our expert team ensures reliability and scalability using cutting-edge technologies, from concept to deployment.
-        </p>
-      </div>
-
-      <div class="col-lg-6 col-md-6 mb-4 text-center">
-        <i class="bi bi-laptop" style="font-size: 48px"></i>
-        <h4>Single Page Applications</h4>
-        <p>
-          We specialize in creating fast, interactive Single Page Applications (SPAs) using ReactJS and Angular. Our SPAs engage users seamlessly, ensuring a great user experience across devices.
-        </p>
-      </div>
-
-     
-      <div class="col-lg-6 col-md-6 mb-4 text-center">
-        <i class="bi bi-box-arrow-down" style="font-size: 48px"></i>
-        <h4>Web Scraping Services</h4>
-        <p>
-          We use Python-based technology to gather valuable data from diverse online sources. Our custom solutions ensure accurate and up-to-date information for tracking market trends, monitoring competitors, and supporting your business decisions.
-        </p>
-      </div>
-
-      <div class="col-lg-6 col-md-6 mb-4 text-center">
-        <i class="bi bi-tools" style="font-size: 48px"></i>
-        <h4>Specialized Systems</h4>
-        <p>
-          We specialize in building specialized software systems, including CRM, Billing, and Multi-vendor platforms. Our expert developers use cutting-edge technology to create scalable and efficient solutions that drive your business success.
-        </p>
-      </div>
-    </div>
-  </div>
-
--->
-    <!-- Footer -->
-    <footer class="bg-dark text-white py-5">
-      <div class="container" style="text-align: center;">
-        <h4 class="text-uppercase mb-4" align="center">Contact Details</h4>
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="d-flex flex-column">
-              <div class="mb-3">
-                <h5>USA, Texas</h5>
-                <p class="text-white">
-                  827 Overdell Dr Sugarland TX 77479<br />
-                  +18015574513
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="d-flex flex-column ">
-              <div class="mb-3">
-                <h5>Pakistan, Karachi</h5>
-                <p class="text-white">
-                  R-43, block 7, Gulshan-e-Johar<br />
-                  +923132604692
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Custom Solutions -->
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h4 class="card-title">Custom Solutions</h4>
-            <p class="card-text">
-              We understand that one-size-fits-all solutions don't work. Our approach is entirely tailored to your
-              unique business needs. We closely collaborate with you to grasp your requirements and create software
-              that's a perfect fit.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Cutting-Edge Technologies -->
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h4 class="card-title">Cutting-Edge Technologies</h4>
-            <p class="card-text">
-              We stay at the forefront of technology trends, utilizing the latest tools and frameworks to craft
-              innovative solutions that provide your business with a competitive edge.
-            </p>
-          </div>
-        </div>
-      </div>
+        <!-- Cutting-Edge Technologies -->
+        @include('_partials.what-set-us-apart',['cardTitle' => 'Compliance and Ethics','desc'=>
+        'We prioritize ethical and legal web scraping practices by respecting terms of use and privacy
+        policies, ensuring your data collection is reliable and
+        responsible. Maintaining your compliance and reputation while delivering valuable data.'])
 
     </div>
+</div>
 
-    <!-- Our Software Development Services Section -->
-    <div class="container my-5">
-      <h2 class="text-center mb-4">Our Software Development Services</h2>
-      <div class="row">
-        <!-- Feature 1 -->
-        <div class="col-lg-6 col-md-6 mb-4 text-center">
-          <i class="bi bi-file-code-fill" style="font-size: 48px"></i>
-          <h4>Custom Software Development</h4>
-          <p>
-            We create custom software solutions that enhance operational efficiency and customer satisfaction. Our
-            expert team ensures reliability and scalability using cutting-edge technologies, from concept to deployment.
-          </p>
-        </div>
-
-        <!-- Feature 2 -->
-        <div class="col-lg-6 col-md-6 mb-4 text-center">
-          <i class="bi bi-laptop" style="font-size: 48px"></i>
-          <h4>Single Page Applications</h4>
-          <p>
-            We specialize in creating fast, interactive Single Page Applications (SPAs) using ReactJS and Angular. Our
-            SPAs engage users seamlessly, ensuring a great user experience across devices.
-          </p>
-        </div>
-
-        <!-- Feature 3 -->
-        <div class="col-lg-6 col-md-6 mb-4 text-center">
-          <i class="bi bi-box-arrow-down" style="font-size: 48px"></i>
-          <h4>Web Scraping Services</h4>
-          <p>
-            We use Python-based technology to gather valuable data from diverse online sources. Our custom solutions
-            ensure accurate and up-to-date information for tracking market trends, monitoring competitors, and
-            supporting your business decisions.
-          </p>
-        </div>
-
-        <!-- Feature 4 -->
-        <div class="col-lg-6 col-md-6 mb-4 text-center">
-          <i class="bi bi-tools" style="font-size: 48px"></i>
-          <h4>Specialized Systems</h4>
-          <p>
-            We specialize in building specialized software systems, including CRM, Billing, and Multi-vendor platforms.
-            Our expert developers use cutting-edge technology to create scalable and efficient solutions that drive your
-            business success.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  @include('_partials.it-footer')
+@include('_partials.it-footer')
 @endsection

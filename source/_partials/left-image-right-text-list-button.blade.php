@@ -8,6 +8,12 @@
         <div class="col-md-6">
             <h2>{{$cardHeading1}}</h2>
             <p>{{$desc}}</p>
+            <h3>{{$cardHeading2}}</h3>
+            <ul>
+                <li>{{$listItem1}}</li>
+                <li>{{$listItem2}}</li>
+                <li>{{$listItem3}}</li>
+            </ul>
             <div class="text-center mt-3">
                 <a href={{$buttonLink}} class="btn btn-primary">{{$buttonText}}</a>
             </div>

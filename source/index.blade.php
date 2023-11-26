@@ -9,9 +9,9 @@
     <div class="container cta-container">
     <div class="row">
         <!-- IT Services -->
-        @include('_partials.homepage-card',['cardTitle'=>$page->homePageButtonITText,'cardText'=> $page->homePageCardITDesc,'buttonText'=>$page->homePageButtonITText])
+        @include('_partials.homepage-card',['cardTitle'=>$page->homePageButtonITText,'cardText'=> $page->homePageCardITDesc,'buttonLink'=>'it-services','buttonText'=>$page->homePageButtonITText])
         <!--Billing Services -->
-        @include('_partials.homepage-card',['cardTitle'=>$page->homePageButtonBillingText,'cardText'=> $page->homePageCardBillingDesc,'buttonText'=>$page->homePageButtonBillingText])
+        @include('_partials.homepage-card',['cardTitle'=>$page->homePageButtonBillingText,'cardText'=> $page->homePageCardBillingDesc,'buttonLink'=>'billing-services','buttonText'=>$page->homePageButtonBillingText])
     </div>
 </div>
 @endsection

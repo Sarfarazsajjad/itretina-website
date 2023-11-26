@@ -1,144 +1,121 @@
 @extends('_layouts.main')
-  <head>
 
-    <title>ITRetina - Software Development</title>
-    
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
+<head>
+
+    <title>ITRetina - ERP Next</title>
+
+</head>
 @section('body')
 <!-- Top Hero Section -->
 <div class="container text-center my-5 bg-light p-5 shadow-elevation">
-  <h1 class="mb-4">
-    Turning Ideas into Code, Code into Solutions.
-  </h1>
+    <h1 class="mb-4">
+        Where Your Business Needs Meet ERP Excellence.
+    </h1>
 </div>
 
 <!-- Unique Software Development Services Section -->
-<div class="container my-5">
-  <div class="row align-items-center">
-    <!-- Text Content -->
-    <div class="col-md-6">
-      <h2 class="font-weight-bold">
-        Custom Code, Tailored Solutions, Unique Results.
-      </h2>
-      <p>
-        We are a team of devoted experts who demonstrate excellence across various domains of software development. Our comprehensive 
-        software development services cover a wide spectrum of needs. In the realm of mobile applications, our experts excel in developing 
-        both native apps for iOS and Android and cross-platform solutions. This versatility extends your reach to a broader audience, 
-        and we're dedicated to delivering seamless and engaging mobile experiences. On the web front, our development team harnesses the 
-        power of Codeigniter with PHP and Node.js with TypeScript, building robust and scalable web applications. Additionally, we 
-        specialize in crafting user-friendly interfaces using React.js and Angular, ensuring that your web applications are not only 
-        visually appealing but also highly intuitive and responsive.
-      </p>
-    </div>
-    <!-- Image Content -->
-    <div class="col-md-6">
-      <div class="custom-img-container">
-      <img
-        src="assets/software.jpg"
-        alt="Software Development"
-        class="img-fluid"
-      />
-    </div>
-    </div>
-  </div>
-</div>
 
-  <!-- Unique Features Section -->
-  <div class="container my-5">
+
+@include('_partials.right-image-left-text',
+['cardHeading1' => 'Unlock Your Business Potential with ERPNext.',
+'desc' => 'Our team of ERP enthusiasts is committed to diving deep into your unique business needs and crafting
+tailored solutions that drive
+results. With our data-powered ERP services, you`ll unlock real-time insights, analytics, and
+streamlined workflows, propelling
+your growth and enhancing customer relationships. We`re here to empower you with the tools and
+strategies needed to not only succeed
+but to excel in today`s dynamic business environment. With our data-powered ERP services, you`ll unlock
+real-time insights,
+analytics, and streamlined workflows. Your exciting journey to success starts right here, and we`re here
+to guide you every step
+of the way, ensuring you make the most of your ERP system and achieve your goals.',
+'image'=>'assets/images/software.jpg',
+'imageAlt'=>'Software Development'])
+<!-- Unique Features Section -->
+<div class="container my-5">
     <h2 class="text-center mb-4">What Sets Us Apart?</h2>
     <div class="row justify-content-center">
-      <!-- Expert Team -->
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h4 class="card-title">Expertise</h4>
-            <p class="card-text">
-              Our team consists of highly skilled developers, designers, and project managers with extensive experience
-              in the field. We are well-versed in various technologies and platforms, ensuring your project is in
-              capable hands.
-            </p>
-          </div>
-        </div>
-      </div>
+        <!-- Expert Team -->
+        @include('_partials.what-set-us-apart',['cardTitle' => 'Expertise','desc'=>
+        'By utilizing our ERPNext services, your can significantly improve efficiency and productivity.
+        With streamlined
+        processes, integrated systems, and automation, your tasks can be accomplished in minutes. This
+        translates into significant
+        time and cost savings, allowing you to focus on more strategic, value-added activities.'])
 
-      <!-- Custom Solutions -->
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h4 class="card-title">Custom Solutions</h4>
-            <p class="card-text">
-              We understand that one-size-fits-all solutions don't work. Our approach is entirely tailored to your
-              unique business needs. We closely collaborate with you to grasp your requirements and create software
-              that's a perfect fit.
-            </p>
-          </div>
-        </div>
-      </div>
+        <!-- Custom Solutions -->
+        @include('_partials.what-set-us-apart',['cardTitle' => 'Custom Solutions','desc'=>
+        'Our ERPNext services provide you with robust data collection, analysis, and reporting
+        capabilities. With real-time insights
+        and analytics at your fingertips, you can make data-driven decisions that improve your business
+        strategy, inventory management,
+        customer relations, and overall performance.'])
 
-      <!-- Cutting-Edge Technologies -->
-      <div class="col-lg-4 col-md-6 mb-4">
-        <div class="card h-100">
-          <div class="card-body">
-            <h4 class="card-title">Cutting-Edge Technologies</h4>
-            <p class="card-text">
-              We stay at the forefront of technology trends, utilizing the latest tools and frameworks to craft
-              innovative solutions that provide your business with a competitive edge.
-            </p>
-          </div>
-        </div>
-      </div>
+        <!-- Cutting-Edge Technologies -->
+        @include('_partials.what-set-us-apart',['cardTitle' => 'Cutting-Edge Technologies','desc'=>'One of the standout
+        features of our ERPNext services is
+        our ability to tailor the ERP system to
+        your specific business
+        requirements and our customization services Providing you a system that not only meets your
+        needs but also grows with
+        your business in the long term.'])
 
     </div>
+</div>
+<!-- Our Software Development Services Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Our Software Development Services</h2>
+    <div class="row">
 
-    <!-- Our Software Development Services Section -->
-    <div class="container my-5">
-      <h2 class="text-center mb-4">Our Software Development Services</h2>
-      <div class="row">
         <!-- Feature 1 -->
-        <div class="col-lg-6 col-md-6 mb-4 text-center">
-          <i class="bi bi-file-code-fill" style="font-size: 48px"></i>
-          <h4>Custom Software Development</h4>
-          <p>
-            We create custom software solutions that enhance operational efficiency and customer satisfaction. Our
-            expert team ensures reliability and scalability using cutting-edge technologies, from concept to deployment.
-          </p>
-        </div>
-
+        @include('_partials.it-features',
+        ['heading' => 'Service Desk',
+        'desc'=>'Experience unparalleled customer support with our ERPNext Service Desk solutions. Our expertise
+        ensures your customers are
+        always heard, their concerns addressed, and their satisfaction guaranteed. With real-time ticket
+        tracking, automated responses,
+        and a user-friendly interface, we ensure seamless communication between your business and your
+        valued customers.',
+        'icon'=>'bi-laptop'])
         <!-- Feature 2 -->
-        <div class="col-lg-6 col-md-6 mb-4 text-center">
-          <i class="bi bi-laptop" style="font-size: 48px"></i>
-          <h4>Single Page Applications</h4>
-          <p>
-            We specialize in creating fast, interactive Single Page Applications (SPAs) using ReactJS and Angular. Our
-            SPAs engage users seamlessly, ensuring a great user experience across devices.
-          </p>
-        </div>
-
+        @include('_partials.it-features',
+        ['heading' => 'CRM',
+        'desc'=> 'Transform your customer relationship management with our ERPNext CRM solutions. Drive sales, nurture
+        leads, and build lasting
+        relationships. Our team`s deep understanding of ERPNext ensures that you can segment your audience,
+        forecast sales, and automate
+        marketing tasks with precision. Trust us to empower your salesforce with the tools they need for
+        success.',
+        'icon'=>'bi-people-fill'])
         <!-- Feature 3 -->
-        <div class="col-lg-6 col-md-6 mb-4 text-center">
-          <i class="bi bi-box-arrow-down" style="font-size: 48px"></i>
-          <h4>Web Scraping Services</h4>
-          <p>
-            We use Python-based technology to gather valuable data from diverse online sources. Our custom solutions
-            ensure accurate and up-to-date information for tracking market trends, monitoring competitors, and
-            supporting your business decisions.
-          </p>
-        </div>
+        @include('_partials.it-features',['heading' => 'Inventory Management',
+        'desc'=>'Streamline and optimize your inventory with ERPNext. Our solutions help you maintain the perfect
+        balance - minimizing holding
+        costs while ensuring stock availability. Track products, manage suppliers, and get real-time
+        insights into your inventory
+        status. Let us help you ensure that your business never misses a beat due to stockouts or
+        overstocking.',
+        'icon'=>'bi-cart-fill'])
+        <!-- Feature 4 -->
+        @include('_partials.it-features',['heading' => 'POS',
+        'desc'=>'Revolutionize your retail or restaurant business with our ERPNext POS solutions. Experience
+        lightning-fast billing, real-time
+        stock updates, and comprehensive sales reports, all integrated into a single system. We provide both
+        offline and online POS
+        solutions, ensuring that your business keeps running, no matter what.',
+        'icon'=>'bi-upc'])
 
-      <!-- Feature 4 -->
-      <div class="col-lg-6 col-md-6 mb-4 text-center">
-        <i class="bi bi-tools" style="font-size: 48px"></i>
-        <h4>Specialized Systems</h4>
-        <p>
-          We specialize in building specialized software systems, including CRM, Billing, and Multi-vendor platforms. Our expert developers use cutting-edge technology to create scalable and efficient solutions that drive your business success.
-        </p>
-      </div>
+        <!-- Feature 5 -->
+        @include('_partials.it-features',['heading' => 'Custom Application',
+        'desc'=>'Every business is unique, and so are its needs. Our team excels in developing custom Frappe and
+        ERPNext apps tailored to your
+        specific requirements. From design to deployment, we handle it all. Enhance your ERPNext experience
+        with functionalities built
+        just for you.',
+        'icon'=>'bi-tools'])
+
+
     </div>
-  </div>
 </div>
 @include('_partials.it-footer')
 @endsection

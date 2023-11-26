@@ -7,7 +7,7 @@
                 <div class="card-body">
                     <h2 class="card-title">{{ $cardTitle }}</h2>
                     <p class="card-text">{{$cardText}}</p>
-                    <a href= "/it-services" class="btn btn-primary elevated-button">{{$buttonText}}</a>
+                    <a href= {{$buttonLink}} class="btn btn-primary elevated-button">{{$buttonText}}</a>
                 </div>
             </div>
         </div> 

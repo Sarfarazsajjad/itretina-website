@@ -24,7 +24,7 @@
                             <li><a class="dropdown-item" href="/software-development">Software Development</a></li>
                             <li><a class="dropdown-item" href="/web-scrapping">Web Scrapping and Data Collection</a>
                             </li>
-                            <li><a class="dropdown-item" href="/work-in-progress">ERP Next</a></li>
+                            <li><a class="dropdown-item" href="/ERP-Next">ERP Next</a></li>
                             <li><a class="dropdown-item" href="/cloud-services">Cloud Services</a></li>
                             <li><a class="dropdown-item" href="/it-support">IT Support</a></li>
                             <li><a class="dropdown-item" href="/integration-and-customization">Integration and
