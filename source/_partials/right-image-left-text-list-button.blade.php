@@ -9,7 +9,7 @@
                 <li>{{$listItem2}}</li>
                 <li>{{$listItem3}}</li>
             </ul>
-            <!-- Center aligned Get More Info Button for Medical Billing -->
+            <!-- Center aligned Get More Info Button -->
             <div class="text-center mt-3">
                 <a href={{$buttonLink}} class="btn btn-primary">{{$buttonText}}</a>
             </div>

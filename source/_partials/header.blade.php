@@ -56,9 +56,17 @@
                             <li><a class="dropdown-item" href="/medical-billing-pricing">Pricing</a></li>
                         </ul>
                     </li>
+
+                    <li class="nav-item">
+            <a class="nav-link" href="/about-us">About Us</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/contact-us">Contact Us</a>
+</li>
+
                 </ul>
             </div>
         </div>
     </nav>
 </header>
-</html>
+</html>h

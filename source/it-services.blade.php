@@ -101,25 +101,9 @@ with confidence',
 'imageAlt'=>'Our Products'])
 
 
-<!-- Company Mission Section -->
-<div class="container text-center my-5">
-    <h2>Our Vision</h2>
-    <p> Our vision is to be a driving force in the digital age, crafting software solutions that inspire innovation,
-        empower individuals
-        and businesses, and transform industries. We are dedicated to pushing the boundaries of what technology can
-        achieve, always striving
-        to exceed expectations and redefine what's possible. Our commitment is to deliver cutting-edge software that not
-        only enhances lives
-        but also contributes to a more interconnected and sustainable world. With a focus on user-centric design and a
-        passion for excellence,
-        we're shaping a future where software is synonymous with progress, positive change, and limitless possibilities.
-    </p>
-
-</div>
-
 <!-- Testimonials Section -->
 <div class="container my-5">
-    <h2 class="text-center mb-4">IT Client Testimonials</h2>
+    <h2 class="text-center mb-4">What Our Clietns Say</h2>
     <div class="row">
         <!-- Testimonial 1 -->
         <div class="col-lg-4 col-md-6 mb-4 text-center">
