@@ -42,7 +42,7 @@ of
 the competition. Contact us today to revolutionize your pizza ordering experience.',
 'buttonLink'=>'work-in-progress',
 'buttonText'=>'Get More Info',
-'image'=>'assets/images/billing-image-1.jpeg',
+'image'=>'assets/images/pizza.jpg',
 'imageAlt'=>'Cloud Services'])
 
 
