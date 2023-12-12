@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ $page->language ?? 'en' }}">
-    <header>
+<header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
         <div class="container">
@@ -9,7 +9,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">   
+            <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="/index">Home</a>
@@ -58,15 +58,16 @@
                     </li>
 
                     <li class="nav-item">
-            <a class="nav-link" href="/about-us">About Us</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="/contact-us">Contact Us</a>
-</li>
+                        <a class="nav-link" href="/about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact-us">Contact Us</a>
+                    </li>
 
                 </ul>
             </div>
         </div>
     </nav>
 </header>
-</html>h
+
+</html>
