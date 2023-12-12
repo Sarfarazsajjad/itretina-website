@@ -1,0 +1,346 @@
+<head>
+    <title>Dental Billing Services</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="/dental-billing">
+        <meta name="description" content="Website description.">
+        <title>ITRetina</title>
+        <script defer src="/assets/build/js/main.js?id=a6cab35f56cb1556338c9ea0b67496f7"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/build/styles/styles.css?id=ff201bd02911ca1c1829fab0165353f6">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <!-- Include Bootstrap JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" />
+    </head>
+    <header>
+        <!DOCTYPE html>
+<html lang="en">
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
+        <div class="container">
+            <a class="navbar-brand logo-text" href="/index"><span class="itr">ITR</span>etina</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/index">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="itServicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            IT Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="itServicesDropdown">
+                            <li><a class="dropdown-item" href="/it-services">Overview</a></li>
+                            <li><a class="dropdown-item" href="/software-development">Software Development</a></li>
+                            <li><a class="dropdown-item" href="/web-scrapping">Web Scrapping and Data Collection</a>
+                            </li>
+                            <li><a class="dropdown-item" href="/ERP-Next">ERP Next</a></li>
+                            <li><a class="dropdown-item" href="/cloud-services">Cloud Services</a></li>
+                            <li><a class="dropdown-item" href="/it-support">IT Support</a></li>
+                            <li><a class="dropdown-item" href="/integration-and-customization">Integration and
+                                    Customization</a></li>
+                            <li>
+                                <a class="dropdown-item" href="/it-products">
+                                    Our Products &raquo;
+                                </a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li>
+                                        <a class="dropdown-item" href="/pizza-app">Pizza App</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="/work-in-progress">Burger App</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="billingServicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Billing Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="billingServicesDropdown">
+                            <li><a class="dropdown-item" href="/billing-services">Overview</a></li>
+                            <li><a class="dropdown-item" href="/medical-billing">Medical Billing</a></li>
+                            <li><a class="dropdown-item" href="/dental-billing">Dental Billing</a></li>
+                            <li><a class="dropdown-item" href="/medical-billing-pricing">Pricing</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact-us">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+</html>    </header>
+    <script>
+    let particles = [];
+    const particleCount = 200;
+
+    function setup() {
+        let canvas = createCanvas(windowWidth, windowHeight);
+        canvas.parent('p5-canvas-container');
+        for (let i = 0; i < particleCount; i++) {
+            particles.push(new Particle());
+        }
+    }
+
+    function windowResized() {
+        resizeCanvas(windowWidth, windowHeight);
+    }
+
+    function draw() {
+        let gradientColorTop = color(173, 216, 230);
+        let gradientColorBottom = color(240, 248, 255);
+        setGradient(gradientColorTop, gradientColorBottom);
+        for (let particle of particles) {
+            particle.update();
+            particle.display();
+        }
+    }
+
+    class Particle {
+        constructor() {
+            this.pos = createVector(random(width), random(height));
+            this.vel = createVector(random(-0.5, 0.5), random(-0.5, 0.5));
+            this.acc = createVector();
+            this.r = 2;
+        }
+
+        update() {
+            this.vel.add(this.acc);
+            this.pos.add(this.vel);
+            this.acc.mult(0.2);
+            this.edges();
+        }
+
+        display() {
+            noStroke();
+            fill(255);
+            ellipse(this.pos.x, this.pos.y, this.r * 2);
+
+            for (let particle of particles) {
+                let d = dist(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
+                if (d < 100) {
+                    stroke(255, 50);
+                    line(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
+                }
+            }
+        }
+
+        edges() {
+            if (this.pos.x < 0 || this.pos.x > width) {
+                this.vel.x *= -1;
+            }
+
+            if (this.pos.y < 0 || this.pos.y > height) {
+                this.vel.y *= -1;
+            }
+        }
+
+        interact() {
+            let d = dist(this.pos.x, this.pos.y, mouseX, mouseY);
+            if (d < 150) {
+                let force = createVector((this.pos.x - mouseX) * 0.002, (this.pos.y - mouseY) * 0.002);
+                this.acc.add(force);
+            }
+        }
+    }
+
+    function setGradient(gradientColorTop, gradientColorBottom) {
+        noFill();
+        for (let i = 0; i <= height; i++) {
+            let inter = map(i, 0, height, 0, 1);
+            let c = lerpColor(gradientColorTop, gradientColorBottom, inter);
+            stroke(c);
+            line(0, i, width, i);
+        }
+    }
+
+    function mouseMoved() {
+        for (let particle of particles) {
+            particle.interact();
+        }
+        return false; // prevent default
+    }
+</script>
+    <body class="text-gray-900 font-sans antialiased">
+        <!-- Top Hero Section -->
+<div class="container text-center my-5 bg-light p-5 shadow-elevation">
+    <h1 class="mb-4">Seamless Dental Billing & Patient Scheduling Solutions for Your Dental Practice</h1>
+    <!-- <p class="lead">Plans starting as low as $499/month</p> -->
+</div>
+<!-- Unique Dental Billing Services Section -->
+<div class="container my-5">
+        <div class="row align-items-center">
+            <!-- Text Content -->
+            <div class="col-md-6">
+                <h3 class="text-muted">What Makes Our Dental Billing Services
+Unique?</h3>
+                <h2 class="font-weight-bold">A Customized Dental Billing &amp; Schedule Management Solution for Dentists.</h2>
+                <p>&gt;We are
+your dental billing experts, and we take care of the time-consuming processes for you so, you
+can focus on what matters most, delivering the best patient experience. We fight on your behalf to
+get you the money owed to
+you!</p>
+            </div>
+            <!-- Image Content -->
+            <div class="col-md-6">
+                <div class="custom-img-container">
+                    <img src=assets/images/national-cancer-institute-NFvdKIhxYlU-unsplash.jpg alt=Dental Billing
+Services class="img-fluid">
+                </div>
+            </div>
+        </div>
+</div><!-- Unique Features Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">What Sets Us Apart?</h2>
+    <div class="row justify-content-lg-center">
+        <!-- Added justify-content-lg-center -->
+        <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <div class="card-body">
+            <h4 class="card-title">Experienced Virtual Client Success Managers</h4>
+            <p class="card-text">Our team is dedicated to ensuring your needs are met. You will have a virtual success manager available 24/7, who can help you with billing assistance and answer any questions that come up while we work on your behalf.</p>
+        </div>
+    </div>
+</div>        <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <div class="card-body">
+            <h4 class="card-title">Security and Privacy</h4>
+            <p class="card-text">Your security and privacy are our #1 priority. We protect all the patient data using an advanced encryption algorithm to prevent any theft of patient personal information or identity leaks, so you can rest easy knowing that we have got this!</p>
+        </div>
+    </div>
+</div>        <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <div class="card-body">
+            <h4 class="card-title">High Quality, Customized Solutions</h4>
+            <p class="card-text">You just need to choose the customized plan that best fits your needs. We don’t believe in long-term contracts because we are confident that you’ll have peace of mind with us. Our Flat fee schedules allow you more flexibility and control.</p>
+        </div>
+    </div>
+</div>        <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <div class="card-body">
+            <h4 class="card-title">Organized Billing Process</h4>
+            <p class="card-text">Our organized billing process can help dental practices streamline their billing operations, saving time and resources. This allows dentists and their staff to focus on providing quality care to their patients, rather than spending time on administrative tasks</p>
+        </div>
+    </div>
+</div>        <div class="col-lg-4 col-md-6 mb-4">
+    <div class="card h-100">
+        <div class="card-body">
+            <h4 class="card-title">Trained Staff</h4>
+            <p class="card-text">We specialize in complex billing processes and have a team of experienced professionals who are well-versed in the latest industry regulations and coding systems. You can be sure that your claims will be processed accurately and efficiently.</p>
+        </div>
+    </div>
+</div>    </div>
+</div>
+<!-- Our Dental Billing Services Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-4">Our Dental Billing Services</h2>
+    <p class="text-center mb-5">With industry knowledge for over 10 years, our team knows how to get things done
+        quickly and efficiently. Take your practice to maximum capacity without worrying about a thing!</p>
+    <div class="row">
+        <!-- Feature 1 -->
+        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-check-circle-fill "style="font-size: 48px;"></i>
+                <h4>Dental Insurance Eligibility Verification</h4>
+                <p>Prior verification allows you to be proactive, save time, and have confidence while delivering patient treatment plans.</p>
+            </div>        <!-- Feature 2 -->
+        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-cash "style="font-size: 48px;"></i>
+                <h4>Dental Insurance Billing and AR/Collection</h4>
+                <p>Our dental team is here to make it quick and convenient for you to track and collect any outstanding claims and payments from insurance companies. Get paid what you are owed.</p>
+            </div>        <!-- Feature 3 -->
+        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-person-check-fill "style="font-size: 48px;"></i>
+                <h4>Patient Follow-ups/Fill the Chair</h4>
+                <p>Are you struggling to juggle all of your responsibilities? Let us take care of that for you. We will handle everything from appointments and follow-ups with active and inactive patients, so don’t worry about a thing!</p>
+            </div>        <!-- Feature 4 -->
+        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-calendar-check-fill "style="font-size: 48px;"></i>
+                <h4>Appointment Scheduling</h4>
+                <p>&gt;Need a more efficient way to schedule your patient appointments? Our technology schedules and streamlines new appointments in real-time and syncs them with your daily calendar.</p>
+            </div>        <!-- Feature 5 -->
+        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-telephone-forward-fill "style="font-size: 48px;"></i>
+                <h4>Appointment Confirmation</h4>
+                <p>Our team makes sure that patient appointments are confirmed and there are no last-minute cancellations. Our system follows up via phone and text before an appointment.</p>
+            </div>        <!-- Feature 6 -->
+        <div class="col-lg-4 col-md-6 mb-4 text-center">
+                <i class="bi bi-telephone-fill "style="font-size: 48px;"></i>
+                <h4>Inbound and Outbound Calls</h4>
+                <p>Whether you have 1 call per day or 100+, we will create a customized solution so you can be confident that each call is answered professionally and taken care of.</p>
+            </div>    </div>
+</div>
+
+<!DOCTYPE html>
+<html lang="en">
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Dental Billing Services -->
+            <div class="col-lg-6">
+                <h4 class="text-uppercase mb-4">Our Medical & Dental Billing Services</h4>
+                <ul class="list-group list-group-flush bg-dark">
+                    <li class="list-group-item bg-dark text-white">Insurance Eligibility Verification</li>
+                    <li class="list-group-item bg-dark text-white">Insurance Billing and AR/Collection</li>
+                    <li class="list-group-item bg-dark text-white">Patient Follow-ups/Fill the Chair</li>
+                    <li class="list-group-item bg-dark text-white">Appointment Scheduling</li>
+                    <li class="list-group-item bg-dark text-white">Appointment Confirmation</li>
+                    <li class="list-group-item bg-dark text-white">Inbound and Outbound Calls</li>
+                </ul>
+            </div>
+            <!-- Contact Details -->
+            <div id="contact" class="col-lg-6">
+                <h4 class="text-uppercase mb-4">Contact Details</h4>
+                <div class="d-flex flex-column align-items-start">
+                    <div class="mb-3">
+                        <h5>USA, Texas</h5>
+                        <p class="text-white">827 Overdell Dr Sugarland TX 77479<br>
+                            +18015574513</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5>Email</h5>
+                        <p><a href="mailto:info@itretina.com" class="text-white">info@itretina.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center bg-white text-dark">
+                <p class="mb-0">Copyright © 2023 ITRetina. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>    </body>
+    
+</html>
