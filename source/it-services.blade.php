@@ -29,8 +29,31 @@
 'imageAlt'=>'software development'])
 
 
-<!-- Cloud Services Section -->
+<!-- Web Scrapping -->
+@include('_partials.left-image-right-text-button',
+['cardHeading1' => 'Web Scrapping and Data Collection',
+'desc' => 'We're your gateway to a wealth of data in the digital realm. Our web scraping and data collection services are your key to 
+harnessing the power of information from diverse online sources. With a team of dedicated experts, we meticulously extract, transform, 
+and deliver valuable data to fuel your business strategies. Whether you need website scraping, data cleansing, or in-depth analysis we 
+will help you gather, analyze, and leverage data for insights and opportunities.',
+'buttonLink'=>'web-scrapping',
+'buttonText'=>'Get More Info',
+'image'=>'assets/images/cloud2.jpg',
+'imageAlt'=>'Web Scrapping'])
 
+<!-- ERP Next -->
+@include('_partials.right-image-left-text-button',
+['cardHeading1' => 'ERP Next',
+'desc' => 'We understand the challenges and complexities that businesses face in this dynamic environment. That's why we step in to offer 
+a comprehensive suite of cutting-edge ERP services. We are committed to your success, dedicated to understanding your unique business 
+needs, and crafting ERP solutions that align perfectly with your processes. Navigate the ever-changing business landscape, implement the 
+right ERP system with the support and training you need to excel. Your journey to new heights begins here.',
+'buttonLink'=>'erp-next',
+'buttonText'=>'Get More Info',
+'image'=>'assets/images/software1.jpg',
+'imageAlt'=>'ERP Next'])
+
+<!-- Cloud Services Section -->
 @include('_partials.left-image-right-text-button',
 ['cardHeading1' => 'Cloud Services',
 'desc' => 'Catalyze your transition to the cloud with our AWS Amazon Web Services migration expertise. We ensure a
@@ -135,11 +158,12 @@ with confidence',
 </div>
 
 <!-- Call to Action -->
-<section class="container my-5 cta-section text-center">
+<div class="container my-5 py-5 bg-light text-center shadow-elevation">
+
     <h2>Craft Your Software with Excelence</h2>
     <p>Join hands with a team that's committed to your success. Get in touch with us today.</p>
-
-</section>
+    <a href="#contact" class="btn btn-primary">Contact Us</a>
+</div>
 
 
 <!-- Footer -->
