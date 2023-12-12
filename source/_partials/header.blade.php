@@ -35,7 +35,7 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-submenu">
                                     <li>
-                                        <a class="dropdown-item" href="/work-in-progress">Pizza App</a>
+                                        <a class="dropdown-item" href="/pizza-app">Pizza App</a>
                                     </li>
                                     <li>
                                         <a class="dropdown-item" href="/work-in-progress">Burger App</a>

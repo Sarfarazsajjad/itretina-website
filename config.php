@@ -17,7 +17,7 @@ return [
 
     'homePageButtonITText' => 'Explore Our IT Solutions',
     'homePageButtonBillingText' => 'Discover Our Billing Services',
-    'homePageButtonAboutUsText' => 'About Us',
+    'homePageButtonAboutUsText' => 'More About ITRetina',
 
     'homePageButtonITLink' => 'it-services',
     'homePageButtonBillingLink' =>  'billing-services',
