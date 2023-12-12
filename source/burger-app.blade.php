@@ -6,10 +6,10 @@
 
     <p class="card-text">Step into the next frontier of burger dining with our revolutionary app! Get ready to
         turbocharge your
-        restaurant's operations with our innovative solution. It's your ticket to a future of unparalleled efficiency
+        restaurant`s operations with our innovative solution. It`s your ticket to a future of unparalleled efficiency
         and
         ecstatic
-        customers. Effortlessly manage orders and create a menu as unique as your imagination. With our app, you're the
+        customers. Effortlessly manage orders and create a menu as unique as your imagination. With our app, you`re the
         maestro of an
         unforgettable burger experience, setting the stage for an extraordinary culinary journey.</p>
 </div>
@@ -25,7 +25,7 @@
         </div>
         <div class="col-md-6">
             <h2>Crafting Burger Perfection</h2>
-            <p>The 'Burger App' is a dynamic mobile application, crafted using Flutter, aimed at empowering restaurant
+            <p>The `Burger App` is a dynamic mobile application, crafted using Flutter, aimed at empowering restaurant
                 proprietors to
                 efficiently handle their menu and orders across various digital platforms. Supported by a resilient
                 Node.js
@@ -33,7 +33,7 @@
                 fortified with the prowess of TypeScript and TypeORM, it simplifies data management, ensuring a smooth
                 and
                 hassle-free
-                experience. In addition, our 'Burger App' admin panel website, constructed with Angular and HTML, offers
+                experience. In addition, our `Burger App` admin panel website, constructed with Angular and HTML, offers
                 an
                 instinctive interface for restaurant owners to seamlessly oversee menu items and orders, guaranteeing a
                 user-friendly
@@ -45,7 +45,7 @@
                     real-time, providing transparency and reassurance about the delivery process.</li>
                 <li><strong> Multi-Platform Compatibility: </strong>The app is accessible across multiple platforms,
                     making it
-                    easy for customers to order from their preferred devices, whether it's a smartphone, tablet, or
+                    easy for customers to order from their preferred devices, whether it`s a smartphone, tablet, or
                     computer.
                 </li>
                 <li><strong>Quick and Easy Ordering: </strong>Enjoy effortless order management at your fingertips. Say

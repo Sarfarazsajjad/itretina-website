@@ -13,7 +13,7 @@
       for streamlined
       food ordering, designed to empower your business. Embrace a new era of efficiency and customer satisfaction as you
       efficiently
-      manage orders and customize your menu. With our app, you're in control of creating a delightful dining experience
+      manage orders and customize your menu. With our app, you`re in control of creating a delightful dining experience
       for your
       customers.</p>
   </div>
@@ -24,7 +24,7 @@
     <div class="row align-items-center">
       <div class="col-md-6">
         <div class="custom-img-container">
-          <img src="assets/cs12.jpg" alt="Cloud Services" class="img-fluid">
+          <img src="assets/images/pizza-app.jpeg" alt="Cloud Services" class="img-fluid">
         </div>
       </div>
       <div class="col-md-6">
@@ -32,7 +32,7 @@
         <p>Pizza App is a versatile mobile application, developed with Flutter, empowers restaurant owners to
           efficiently manage
           their menus and orders on various platforms. The robust Node.js back end, enhanced by TypeScript and TypeORM,
-          simplifies data management, ensuring a smooth experience. Additionally, our 'Pizza App' admin panel website,
+          simplifies data management, ensuring a smooth experience. Additionally, our `Pizza App` admin panel website,
           built
           using Angular and HTML, provides an intuitive interface for restaurant owners to effortlessly control menus
           and orders,
@@ -41,7 +41,7 @@
         <ul>
           <li>It provides a responsive and consistent user experience across various platforms, including iOS and
             Android.</li>
-          <li>It offers a user-friendly interface for managing system data, users, and configurations. Angular's
+          <li>It offers a user-friendly interface for managing system data, users, and configurations. Angular`s
             component-based
             architecture enhances modularity and maintainability.</li>
           <li>It handles data storage, retrieval, and business logic, providing APIs for the mobile application and web
@@ -85,7 +85,7 @@
       <h1>Want to know the Ingredients that Make Our Pizza App Stand Out?</h1>
   
       <div class="container my-5 why-choose-us-container">
-        <h2 class="text-center">FAQ's</h2>
+        <h2 class="text-center">FAQ`s</h2>
     
         
           
@@ -94,11 +94,11 @@
           
           
             <h4>Is your system customizable to fit the unique needs of my restaurant?</h4>
-            <p>Yes, our system is highly customizable. We understand that each restaurant has unique requirements. Our platform allows for customization in menu layout, item categorization, pricing, promotions, and branding to align perfectly with your restaurant's identity and specific needs.</p>
+            <p>Yes, our system is highly customizable. We understand that each restaurant has unique requirements. Our platform allows for customization in menu layout, item categorization, pricing, promotions, and branding to align perfectly with your restaurant`s identity and specific needs.</p>
           
           
             <h4>How does the ordering process work for customers using this system?</h4>
-            <p>Customers using our system can easily browse through your restaurant's menu, select items, customize orders as desired, add to cart, and proceed to checkout seamlessly. The intuitive interface simplifies the process, ensuring a user-friendly and efficient ordering experience.</p>
+            <p>Customers using our system can easily browse through your restaurant`s menu, select items, customize orders as desired, add to cart, and proceed to checkout seamlessly. The intuitive interface simplifies the process, ensuring a user-friendly and efficient ordering experience.</p>
           
           
             <h4>What types of payment methods are supported by your system?</h4>
@@ -115,13 +115,13 @@
             <p>Yes, our system provides comprehensive analytics and reporting features. Track order trends, customer preferences, sales data, and more. This data-driven insight aids in making informed business decisions.</p>
 
             <h4>Are there any setup fees or ongoing costs associated with using your system?</h4>
-            <p>We offer flexible pricing plans tailored to your restaurant's needs. There might be setup fees depending on the plan chosen, and ongoing costs will vary based on the services and features selected.</p>
+            <p>We offer flexible pricing plans tailored to your restaurant`s needs. There might be setup fees depending on the plan chosen, and ongoing costs will vary based on the services and features selected.</p>
 
             <h4>Is there a contract or commitment required to use your online ordering system?</h4>
             <p>Yes, we usually have a service agreement outlining the terms and conditions of using our system, though the specifics can be discussed based on your preferences and requirements.</p>
 
-            <h4>How can I ensure my restaurant's branding and identity are reflected in the online ordering process?</h4>
-            <p>Our system allows for extensive customization, ensuring that your restaurant's branding, logo, color schemes, and overall identity are prominently featured throughout the ordering process, providing a consistent brand experience.</p>
+            <h4>How can I ensure my restaurant`s branding and identity are reflected in the online ordering process?</h4>
+            <p>Our system allows for extensive customization, ensuring that your restaurant`s branding, logo, color schemes, and overall identity are prominently featured throughout the ordering process, providing a consistent brand experience.</p>
 
             <h4>Is the system compatible with different devices such as tablets, smartphones, etc.?</h4>
             <p>Absolutely, our system is designed to be compatible with various devices, including tablets, smartphones, desktops, and more, ensuring accessibility for both your customers and your staff.</p>
