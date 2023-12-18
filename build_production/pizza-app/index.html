@@ -1,0 +1,367 @@
+<head>
+  <title>ITRetina - Pizza App</title>
+</head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://itretina.com/pizza-app">
+        <meta name="description" content="Website description.">
+        <title>ITRetina</title>
+        <script defer src="/assets/build/js/main.js?id=a6cab35f56cb1556338c9ea0b67496f7"></script>
+        <script defer src="https://itretina.com/assets/build/js/main.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/build/styles/styles.css?id=ff201bd02911ca1c1829fab0165353f6">
+        <link rel="stylesheet" href="https://itretina.com/assets/build/css/styles.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <!-- Include Bootstrap JavaScript -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" />
+    </head>
+    <header>
+        <!DOCTYPE html>
+<html lang="en">
+<header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
+        <div class="container">
+            <a class="navbar-brand logo-text" href="https://itretina.com/index"><span class="itr">ITR</span>etina</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://itretina.com/index">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="itServicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            IT Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="itServicesDropdown">
+                            <li><a class="dropdown-item" href="https://itretina.com/it-services">Overview</a></li>
+                            <li><a class="dropdown-item" href="https://itretina.com/software-development">Software Development</a></li>
+                            <li><a class="dropdown-item" href="https://itretina.com/web-scrapping">Web Scrapping and Data Collection</a>
+                            </li>
+                            <li><a class="dropdown-item" href="https://itretina.com/ERP-Next">ERP Next</a></li>
+                            <li><a class="dropdown-item" href="https://itretina.com/cloud-services">Cloud Services</a></li>
+                            <li><a class="dropdown-item" href="https://itretina.com/it-support">IT Support</a></li>
+                            <li><a class="dropdown-item" href="https://itretina.com/integration-and-customization">Integration and
+                                    Customization</a></li>
+                            <li>
+                                <a class="dropdown-item" href="https://itretina.com/it-products">
+                                    Our Products &raquo;
+                                </a>
+                                <ul class="dropdown-menu dropdown-submenu">
+                                    <li>
+                                        <a class="dropdown-item" href="https://itretina.com/pizza-app">Pizza App</a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="https://itretina.com/work-in-progress">Burger App</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="billingServicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Billing Services
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="billingServicesDropdown">
+                            <li><a class="dropdown-item" href="https://itretina.com/billing-services">Overview</a></li>
+                            <li><a class="dropdown-item" href="https://itretina.com/medical-billing">Medical Billing</a></li>
+                            <li><a class="dropdown-item" href="https://itretina.com/dental-billing">Dental Billing</a></li>
+                            <li><a class="dropdown-item" href="https://itretina.com/medical-billing-pricing">Pricing</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://itretina.com/about-us">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://itretina.com/contact-us">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+</html>    </header>
+    <script>
+    let particles = [];
+    const particleCount = 200;
+
+    function setup() {
+        let canvas = createCanvas(windowWidth, windowHeight);
+        canvas.parent('p5-canvas-container');
+        for (let i = 0; i < particleCount; i++) {
+            particles.push(new Particle());
+        }
+    }
+
+    function windowResized() {
+        resizeCanvas(windowWidth, windowHeight);
+    }
+
+    function draw() {
+        let gradientColorTop = color(173, 216, 230);
+        let gradientColorBottom = color(240, 248, 255);
+        setGradient(gradientColorTop, gradientColorBottom);
+        for (let particle of particles) {
+            particle.update();
+            particle.display();
+        }
+    }
+
+    class Particle {
+        constructor() {
+            this.pos = createVector(random(width), random(height));
+            this.vel = createVector(random(-0.5, 0.5), random(-0.5, 0.5));
+            this.acc = createVector();
+            this.r = 2;
+        }
+
+        update() {
+            this.vel.add(this.acc);
+            this.pos.add(this.vel);
+            this.acc.mult(0.2);
+            this.edges();
+        }
+
+        display() {
+            noStroke();
+            fill(255);
+            ellipse(this.pos.x, this.pos.y, this.r * 2);
+
+            for (let particle of particles) {
+                let d = dist(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
+                if (d < 100) {
+                    stroke(255, 50);
+                    line(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
+                }
+            }
+        }
+
+        edges() {
+            if (this.pos.x < 0 || this.pos.x > width) {
+                this.vel.x *= -1;
+            }
+
+            if (this.pos.y < 0 || this.pos.y > height) {
+                this.vel.y *= -1;
+            }
+        }
+
+        interact() {
+            let d = dist(this.pos.x, this.pos.y, mouseX, mouseY);
+            if (d < 150) {
+                let force = createVector((this.pos.x - mouseX) * 0.002, (this.pos.y - mouseY) * 0.002);
+                this.acc.add(force);
+            }
+        }
+    }
+
+    function setGradient(gradientColorTop, gradientColorBottom) {
+        noFill();
+        for (let i = 0; i <= height; i++) {
+            let inter = map(i, 0, height, 0, 1);
+            let c = lerpColor(gradientColorTop, gradientColorBottom, inter);
+            stroke(c);
+            line(0, i, width, i);
+        }
+    }
+
+    function mouseMoved() {
+        for (let particle of particles) {
+            particle.interact();
+        }
+        return false; // prevent default
+    }
+</script>
+    <body class="text-gray-900 font-sans antialiased">
+         
+  <!-- Hero Section -->
+  <div class="container text-center my-5">
+    <h1>Pizza App</h1>
+
+    <p class="card-text">Welcome to the future of Pizza restaurant operations! Our innovative application is your recipe
+      for streamlined
+      food ordering, designed to empower your business. Embrace a new era of efficiency and customer satisfaction as you
+      efficiently
+      manage orders and customize your menu. With our app, you`re in control of creating a delightful dining experience
+      for your
+      customers.</p>
+  </div>
+
+
+  <!-- Features Section -->
+  <div class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="custom-img-container">
+          <img src="https://itretina.com/assets/images/pizza-app.jpeg" alt="Cloud Services" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h2>Your Ultimate Pizza Experience</h2>
+        <p>Pizza App is a versatile mobile application, developed with Flutter, empowers restaurant owners to
+          efficiently manage
+          their menus and orders on various platforms. The robust Node.js back end, enhanced by TypeScript and TypeORM,
+          simplifies data management, ensuring a smooth experience. Additionally, our `Pizza App` admin panel website,
+          built
+          using Angular and HTML, provides an intuitive interface for restaurant owners to effortlessly control menus
+          and orders,
+          ensuring an efficient and user-friendly experience for their customers</p>
+        <h3>Key Highlights:</h3>
+        <ul>
+          <li>It provides a responsive and consistent user experience across various platforms, including iOS and
+            Android.</li>
+          <li>It offers a user-friendly interface for managing system data, users, and configurations. Angular`s
+            component-based
+            architecture enhances modularity and maintainability.</li>
+          <li>It handles data storage, retrieval, and business logic, providing APIs for the mobile application and web
+            admin panel.</li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="container my-5 why-choose-us-container">
+    <h2 class="text-center">Why Choose Our Pizza App?</h2>
+
+    <div class="row">
+      <div class="col-md-4 mx-auto">
+        <h4>Branded Customer Experience</h4>
+        <p>This benefit allows you to establish and promote their brand effectively, providing a unique and consistent experience to customers.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Faster Order Processing</h4>
+        <p>The capability for restaurants to receive and process orders immediately leads to quicker order preparation and delivery, enhancing customer satisfaction and retention.</p>
+      </div>
+      <div class="col-md-4">
+        <h4>Higher Profit Margins</h4>
+        <p>By avoiding third-party fees, you can keep the entire profit from each order, leading to higher profit margins and increased business sustainability.</p>
+      </div>
+      <div class="col-md-4 mx-auto">
+        <h4>Customer Data Ownership</h4>
+        <p>Having ownership of customer data enables you to better understand preferences and behaviors, allowing for personalized marketing efforts and improved customer engagement</p>
+      </div>
+      <div class="col-md-4 mx-auto">
+        <h4>Control Over Pricing and Menu</h4>
+        <p>The flexibility to set prices and manage menu offerings independently allows restaurants to adapt to market changes and customer demands without interference.</p>
+      </div>
+    </div>
+    
+  </div>
+
+  <!-- Learn More -->
+  <div class="container text-center my-5">
+      <h1>Want to know the Ingredients that Make Our Pizza App Stand Out?</h1>
+  
+      <div class="container my-5 why-choose-us-container">
+        <h2 class="text-center">FAQ`s</h2>
+    
+        
+          
+            <h4>What is your online food ordering system, and how does it benefit my restaurant?</h4>
+            <p>Our online food ordering system is a robust platform designed to streamline the ordering process for restaurants. It benefits your establishment by expanding your reach to a wider customer base, increasing order accuracy, reducing operational complexities, and enhancing customer convenience, leading to improved sales and customer satisfaction.</p>
+          
+          
+            <h4>Is your system customizable to fit the unique needs of my restaurant?</h4>
+            <p>Yes, our system is highly customizable. We understand that each restaurant has unique requirements. Our platform allows for customization in menu layout, item categorization, pricing, promotions, and branding to align perfectly with your restaurant`s identity and specific needs.</p>
+          
+          
+            <h4>How does the ordering process work for customers using this system?</h4>
+            <p>Customers using our system can easily browse through your restaurant`s menu, select items, customize orders as desired, add to cart, and proceed to checkout seamlessly. The intuitive interface simplifies the process, ensuring a user-friendly and efficient ordering experience.</p>
+          
+          
+            <h4>What types of payment methods are supported by your system?</h4>
+            <p>Our system supports a variety of payment methods including credit/debit cards, digital wallets, and cash on delivery, offering flexibility for customers to choose their preferred payment option</p>
+          
+          
+            <h4>Can I integrate this system with my existing website or mobile app?</h4>
+            <p>Yes, our system offers seamless integration with your existing website or mobile app. This integration ensures a consistent and unified user experience across all platforms.</p>
+
+            <h4>How secure is the payment process for both my restaurant and customers?</h4>
+            <p>Security is a top priority. Our system employs robust encryption and industry-standard security protocols to ensure that all transactions are secure for both your restaurant and your customers, safeguarding sensitive information.</p>
+
+            <h4>Do you offer analytics or reporting features to track orders and customer data?</h4>
+            <p>Yes, our system provides comprehensive analytics and reporting features. Track order trends, customer preferences, sales data, and more. This data-driven insight aids in making informed business decisions.</p>
+
+            <h4>Are there any setup fees or ongoing costs associated with using your system?</h4>
+            <p>We offer flexible pricing plans tailored to your restaurant`s needs. There might be setup fees depending on the plan chosen, and ongoing costs will vary based on the services and features selected.</p>
+
+            <h4>Is there a contract or commitment required to use your online ordering system?</h4>
+            <p>Yes, we usually have a service agreement outlining the terms and conditions of using our system, though the specifics can be discussed based on your preferences and requirements.</p>
+
+            <h4>How can I ensure my restaurant`s branding and identity are reflected in the online ordering process?</h4>
+            <p>Our system allows for extensive customization, ensuring that your restaurant`s branding, logo, color schemes, and overall identity are prominently featured throughout the ordering process, providing a consistent brand experience.</p>
+
+            <h4>Is the system compatible with different devices such as tablets, smartphones, etc.?</h4>
+            <p>Absolutely, our system is designed to be compatible with various devices, including tablets, smartphones, desktops, and more, ensuring accessibility for both your customers and your staff.</p>
+
+          
+        </div>
+
+  </div>
+
+  <!DOCTYPE html>
+<html lang="en">
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Dental Billing Services -->
+            <div class="col-lg-6">
+                <h4 class="text-uppercase mb-4">Our Medical & Dental Billing Services</h4>
+                <ul class="list-group list-group-flush bg-dark">
+                    <li class="list-group-item bg-dark text-white">Insurance Eligibility Verification</li>
+                    <li class="list-group-item bg-dark text-white">Insurance Billing and AR/Collection</li>
+                    <li class="list-group-item bg-dark text-white">Patient Follow-ups/Fill the Chair</li>
+                    <li class="list-group-item bg-dark text-white">Appointment Scheduling</li>
+                    <li class="list-group-item bg-dark text-white">Appointment Confirmation</li>
+                    <li class="list-group-item bg-dark text-white">Inbound and Outbound Calls</li>
+                </ul>
+            </div>
+            <!-- Contact Details -->
+            <div id="contact" class="col-lg-6">
+                <h4 class="text-uppercase mb-4">Contact Details</h4>
+                <div class="d-flex flex-column align-items-start">
+                    <div class="mb-3">
+                        <h5>USA, Texas</h5>
+                        <p class="text-white">827 Overdell Dr Sugarland TX 77479<br>
+                            +18015574513</p>
+                    </div>
+                    <div class="mb-3">
+                        <h5>Email</h5>
+                        <p><a href="mailto:info@itretina.com" class="text-white">info@itretina.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="text-center bg-white text-dark">
+                <p class="mb-0">Copyright © 2023 ITRetina. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+</html>    </body>
+    
+</html>

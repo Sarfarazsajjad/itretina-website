@@ -24,7 +24,7 @@
     <div class="row align-items-center">
       <div class="col-md-6">
         <div class="custom-img-container">
-          <img src="assets/images/pizza-app.jpeg" alt="Cloud Services" class="img-fluid">
+          <img src="{{ $page->baseUrl }}/assets/images/pizza-app.jpeg" alt="Cloud Services" class="img-fluid">
         </div>
       </div>
       <div class="col-md-6">
