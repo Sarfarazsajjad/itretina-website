@@ -81,6 +81,6 @@ networking configurations. Your IT needs are efficiently managed.',
     </div>
 </div>
 
-@include('_partials.it-footer')
+@include('_partials.footer')
 
 @endsection

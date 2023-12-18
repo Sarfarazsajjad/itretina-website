@@ -117,5 +117,5 @@ of the way, ensuring you make the most of your ERP system and achieve your goals
 
     </div>
 </div>
-@include('_partials.it-footer')
+@include('_partials.footer')
 @endsection

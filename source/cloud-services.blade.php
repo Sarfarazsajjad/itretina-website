@@ -92,6 +92,6 @@ with confidence in our capable hands.',
 
     </div>
 </div>
-@include('_partials.it-footer')
+@include('_partials.footer')
 
 @endsection

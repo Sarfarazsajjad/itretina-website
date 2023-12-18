@@ -87,6 +87,6 @@ serves its customers, ensuring satisfaction with each bite.',
     </div>
 </div>
 
-@include('_partials.it-footer')
+@include('_partials.footer')
 
 @endsection

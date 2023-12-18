@@ -92,6 +92,6 @@ visually appealing but also highly intuitive and responsive.',
     </div>
 </div>
 
-@include('_partials.it-footer')
+@include('_partials.footer')
 
 @endsection

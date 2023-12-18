@@ -56,5 +56,5 @@ valuable data, empowering you with the insights needed for informed, strategic d
     </div>
 </div>
 
-@include('_partials.it-footer')
+@include('_partials.footer')
 @endsection

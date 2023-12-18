@@ -29,24 +29,9 @@
         we`re shaping a future where software is synonymous with progress, positive change, and limitless possibilities.'])
 
 
-        <!-- our story -->
-
-        @include('_partials.center-text-heading',
-        ['title' => 'Birth of ITRetina',
-        'desc' => 'In the early days of my career, I started at a small call center post-graduation. They didn`t have much work, so I 
-        used my skills to craft a website for them. Meanwhile, the digital world was booming with Twitter and Facebook. Inspired, I began 
-        my own projects mirroring these platforms. They offered me shares, but it fell through. Quietly, I started looking elsewhere. 
-        Luckily, I found a promising local startup and leaped into that world, leaving the call center for a more stable position. Saving 
-        from that job, I bought an office space. I brought in young talents and fresh graduates, creating a space where skills and new 
-        tech converged. Together, we learned, trained, and tackled projects. But it wasn`t easy. Resources were scarce, and time 
-        management was a puzzle, especially working nights while juggling a day job. We had to build our network from scratch, investing 
-        time in training and balancing multiple responsibilities. We shifted offices multiple times, facing challenges that tested our 
-        resilience. Despite the hurdles, we persisted. Gradually, we started landing clients from the UK and corporate projects, even as 
-        some team members came and went. Our goal remained steady: building our expertise and products. With more investor support and 
-        resources, we keep moving forward, committed to growth amidst the ongoing journey.'])
 
 
 
 <!-- Footer -->
-@include('_partials.it-footer')
+@include('_partials.footer')
     @endsection

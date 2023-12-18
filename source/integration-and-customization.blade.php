@@ -88,6 +88,6 @@ services focus on optimizing user experiences and process efficiency.',
 
 
 <!-- Footer -->
-@include('_partials.it-footer')
+@include('_partials.footer')
 
 @endsection

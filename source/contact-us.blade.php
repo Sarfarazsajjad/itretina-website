@@ -26,7 +26,7 @@
             <div class="mb-3">
               <h5>Pakistan, Karachi</h5>
               <p>
-                R-43, block 7, Gulshan-e-Johar<br />
+                <br />
                 +923132604692
               </p>
             </div>
@@ -43,5 +43,5 @@
 
 
 <!-- Footer -->
-@include('_partials.it-footer')
+@include('_partials.footer')
     @endsection
