@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'production' => true,
+    'production' => false,
     // 'baseUrl' => 'https://maxsamnani.github.io/php-jigsaw',
     'baseUrl' => 'https://itretina.com',
     //'baseUrl' =>'',
