@@ -1,8 +1,10 @@
 <?php
 
 return [
-    'production' => false,
-    'baseUrl' => '',
+    'production' => true,
+    // 'baseUrl' => 'https://maxsamnani.github.io/php-jigsaw',
+    'baseUrl' => 'https://itretina.com',
+    //'baseUrl' =>'',
     'title' => 'ITRetina',
     'year' => '2023',
     'description' => 'Website description.',
