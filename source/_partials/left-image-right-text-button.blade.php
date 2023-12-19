@@ -9,7 +9,7 @@
             <h2>{{$cardHeading1}}</h2>
             <p>{{$desc}}</p>
             <div class="text-center mt-3">
-                <a href={{$buttonLink}} class="btn btn-primary">{{$buttonText}}</a>
+                <a href='{{ $page->baseUrl }}/{{$buttonLink}}' class="btn btn-primary">{{$buttonText}}</a>
             </div>
         </div>
     </div>

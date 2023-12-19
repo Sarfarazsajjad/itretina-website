@@ -18,13 +18,13 @@
 @include('_partials.right-image-left-text',
 ['cardHeading1' => 'Migrating in-house IT infrastructure to the cloud.',
 'desc' => 'We specialize in seamlessly moving your in-house IT infrastructure
-to leading cloud platforms, including AWS, Amazon`s cloud platform, Azure by 
+to leading cloud platforms, including AWS, Amazon`s cloud platform, Azure by
 Microsoft,and Google Cloud Platform GCP. Our expert team creates a
 customized migration plans for each platform, ensuring a smooth transition of your
 data, applications, and workloads. This process minimizes
-disruptions and maximizes the the scalability and security benefits of each 
-cloud provider. Whether you choose AWS, Azure, or GCP, we enable you to 
-increase agility, reduce costs, and embrace the future of cloud computing 
+disruptions and maximizes the the scalability and security benefits of each
+cloud provider. Whether you choose AWS, Azure, or GCP, we enable you to
+increase agility, reduce costs, and embrace the future of cloud computing
 with confidence in our capable hands.',
 'image'=>'assets/images/cloud.jpg',
 'imageAlt'=>'Cloud Services'])
@@ -37,8 +37,8 @@ with confidence in our capable hands.',
         <!-- Added justify-content-lg-center -->
         <!-- Tailored AWS experience -->
         @include('_partials.what-set-us-apart',['cardTitle' => 'Tailored Cloud Experience','desc'=>
-        'We specialize in AWS, Azure, and GCP to optimize your cloud migration. 
-        Maximize benefits, from cost-efficiency on AWS to seamless integration 
+        'We specialize in AWS, Azure, and GCP to optimize your cloud migration.
+        Maximize benefits, from cost-efficiency on AWS to seamless integration
         with Azure and advanced analytics on GCP.'])
         <!-- Proactive problem solving -->
         @include('_partials.what-set-us-apart',['cardTitle' => 'Proactive Problem Solving','desc'=>
@@ -63,9 +63,9 @@ with confidence in our capable hands.',
         <!-- Feature 1 -->
         @include('_partials.dental-features',
         ['heading' => 'Cloud Mitigation',
-        'desc'=>'Elevate your business by migrating to Google Cloud Platform 
-        (GCP), Microsoft Azure, and Amazon Web Services (AWS). Our experts 
-        ensure a seamless transition, boosting scalability, flexibility, and 
+        'desc'=>'Elevate your business by migrating to Google Cloud Platform
+        (GCP), Microsoft Azure, and Amazon Web Services (AWS). Our experts
+        ensure a seamless transition, boosting scalability, flexibility, and
         cost-efficiency for your organization.',
         'icon'=>'bi-cloud-check-fill'])
 
