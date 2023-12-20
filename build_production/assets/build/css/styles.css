@@ -233,3 +233,20 @@ p {
     .dropdown-menu > li:hover > .dropdown-submenu {
     display: block !important;
     }
+
+    .mobile-hide {
+        display: block;
+    }
+    .mobile-show {
+        display: none;
+    }
+/* Mobile Screen */
+
+@media screen and (max-width: 600px) {
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-show {
+        display: block;
+    }
+}
