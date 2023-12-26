@@ -16,14 +16,14 @@
 
 
 <!-- Cloud Services Section -->
-<div class="container my-5">
+<!-- <div class="container my-5">
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="custom-img-container">
                 <img src="{{ $page->baseUrl }}/assets/cs12.jpg" alt="Cloud Services" class="img-fluid">
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 text-center">
             <h2>Crafting Burger Perfection</h2>
             <p>The `Burger App` is a dynamic mobile application, crafted using Flutter, aimed at empowering restaurant
                 proprietors to
@@ -49,12 +49,38 @@
                     computer.
                 </li>
                 <li><strong>Quick and Easy Ordering: </strong>Enjoy effortless order management at your fingertips. Say
-                    goodbye to order-related headaches with swift and accurate order processing.li>
+                    goodbye to order-related headaches with swift and accurate order processing.<li>
             </ul>
 
         </div>
     </div>
-</div>
+</div> -->
+
+@include('_partials.left-image-right-text-list',
+['cardHeading1' => 'Crafting Burger Perfection',
+'desc' => 'The `Burger App` is a dynamic mobile application, crafted using Flutter, aimed at empowering restaurant
+                proprietors to
+                efficiently handle their menu and orders across various digital platforms. Supported by a resilient
+                Node.js
+                backend,
+                fortified with the prowess of TypeScript and TypeORM, it simplifies data management, ensuring a smooth
+                and
+                hassle-free
+                experience. In addition, our `Burger App` admin panel website, constructed with Angular and HTML, offers
+                an
+                instinctive interface for restaurant owners to seamlessly oversee menu items and orders, guaranteeing a
+                user-friendly
+                and efficient experience for their valued customers.',
+'cardHeading2'=>'Key Highlights:',
+'listItem1'=>'<strong>Real-Time Order Tracking: </strong>Customers can track the status of their pizza orders in
+                    real-time, providing transparency and reassurance about the delivery process.',
+'listItem2'=>'<strong> Multi-Platform Compatibility: </strong>The app is accessible across multiple platforms,
+                    making it
+                    easy for customers to order from their preferred devices, whether it`s a smartphone, tablet, or
+                    computer.',
+'listItem3'=>'<strong>Quick and Easy Ordering: </strong>Enjoy effortless order management at your fingertips. Say
+                    goodbye to order-related headaches with swift and accurate order processing.',
+'image'=>'assets/cs12.jpg','imageAlt'=>'Burger App'])
 
 <div class="container my-5 why-choose-us-container">
     <h2 class="text-center">Why Choose Our Burger App?</h2>

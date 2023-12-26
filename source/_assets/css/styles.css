@@ -171,7 +171,7 @@ address {
 
 .custom-img-container img {
     width: 100%;
-    height: 100%;
+    height: auto;
     object-fit: cover;
     border-radius: 15px;
     /* Round the corners of the image */
@@ -247,3 +247,52 @@ p {
           font-size: 3.5rem;
         }
       }
+
+      
+    .mobile-hide {
+        display: block;
+    }
+    .mobile-show {
+        display: none;
+    }
+/* Mobile Screen */
+
+@media screen and (max-width: 600px) {
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-show {
+        display: block;
+    }
+    /* Additional Safari-specific styles */
+    @supports (-webkit-marquee-repetition:infinite) {
+        /* Your Safari-specific styles here */
+        .custom-img-container img {
+            width: 100%;
+            height: auto;
+            -o-object-fit: cover;
+               object-fit: cover;
+            border-radius: 15px;
+            /* Round the corners of the image */
+        }
+        
+    }
+}
+
+/* iPhone SE 2020 */
+@media only screen and (min-width: 375px) and (orientation: portrait)
+{ /* Your Styles... */  
+    .mobile-hide {
+        display: none;
+    }
+    .mobile-show {
+        display: block;
+    }
+    .custom-img-container img {
+        width: 100%;
+        height: auto;
+        -o-object-fit: cover;
+           object-fit: cover;
+        border-radius: 15px;
+    }
+}

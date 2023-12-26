@@ -22,7 +22,7 @@
                     <img src='{{ $page->baseUrl }}/{{$image}}' alt={{$imageAlt}} class="img-fluid">
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 text-center">
                 <h3 class="text-muted">{{$cardHeading1}}</h3>
                 <h2 class="font-weight-bold">{{$cardHeading2}}</h2>
                 <p>{{$desc}}</p>
