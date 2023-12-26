@@ -249,6 +249,11 @@ p {
     .mobile-show {
         display: block;
     }
+    .dropdown-menu .dropdown-submenu {
+        position: absolute !important;
+        left: 0% !important;
+        top: 30px !important;
+    }
     /* Additional Safari-specific styles */
     @supports (-webkit-marquee-repetition:infinite) {
         /* Your Safari-specific styles here */
@@ -260,7 +265,11 @@ p {
             border-radius: 15px;
             /* Round the corners of the image */
         }
-        
+        .dropdown-menu .dropdown-submenu {
+            position: absolute !important;
+            left: 0% !important;
+            top: 30px !important;
+        }
     }
 }
 
