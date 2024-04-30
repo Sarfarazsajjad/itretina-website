@@ -40,7 +40,7 @@ effortlessly place orders, customize their pizzas to perfection, and ensure a se
 integrating our Pizza App, your restaurant can enhance customer satisfaction, boost efficiency, and stay ahead
 of
 the competition. Contact us today to revolutionize your pizza ordering experience.',
-'buttonLink'=>'work-in-progress',
+'buttonLink'=>'/services/it-products/pizza-app',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/pizza.jpg',
 'imageAlt'=>'Cloud Services'])

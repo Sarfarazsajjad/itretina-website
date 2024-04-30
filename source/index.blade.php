@@ -23,7 +23,7 @@
   enhancements, or an enterprise seeking digital transformation, our team of experienced developers is here to turn your
   vision into reality. We combine cutting-edge technology, industry best practices, and a client-centric approach to
   deliver scalable, secure, and innovative software solutions that drive your business forward.',
-'buttonLink'=>'software-development',
+'buttonLink'=>'services/software-development',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/software1.jpg',
 'imageAlt'=>'software development'])
@@ -36,7 +36,7 @@
 harnessing the power of information from diverse online sources. With a team of dedicated experts, we meticulously extract, transform, 
 and deliver valuable data to fuel your business strategies. Whether you need website scraping, data cleansing, or in-depth analysis we 
 will help you gather, analyze, and leverage data for insights and opportunities.',
-'buttonLink'=>'web-scrapping',
+'buttonLink'=>'services/web-scrapping',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/cloud2.jpg',
 'imageAlt'=>'Web Scrapping'])
@@ -48,7 +48,7 @@ will help you gather, analyze, and leverage data for insights and opportunities.
 a comprehensive suite of cutting-edge ERP services. We are committed to your success, dedicated to understanding your unique business 
 needs, and crafting ERP solutions that align perfectly with your processes. Navigate the ever-changing business landscape, implement the 
 right ERP system with the support and training you need to excel. Your journey to new heights begins here.',
-'buttonLink'=>'erp-next',
+'buttonLink'=>'services/erp-next',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/software1.jpg',
 'imageAlt'=>'ERP Next'])
@@ -62,7 +62,7 @@ from traditional infrastructure to the cloud, emphasizing scalability and effici
 optimize your
 resources, enhance efficiency, and provide ongoing support, enabling you to embrace the future of IT
 with confidence',
-'buttonLink'=>'cloud-services',
+'buttonLink'=>'services/cloud-services',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/cloud2.jpg',
 'imageAlt'=>'Cloud Services'])
@@ -79,7 +79,7 @@ with confidence',
                 your IT needs are efficiently managed, allowing your business operations to consistently perform at
                 their peak
                 potential.',
-'buttonLink'=>'it-support',
+'buttonLink'=>'services/it-support',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/support2.jpg',
 'imageAlt'=>'IT Support'])
@@ -99,7 +99,7 @@ with confidence',
                 processes
                 more efficient and
                 effective.',
-'buttonLink'=>'integration-and-customization',
+'buttonLink'=>'services/integration-and-customization',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/integration1.jpg',
 'imageAlt'=>'Integration and Customization'])
@@ -118,7 +118,7 @@ with confidence',
                 options
                 to suit
                 your unique needs',
-'buttonLink'=>'it-support',
+'buttonLink'=>'services/it-support',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/products.jpg',
 'imageAlt'=>'Our Products'])
@@ -126,7 +126,7 @@ with confidence',
 
 <!-- Testimonials Section -->
 <div class="container my-5">
-    <h2 class="text-center mb-4">What Our Clietns Say</h2>
+    <h2 class="text-center mb-4">What Our Clients Say</h2>
     <div class="row">
         <!-- Testimonial 1 -->
         <div class="col-lg-4 col-md-6 mb-4 text-center">
