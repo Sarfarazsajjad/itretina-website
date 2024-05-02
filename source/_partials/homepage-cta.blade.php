@@ -1,6 +1,5 @@
 <!-- Calls to Action -->
-<!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}">
+
 <div class="container cta-container">
     <div class="row">
         <!-- IT Services -->
@@ -28,4 +27,3 @@
         </div>
     </div>
 </div>
-</html>

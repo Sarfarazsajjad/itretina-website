@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}">
+
   <!-- Footer -->
   <footer class="bg-dark text-white py-5">
     <div class="container" style="text-align: center;">
@@ -43,4 +42,3 @@
       </div>
     </div>
   </footer>
-</html>
