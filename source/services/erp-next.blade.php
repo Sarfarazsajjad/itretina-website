@@ -1,10 +1,7 @@
 @extends('_layouts.main')
 
-<head>
+@section('title', 'ITRetina - ERP Next')
 
-    <title>ITRetina - ERP Next</title>
-
-</head>
 @section('body')
 <!-- Top Hero Section -->
 <div class="container text-center my-5 bg-light p-5 shadow-elevation">

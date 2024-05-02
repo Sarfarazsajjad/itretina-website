@@ -1,10 +1,7 @@
 @extends('_layouts.main')
 
-<head>
+@section('title', 'ITRetina - Integration and Customization')
 
-    <title>ITRetina - Integration and Customization</title>
-
-</head>
 @section('body')
 
 <!-- Top Hero Section -->

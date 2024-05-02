@@ -1,4 +1,5 @@
 @extends('_layouts.main')
+@section('title', 'ITRetina')
 @section('body')
 <!-- Header Section: Introduction to IT Services -->
 <div class="container my-5">

@@ -1,4 +1,7 @@
 @extends('_layouts.main')
+
+@section('title', 'ITRetina - Burger App')
+
 @section('body')
 <!-- Hero Section -->
 <div class="container text-center my-5">

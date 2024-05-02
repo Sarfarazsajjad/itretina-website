@@ -6,7 +6,7 @@
         <link rel="canonical" href="{{ $page->getUrl() }}">
         <meta name="description" content="{{ $page->description }}">
         <meta name="google-site-verification" content="9UJ4lIzdRtIUsxAsTRdb8cD_UXL3rM7Piuy0PE6QNjI">
-        <title>{{ $page->title }}</title>
+        <title>@yield('title')</title>
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
