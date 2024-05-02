@@ -2,7 +2,7 @@
   <!-- Footer -->
   <footer class="bg-dark text-white py-5">
     <div class="container" style="text-align: center;">
-      <h4 class="text-uppercase mb-4" align="center">Contact Details</h4>
+      <h4 class="text-uppercase mb-4" style="text-align: center;">Contact Details</h4>
       <div class="row">
         <div class="col-lg-6">
           <div class="d-flex flex-column">

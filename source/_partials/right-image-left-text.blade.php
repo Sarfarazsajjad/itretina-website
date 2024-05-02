@@ -6,7 +6,7 @@
         </div>
         <div class="col-md-6">
             <div class="custom-img-container">
-                <img src='{{ $page->baseUrl }}/{{$image}}' alt={{$imageAlt}} class="img-fluid">
+                <img src='{{ $page->baseUrl }}/{{$image}}' alt='{{$imageAlt}}' class="img-fluid">
             </div>
         </div>
     </div>
@@ -16,7 +16,7 @@
     <div class="row align-items-center">
     <div class="col-md-6">
             <div class="custom-img-container">
-                <img src='{{ $page->baseUrl }}/{{$image}}' alt={{$imageAlt}} class="img-fluid">
+                <img src='{{ $page->baseUrl }}/{{$image}}' alt='{{$imageAlt}}' class="img-fluid">
             </div>
         </div>
         <div class="col-md-6 text-center">
