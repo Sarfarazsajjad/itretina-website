@@ -9,7 +9,7 @@
             <div class="mb-3">
               <h5>USA, Texas</h5>
               <p class="text-white">
-                827 Overdell Dr Sugarland TX 77479<br />
+                827 Overdell Dr Sugarland TX 77479<br>
                 +18015574513
               </p>
             </div>
@@ -20,7 +20,7 @@
             <div class="mb-3">
               <h5>Pakistan, Karachi</h5>
               <p class="text-white">
-                R-43, block 7, Gulshan-e-Johar<br />
+                R-43, block 7, Gulshan-e-Johar<br>
                 +923132604692
               </p>
             </div>
