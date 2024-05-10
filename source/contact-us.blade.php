@@ -1,9 +1,7 @@
 @extends('_layouts.main')
-<head>
 
-    <title>ITRetina - Contact Us</title>
+@section('title', 'ITRetina - Contact Us')
 
-</head>
 @section('body')
 
 <!-- Contact Details Section -->
@@ -15,7 +13,7 @@
             <div class="mb-3">
               <h5>USA, Texas</h5>
               <p>
-                827 Overdell Dr Sugarland TX 77479<br />
+                827 Overdell Dr Sugarland TX 77479<br>
                 +18015574513
               </p>
             </div>
@@ -26,7 +24,7 @@
             <div class="mb-3">
               <h5>Pakistan, Karachi</h5>
               <p>
-                <br />
+                <br>
                 +923132604692
               </p>
             </div>

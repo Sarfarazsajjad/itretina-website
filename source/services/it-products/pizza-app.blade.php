@@ -1,8 +1,7 @@
 @extends('_layouts.main')
 
-<head>
-    <title>ITRetina - Pizza App</title>
-</head>
+@section('title', 'ITRetina - Pizza App')
+
 @section('body')
 
 <!-- Hero Section -->

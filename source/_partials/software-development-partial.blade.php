@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}">
+
 
 <!-- Our Software Development Services Section -->
 <div class="container my-5">
@@ -49,4 +48,3 @@
       </div>
     </div>
   </div>
-  </html>

@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}">
+
 
 <div class="container my-5">
     <h2 class="text-center mb-4">Our Dental Billing Services</h2>
@@ -51,5 +50,3 @@
         </div>
     </div>
 </div>
-
-</html>

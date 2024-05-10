@@ -1,9 +1,7 @@
 @extends('_layouts.main')
-<head>
 
-    <title>ITRetina - IT Services</title>
+@section('title', 'ITRetina - IT Services')
 
-</head>
 @section('body')
 <!-- Our Mission -->
 

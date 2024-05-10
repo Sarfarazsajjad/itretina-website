@@ -1,6 +1,5 @@
 <!-- Calls to Action -->
-<!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}">
+
         <!-- IT Services -->
         <div class="col-md-6 mb-4">
             <div class="card shadow-elevation">
@@ -11,4 +10,3 @@
                 </div>
             </div>
         </div> 
-</html>

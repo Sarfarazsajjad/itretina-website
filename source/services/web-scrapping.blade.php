@@ -1,8 +1,6 @@
 @extends('_layouts.main')
 
-<head>
-    <title>ITRetina - Web Scrapping and Data Collection</title>
-</head>
+@section('title', 'ITRetina - Web Scrapping and Data Collection')
 @section('body')
 
 <!-- Top Hero Section -->

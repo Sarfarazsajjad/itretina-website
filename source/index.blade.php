@@ -1,4 +1,5 @@
 @extends('_layouts.main')
+@section('title', 'ITRetina')
 @section('body')
 <!-- Header Section: Introduction to IT Services -->
 <div class="container my-5">
@@ -21,7 +22,7 @@
 'buttonLink'=>'services/software-development',
 'buttonText'=>'Get More Info',
 'image'=>'assets/images/software1.jpg',
-'imageAlt'=>'software development'])
+'imageAlt'=>'Software Development'])
 
 
 <!-- Web Scrapping -->

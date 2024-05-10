@@ -1,9 +1,8 @@
 @extends('_layouts.main')
-<head>
-    <title>Work in Progress - ITRetina</title>
-</head>
-@section('body')
 
+@section('title', 'ITRetina - Work in Progress')
+
+@section('body')
     <div class="container text-center my-5">
         <h1 class="display-4">Work in Progress</h1>
         <p class="lead">This section of our website is currently under construction.</p>

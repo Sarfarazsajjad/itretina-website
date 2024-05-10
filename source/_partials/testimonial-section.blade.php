@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="{{ $page->language ?? 'en' }}">
 <!-- Testimonials Section -->
 <div class="container my-5">
     <h2 class="text-center mb-4">What Our Clients Say</h2>
@@ -31,4 +29,3 @@
         </div>
     </div>
 </div>
-</html>
