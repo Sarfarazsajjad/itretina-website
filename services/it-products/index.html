@@ -1,8 +1,3 @@
-<head>
-
-    <title>ITRetina - IT Products</title>
-
-</head>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -10,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="canonical" href="https://itretina.com/services/it-products">
         <meta name="description" content="IT Support Services and Software Development.">
-        <meta name="google-site-verification" content="9UJ4lIzdRtIUsxAsTRdb8cD_UXL3rM7Piuy0PE6QNjI" />
-        <title>ITRetina</title>
+        <meta name="google-site-verification" content="9UJ4lIzdRtIUsxAsTRdb8cD_UXL3rM7Piuy0PE6QNjI">
+        <title>ITRetina - IT Products</title>
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -37,12 +32,16 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet" />
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     </head>
-    <header>
-        <!DOCTYPE html>
-<html lang="en">
-<header>
+
+   
+    <body class="text-gray-900 font-sans antialiased">
+        <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-562JNHZJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+        <header>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light shadow-elevation">
         <div class="container">
@@ -98,104 +97,6 @@
         </div>
     </nav>
 </header>
-
-</html>    </header>
-    <script>
-    let particles = [];
-    const particleCount = 200;
-
-    function setup() {
-        let canvas = createCanvas(windowWidth, windowHeight);
-        canvas.parent('p5-canvas-container');
-        for (let i = 0; i < particleCount; i++) {
-            particles.push(new Particle());
-        }
-    }
-
-    function windowResized() {
-        resizeCanvas(windowWidth, windowHeight);
-    }
-
-    function draw() {
-        let gradientColorTop = color(173, 216, 230);
-        let gradientColorBottom = color(240, 248, 255);
-        setGradient(gradientColorTop, gradientColorBottom);
-        for (let particle of particles) {
-            particle.update();
-            particle.display();
-        }
-    }
-
-    class Particle {
-        constructor() {
-            this.pos = createVector(random(width), random(height));
-            this.vel = createVector(random(-0.5, 0.5), random(-0.5, 0.5));
-            this.acc = createVector();
-            this.r = 2;
-        }
-
-        update() {
-            this.vel.add(this.acc);
-            this.pos.add(this.vel);
-            this.acc.mult(0.2);
-            this.edges();
-        }
-
-        display() {
-            noStroke();
-            fill(255);
-            ellipse(this.pos.x, this.pos.y, this.r * 2);
-
-            for (let particle of particles) {
-                let d = dist(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
-                if (d < 100) {
-                    stroke(255, 50);
-                    line(this.pos.x, this.pos.y, particle.pos.x, particle.pos.y);
-                }
-            }
-        }
-
-        edges() {
-            if (this.pos.x < 0 || this.pos.x > width) {
-                this.vel.x *= -1;
-            }
-
-            if (this.pos.y < 0 || this.pos.y > height) {
-                this.vel.y *= -1;
-            }
-        }
-
-        interact() {
-            let d = dist(this.pos.x, this.pos.y, mouseX, mouseY);
-            if (d < 150) {
-                let force = createVector((this.pos.x - mouseX) * 0.002, (this.pos.y - mouseY) * 0.002);
-                this.acc.add(force);
-            }
-        }
-    }
-
-    function setGradient(gradientColorTop, gradientColorBottom) {
-        noFill();
-        for (let i = 0; i <= height; i++) {
-            let inter = map(i, 0, height, 0, 1);
-            let c = lerpColor(gradientColorTop, gradientColorBottom, inter);
-            stroke(c);
-            line(0, i, width, i);
-        }
-    }
-
-    function mouseMoved() {
-        for (let particle of particles) {
-            particle.interact();
-        }
-        return false; // prevent default
-    }
-</script>
-    <body class="text-gray-900 font-sans antialiased">
-        <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-562JNHZJ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
         
 <!-- Top Hero Section -->
 <div class="container text-center my-5 bg-light p-5 shadow-elevation">
@@ -218,7 +119,7 @@ hire their preferred technical experts.</p>
         </div>
         <div class="col-md-6">
             <div class="custom-img-container">
-                <img src='https://itretina.com/assets/images/software.jpg' alt=IT Support class="img-fluid">
+                <img src='https://itretina.com/assets/images/software.jpg' alt='IT Support' class="img-fluid">
             </div>
         </div>
     </div>
@@ -228,7 +129,7 @@ hire their preferred technical experts.</p>
     <div class="row align-items-center">
     <div class="col-md-6">
             <div class="custom-img-container">
-                <img src='https://itretina.com/assets/images/software.jpg' alt=IT Support class="img-fluid">
+                <img src='https://itretina.com/assets/images/software.jpg' alt='IT Support' class="img-fluid">
             </div>
         </div>
         <div class="col-md-6 text-center">
@@ -251,7 +152,7 @@ hire their preferred technical experts.</p>
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="custom-img-container">
-                <img src='https://itretina.com/assets/images/pizza.jpg' alt=Cloud Services class="img-fluid">
+                <img src='https://itretina.com/assets/images/pizza.jpg' alt='Cloud Services' class="img-fluid">
             </div>
         </div>
         <div class="col-md-6">
@@ -274,7 +175,7 @@ the competition. Contact us today to revolutionize your pizza ordering experienc
     <div class="row align-items-center">
         <div class="col-md-6">
             <div class="custom-img-container">
-                <img src='https://itretina.com/assets/images/pizza.jpg' alt=Cloud Services class="img-fluid">
+                <img src='https://itretina.com/assets/images/pizza.jpg' alt='Cloud Services' class="img-fluid">
             </div>
         </div>
         <div class="col-md-6 text-center">
@@ -309,7 +210,7 @@ serves its customers, ensuring satisfaction with each bite.</p>
         </div>
         <div class="col-md-6">
             <div class="custom-img-container">
-                <img src='https://itretina.com/assets/images/billing-image-2.jpeg' alt=IT Support class="img-fluid">
+                <img src='https://itretina.com/assets/images/billing-image-2.jpeg' alt='IT Support' class="img-fluid">
             </div>
         </div>
     </div>
@@ -319,7 +220,7 @@ serves its customers, ensuring satisfaction with each bite.</p>
     <div class="row align-items-center">
     <div class="col-md-6">
             <div class="custom-img-container">
-                <img src='https://itretina.com/assets/images/billing-image-2.jpeg' alt=IT Support class="img-fluid">
+                <img src='https://itretina.com/assets/images/billing-image-2.jpeg' alt='IT Support' class="img-fluid">
             </div>
         </div>
         <div class="col-md-6 text-center">
@@ -379,19 +280,17 @@ serves its customers, ensuring satisfaction with each bite.</p>
     </div>
 </div>
 
-<!DOCTYPE html>
-<html lang="en">
-  <!-- Footer -->
+<!-- Footer -->
   <footer class="bg-dark text-white py-5">
     <div class="container" style="text-align: center;">
-      <h4 class="text-uppercase mb-4" align="center">Contact Details</h4>
+      <h4 class="text-uppercase mb-4" style="text-align: center;">Contact Details</h4>
       <div class="row">
         <div class="col-lg-6">
           <div class="d-flex flex-column">
             <div class="mb-3">
               <h5>USA, Texas</h5>
               <p class="text-white">
-                827 Overdell Dr Sugarland TX 77479<br />
+                827 Overdell Dr Sugarland TX 77479<br>
                 +18015574513
               </p>
             </div>
@@ -418,7 +317,7 @@ serves its customers, ensuring satisfaction with each bite.</p>
       </div>
     </div>
   </footer>
-</html>
+
     </body>
     
 </html>
