@@ -8,7 +8,7 @@
 <div class="container my-5">
       <h1 class="text-center mb-4">Reach Us At</h1>
       <div class="row">
-        <div class="col-lg-6">
+        <!-- <div class="col-lg-6">
           <div class="d-flex flex-column">
             <div class="mb-3">
               <h5>USA, Texas</h5>
@@ -18,7 +18,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-lg-6">
           <div class="d-flex flex-column ">
             <div class="mb-3">

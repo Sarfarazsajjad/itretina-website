@@ -4,7 +4,7 @@
     <div class="container" style="text-align: center;">
       <h4 class="text-uppercase mb-4" style="text-align: center;" >Contact Details</h4>
       <div class="row">
-        <div class="col-lg-6">
+        <!-- <div class="col-lg-6">
           <div class="d-flex flex-column">
             <div class="mb-3">
               <h5>USA, Texas</h5>
@@ -14,7 +14,7 @@
               </p>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="col-lg-6">
           <div class="d-flex flex-column ">
             <div class="mb-3">
