@@ -22,6 +22,9 @@
         <link rel="stylesheet" href="{{ mix('styles/styles.css', '/assets/build') }}">
         <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/build/css/styles.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
         <!-- Include Bootstrap JavaScript -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -33,7 +36,21 @@
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
         crossorigin="anonymous"></script>
        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
-    </head>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="assets/js/wow.js"></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <script src="assets/js/tab-sliders.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
+        <script src="assets/js/wow.js "></script>
+        <script src="assets/js/custom.js "></script>
+        <script src="assets/js/bootstrap.bundle.min.js "></script>
+        <script src="assets/js/bootstrap.min.js "></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js "></script>
+        <script src="https://kit.fontawesome.com/c5e5090d10.js " crossorigin="anonymous "></script>
+        </head>
 
    
     <body class="text-gray-900 font-sans antialiased">
@@ -41,8 +58,11 @@
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-562JNHZJ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-        @include('_partials.header')
-        @yield('body')
+@include('_partials.nav')
+@yield('body')
+@include('_partials.footer')
+
     </body>
     
 </html>
+<body>

@@ -1,34 +1,101 @@
-<!-- Footer -->
-<footer class="bg-dark text-white py-5">
-  <div class="container text-center">
-    <h4 class="text-uppercase mb-4">Contact Details</h4>
-        <!-- <div class="col-lg-6">
-          <div class="d-flex flex-column">
-            <div class="mb-3">
-              <h5>USA, Texas</h5>
-              <p class="text-white">
-                827 Overdell Dr Sugarland TX 77479<br>
-                +18015574513
-              </p>
+<footer class="main-footer-content">
+        <div class="container">
+            <div class="footer-content-holder">
+                <div class="footer-start footer-logo">
+                    <h1>
+                        <span>IT</span>Retina
+                    </h1>                                 
+                     <h4>Company</h4>
+                    <ul>
+                        <li><a href="./about-us.html">About us</a></li>
+                        <li><a href="./contact-us.html">Contact us</a></li>
+                    </ul>
+                    <div class="footer-follows">
+                        <h4>Follow Us</h4>
+                        <div class="follows-logos">
+                            <!-- <a href="#"><img src="assets/images/whatsapp-icon.svg" alt /></a> -->
+                            <a href="#"> <img src="assets/images/facebook-icon.svg" alt /></a>
+                            <a href="#"><img src="assets/images/instagram-icon.svg" alt /></a>
+                            <a href="#"><img src="assets/images/linkedin-icon.svg" alt /></a>
+                            <a href="#"> <img src="assets/images/youtube-icon.svg" alt /></a>
+                            <a href="#"> <img src="assets/images/twitter-icon.svg" alt /></a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="footer-link">
+                    <h3>Services</h3>
+                    <ul>
+                        <li> <a href="/mobile-app-development.html">Software Development</a></li>
+                        <li> <a href="/android-app-development.html">Web Scrapping and Data Solution</a></li>
+                        <li><a href="/iphone-app-development.html">
+                            ERP Next</a></li>
+                        <li> <a href="/flutter-app-development.html">
+                            Cloud Services
+                        </a></li>
+                        <li><a href="/react-native-app-development.html">
+                            IT Support </a></li>
+                        <li><a href="/custom-software-development.html">Integration and Customization</a></li>
+                       
+
+                    </ul>
+                    <!-- <div class="footer-see-more">
+                    <a href="#">see more</a>
+                </div> -->
+
+                </div>
+        
+                <div class="footer-visit">
+                    <h2>Visit Us</h2>
+                    <p class="mb-0">If you prefer face-to-face interaction, feel free to visit our office. Our doors are always open to welcome you. Here's where you can find us:
+                    </p>
+                    
+                    <div class="footer-address">
+                        <div class="karachi">
+                            <h3>USA, Texas
+                            </h3>
+                            <p>827 Overdell Dr Sugarland TX 77479
+                            </p>
+                            <h3>Phone No
+                            </h3>
+                            <p>+18015574513 </p>
+
+                            <h3>
+                                <a href="mailto:info@itretina.com">info@itretina.com</a>
+                            </p>                            <h3>Email Address</h3>
+                           
+
+
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-          </div>
         </div>
-         -->
-    <div class="row justify-content-center">
-      <div class="col-lg-6 d-flex justify-content-center">
-        <div class="d-flex flex-column text-center">
-          <div class="mb-3">
-            <h4>Email</h4>
-            <p><a href="mailto:info@itretina.com" class="text-white">info@itretina.com</a></p>
-          </div>
+
+        <div class="container">
+            <div class="footer-bottom">
+
+                <div class="bottom-start">
+                    <ul>
+                        <li>
+                            <!-- <a href="#">Terms & Conditions</a> -->
+                            <a href="privacy-policy.html">Privacy Policy</a>
+                            <!-- <a href="#">Site map</a> -->
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-end">
+                    <p>© 2024 ITRetina</p>
+                </div>
+
+            </div>
         </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="row mt-4">
-    <div class="col text-center bg-white text-dark">
-      <p class="mb-0">Copyright © {{ $page->year }} ITRetina. All rights reserved.</p>
-    </div>
-  </div>
-</footer>
+
+    </footer>
+
+    
