@@ -13,6 +13,8 @@ wow.init();
 
 
 
+
+
 $(window).scroll(function() {
   var scroll = $(window).scrollTop();
   if (scroll >= 200) {
@@ -14302,3 +14304,14 @@ var WOW = function () {
 exports.default = WOW;
 module.exports = exports['default'];
 });
+
+function openTab3(tabName3) {
+    document.querySelectorAll('.digital-media-content').forEach(function(content) {
+        content.classList.remove('active');
+    });
+    document.querySelectorAll('.digital-media-tab').forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+    document.getElementById(tabName3 + 'Content').classList.add('active');
+    document.querySelector('[onclick="openTab3(\'' + tabName3 + '\')"]').classList.add('active');
+}

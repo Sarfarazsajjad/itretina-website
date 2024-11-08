@@ -24,35 +24,74 @@
 'image'=>'assets/images/web1.jpg',
 'imageAlt'=>'Software Development'])
 
-<div class="container sw">
-            <h2 class="sec-title text-center" style="margin-top:30px;">What <span>Sets Us</span>  Apart?
-            </h2>
+@include('_partials.set-us-part', [
+        'heading' => 'What',
+        'subheading' => 'Sets Us Apart?',
 
-        </div>
 
-<div style="display:flex;">
-     
-    @include('_partials.set-us-part',
-    ['image'=>'assets/images/i.png',
-    'imageAlt'=>'Software Development',
-    'Cardheadingsetus1'=>' Expertise',
-    'cardparasetus' => 'Our team consists of highly skilled developers, designers, and project managers with extensive experience in the field. We are well-versed in various technologies and platforms, ensuring your project is in capable hands.',
+
+
+
+        'cards' => [
+            [
+                'image' => '/assets/images/i.png',
+                'title' => 'Expertise',
+                'description' => 'Our team consists of highly skilled developers, designers, and project managers with extensive experience in the field. We are well-versed in various technologies and platforms, ensuring your project is in capable hands.
+
+'
+            ],
+            [
+                'image' => '/assets/images/ii.png',
+                'title' => 'Custom Solutions',
+                'description' => 'We understand that one-size-fits-all solutions don`t work. Our approach is entirely tailored to your unique business needs. We closely collaborate with you to grasp your requirements and create software that`s a perfect fit.
+
+'
+            ],
+            [
+                'image' => '/assets/images/ii.png',
+                'title' => 'Cutting-Edge Technologies',
+                'description' => 'We stay at the forefront of technology trends, utilizing the latest tools and frameworks to craft innovative solutions that provide your business with a competitive edge.
+
+'
+            ]
+        ]
+
+
+        
     ])
-
-    @include('_partials.set-us-part',
-    ['image'=>'assets/images/ii.png',
-    'imageAlt'=>'Software Development',
-    'Cardheadingsetus1'=>' Custom Solutions',
-    'cardparasetus' => 'We understand that one-size-fits-all solutions don`t work. Our approach is entirely tailored to your unique business needs. We closely collaborate with you to grasp your requirements and create software that`s a perfect fit.,'    ])
-
-    @include('_partials.set-us-part',
-    ['image'=>'assets/images/iii.png',
-    'imageAlt'=>'Software Development',
-    'Cardheadingsetus1'=>' Cutting-Edge Technologies',
-    'cardparasetus' => 'We stay at the forefront of technology trends, utilizing the latest tools and frameworks to craft innovative solutions that provide your business with a competitive edge.',
+    @include('_partials.software-development-services-section', [
+        'heading' => 'Our Software',
+        'subheading' => 'Development Services',
+        'tabs' => [
+            [
+                'id' => 'Digital',
+                'title' => 'Custom Software Development',
+                'image' => '/assets/images/software01.svg',
+                'description' => 'We create custom software solutions that enhance operational efficiency and customer satisfaction. Our expert team ensures reliability and scalability using cutting-edge technologies, from concept to deployment.',
+                'link' => '#'
+            ],
+            [
+                'id' => 'social',
+                'title' => 'Web Scraping Services',
+                'image' => '/assets/images/dekstop03.svg',
+                'description' => 'We specialize in creating fast, interactive Single Page Applications (SPAs) using ReactJS and Angular. Our SPAs engage users seamlessly, ensuring a great user experience across devices.',
+                'link' => 'social-media-service.html'
+            ],
+            [
+                'id' => 'Paid',
+                'title' => 'Single Page Applications',
+                'image' => '/assets/images/scarping05.svg',
+                'description' => 'We use Python-based technology to gather valuable data from diverse online sources. Our custom solutions ensure accurate and up-to-date information for tracking market trends, monitoring competitors, and supporting your business decisions.',
+                'link' => '#'
+            ],
+            [
+                'id' => 'Search',
+                'title' => 'Specialized Systems',
+                'image' => '/assets/images/systems04.svg',
+                'description' => 'We specialize in building specialized software systems, including CRM, Billing, and Multi-vendor platforms. Our expert developers use cutting-edge technology to create scalable and efficient solutions that drive your business success.',
+                'link' => 'seo-service.html',
+            ]
+        ]
     ])
-</div>
-
-
-
+    
 @endsection
