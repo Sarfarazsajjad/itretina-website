@@ -13,7 +13,8 @@
                             <a href="#"> IT Services</a> <img src="{{ $page->baseUrl }}/assets/images/down-icon.png" alt="Down Icon">
 
                             <ul>
-                              <a href="./software-development.html"> <li>Software Development </li></a> 
+                              <a  href="{{ $page->baseUrl }}/services/software-development"> <li>Software Development </li></a> 
+                              
                                 <a href="./web-scrapping.html">
                                 <li>Web Scrapping and Data Solution
                                 </li>

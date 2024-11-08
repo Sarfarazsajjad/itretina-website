@@ -1,6 +1,6 @@
 @extends('_layouts.main')
 @section('title', 'ITRetina')
-@section('body')
+@section(section: 'body')
 <!-- Header Section: Introduction to IT Services -->
  
 
@@ -8,20 +8,15 @@
 <img class="banner-shape1"  src="{{ $page->baseUrl }}/assets/images/banner-shap1.svg" alt="Banner Shape 1" />
 <img class="banner-shape2" src="{{ $page->baseUrl }}/assets/images/banner-shap2.svg" alt="Banner Shape 2" />
 
-        <div class="container">
-            <div class="banner-content" id="banner-content">
-                <h1 class="">
-                    Introduction to Our <span> IT Services</span>
-                    </span>
-                </h1>
-                
-                <p class="">
-                    We don't just offer IT services; we craft comprehensive solutions that are meticulously tailored to meet the unique requirements of your business. Our dedicated team of proficient experts specializes in multiple domains of IT excellence, each designed to empower your business for success.
-                </p>
-                <a  href="contact-us.html" class=" gredient-btn mt-4">Get More Info</a>
-            </div>
-        </div>
-    </section>
+@include('_partials.main-title-page',
+['maintitlepage' => 'Introduction to Our IT Services',
+'desc1'=> 'We dont just offer IT services; we craft comprehensive solutions that are meticulously tailored to meet the unique requirements of your business. Our dedicated team of proficient experts
+ specializes in multiple domains of IT excellence, each designed to empower your business for success',
+ 'buttonLink'=>'services/index.html',
+ 'buttonText'=>'Get More Info',
+])
+
+</section>
 
 <!-- Software Development Section -->
 @include('_partials.right-image-left-text-button',

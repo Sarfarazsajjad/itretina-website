@@ -395,6 +395,7 @@ h6 {
     color: #F38313;
 }
 
+
 .border-title {
     padding-left: 25px;
     font-weight: 800 !important;
@@ -6491,6 +6492,12 @@ textarea.parsley-error {
     -moz-transition: all 0.3s ease-in;
     -webkit-transition: all 0.3s ease-in;
 }
+.flex-container {
+  display: flex;
+  gap: 20px; /* Adjust the space between each card */
+  justify-content: space-around; /* Adjust as needed, e.g., center, space-between */
+}
+
 
 .parsley-errors-list.filled {
     opacity: 1;
@@ -7662,6 +7669,7 @@ textarea.parsley-error {
     }
     .sec-title {
         font-size: 30px;
+        
     }
     .banner-content h1 {
         font-size: 35px;
@@ -7724,6 +7732,7 @@ textarea.parsley-error {
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
     }
+    
 }
 
 @media only screen and (max-width: 420px) {
@@ -7737,6 +7746,7 @@ textarea.parsley-error {
     }
     .sec-title{
         font-size: 28px !important;
+        
     }
     .sec-title span{
         font-size: 28px !important;

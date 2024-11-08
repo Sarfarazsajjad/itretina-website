@@ -14,11 +14,12 @@
                         <h4>Follow Us</h4>
                         <div class="follows-logos">
                             <!-- <a href="#"><img src="assets/images/whatsapp-icon.svg" alt /></a> -->
-                            <a href="#"> <img src="assets/images/facebook-icon.svg" alt /></a>
-                            <a href="#"><img src="assets/images/instagram-icon.svg" alt /></a>
-                            <a href="#"><img src="assets/images/linkedin-icon.svg" alt /></a>
-                            <a href="#"> <img src="assets/images/youtube-icon.svg" alt /></a>
-                            <a href="#"> <img src="assets/images/twitter-icon.svg" alt /></a>
+
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/facebook-icon.svg" alt /></a>
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/instagram-icon.svg" alt /></a>
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/linkedin-icon.svg" alt /></a>
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/youtube-icon.svg" alt /></a>
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/twitter-icon.svg" alt /></a>
                         </div>
                     </div>
 
@@ -54,7 +55,7 @@
                     
                     <div class="footer-address">
                         <div class="karachi">
-                            <h3>USA, Texas
+                            <h3>Pakistan, Karachi
                             </h3>
                             <p>827 Overdell Dr Sugarland TX 77479
                             </p>

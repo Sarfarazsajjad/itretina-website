@@ -44,7 +44,6 @@
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
-        <script src="assets/js/wow.js "></script>
         <script src="assets/js/custom.js "></script>
         <script src="assets/js/bootstrap.bundle.min.js "></script>
         <script src="assets/js/bootstrap.min.js "></script>
@@ -59,7 +58,7 @@
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 @include('_partials.nav')
-@yield('body')
+@yield(section: 'body')
 @include('_partials.footer')
 
     </body>
