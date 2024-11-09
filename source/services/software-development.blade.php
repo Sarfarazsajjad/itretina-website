@@ -8,13 +8,14 @@
 <img class="banner-shape1"  src="{{ $page->baseUrl }}/assets/images/banner-shap1.svg" alt="Banner Shape 1" />
 <img class="banner-shape2" src="{{ $page->baseUrl }}/assets/images/banner-shap2.svg" alt="Banner Shape 2" />
 
+@php
+    $title = 'Turning Ideas into Code, Code into Solutions.';
+    $buttonLink = 'contact-us'; 
+    $buttonText = 'Get More Info'; 
+@endphp
 
-@include('_partials.same-title-desc',
-['maintitlepage1' => 'Turning Ideas into Code, Code into Solutions',
- 'buttonLink'=>'services/index.html',
- 'buttonText'=>'Get More Info',
+@include('_partials.dynamic-headings', compact('title', 'buttonLink', 'buttonText'))
 
-])
 
 </section>
 

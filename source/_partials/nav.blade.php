@@ -6,7 +6,7 @@
                   <nav class="header-nav">
                     <ul>
                         <li>
-                            <a href="./index.html">Home</a> 
+                            <a  href="{{ $page->baseUrl }}/index">Home</a>
                             
                         </li>
                         <li>
