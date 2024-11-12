@@ -1,6 +1,6 @@
 @extends('_layouts.main')
 
-@section('title', 'ITRetina - Software Development')
+@section('title', 'ITRetina - Erp next')
 
 @section('body')
 
@@ -48,7 +48,7 @@
                 'description' => 'Our ERPNext services provide you with robust data collection, analysis, and reporting capabilities. With real-time insights and analytics at your fingertips, you can make data-driven decisions that improve your business strategy, inventory management, customer relations, and overall performance.'
             ],
             [
-                'image' => '/assets/images/ii.png',
+                'image' => '/assets/images/iii.png',
                 'title' => 'Cutting-Edge Technologies',
                 'description' => 'One of the standout features of our ERPNext services is our ability to tailor the ERP system to your specific business requirements and our customization services Providing you a system that not only meets your needs but also grows with your business in the long term.'
             ]

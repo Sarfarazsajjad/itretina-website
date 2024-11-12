@@ -1,5 +1,5 @@
 @php
-    $words = explode(' ', $title);
+    $words = explode(' ', $title );
 @endphp
 
 <div class="container">

@@ -19,22 +19,22 @@
                                 <li>Web Scrapping and Data Solution
                                 </li>
                             </a>
-                            <a href="./erp-next.html">
-                                <li>ERP Next
+                            <a href="{{ $page->baseUrl }}/services/erp-next">
+                            <li>ERP Next
                                
                                 </li>
                             </a>         
-                            <a href="./cloud-services.html">       
+                            <a href="{{ $page->baseUrl }}/services/erp-next">
                                 <li>Cloud Services
                                
                                 </li>
                             </a>    
-                            <a href="./it-support.html">
+                            <a href="{{ $page->baseUrl }}/services/erp-next">
                                 <li>IT Support 
                                
                                 </li>
                             </a>
-                            <a href="./integration.html">
+                            <a href="{{ $page->baseUrl }}/services/integration-and-customization">
                                 <li>Integration and Customization
                                
                                 </li>
@@ -44,12 +44,12 @@
 
                                     <ul>
                                     <li>
-                                        <a href="./pizzza-app.html">
+                                    <a href="{{ $page->baseUrl }}/services/it-products/pizza-app">
     
                                             Pizza App</a>
                                     </li>
                                     <li>
-                                        <a href="./burger-app.html">
+                                    <a href="{{ $page->baseUrl }}/services/it-products/burger-app">
     
                                            Burger App </a>
                                     </li>
@@ -59,10 +59,10 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="./contact-us.html">Contact US</a>
+                        <a href="{{ $page->baseUrl }}/contact-us">Contact Us </a>
                         </li> 
                         <li>
-                            <a href="./about-us.html">About US</a>
+                        <a href="{{ $page->baseUrl }}/about-us">About Us </a>
                         </li>               
                     </ul>
                 </nav>

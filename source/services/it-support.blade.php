@@ -10,7 +10,7 @@
 
 @php
     $title = 'Empowering Business Success Through Exceptional IT Support.';
-    $buttonLink = 'contact-us'; 
+    $buttonLink = '/contact-us'; 
     $buttonText = 'Get More Info'; 
 @endphp
 
