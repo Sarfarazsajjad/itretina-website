@@ -394,7 +394,9 @@ h6 {
 .sec-title span {
     color: #F38313;
 }
-
+.main_my{
+  margin-top: 40px;
+}
 
 .border-title {
     padding-left: 25px;
@@ -3701,7 +3703,6 @@ a.serve-main-tab {
 }
 
 
-@charset "UTF-8";
 
 
 /*!

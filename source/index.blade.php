@@ -8,13 +8,15 @@
 <img class="banner-shape1"  src="{{ $page->baseUrl }}/assets/images/banner-shap1.svg" alt="Banner Shape 1" />
 <img class="banner-shape2" src="{{ $page->baseUrl }}/assets/images/banner-shap2.svg" alt="Banner Shape 2" />
 
-@include('_partials.main-title-page',
-['maintitlepage' => 'Introduction to Our IT Services',
-'desc1'=> 'We dont just offer IT services; we craft comprehensive solutions that are meticulously tailored to meet the unique requirements of your business. Our dedicated team of proficient experts
- specializes in multiple domains of IT excellence, each designed to empower your business for success',
- 'buttonLink'=>'services/index.html',
- 'buttonText'=>'Get More Info',
-])
+@php
+    $title = 'Introduction to Our IT Services';
+    $buttonLink = 'contact-us'; 
+    $buttonText = 'Get More Info'; 
+    $desc1='We dont just offer IT services; we craft comprehensive solutions that are meticulously tailored to meet the unique requirements of your business. Our dedicated team of proficient experts specializes in multiple domains of IT excellence, each designed to empower your business for success.';
+    
+@endphp
+
+@include('_partials.main-title-page', compact('title', 'buttonLink', 'buttonText','desc1'))
 
 </section>
 

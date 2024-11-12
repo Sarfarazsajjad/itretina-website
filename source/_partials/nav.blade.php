@@ -15,7 +15,7 @@
                             <ul>
                               <a  href="{{ $page->baseUrl }}/services/software-development"> <li>Software Development </li></a> 
                               
-                                <a href="./web-scrapping.html">
+                                <a href="{{ $page->baseUrl }}/services/web-scrapping">
                                 <li>Web Scrapping and Data Solution
                                 </li>
                             </a>

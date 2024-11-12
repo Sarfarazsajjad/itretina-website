@@ -49,7 +49,7 @@
 '
             ],
             [
-                'image' => '/assets/images/ii.png',
+                'image' => '/assets/images/iii.png',
                 'title' => 'Cutting-Edge Technologies',
                 'description' => 'We stay at the forefront of technology trends, utilizing the latest tools and frameworks to craft innovative solutions that provide your business with a competitive edge.
 

@@ -21,10 +21,11 @@
 </section>
 
 @include('_partials.same-sec-left-text',
-['cardHeading2'=>'Elevate Your Data Game with Our Web Scraping Expertise.',
+
+['cardHeading2'=>' Elevate Your Data Game with Our Web Scraping Expertise.',
 'desc2' => 'Unlock the Power of Web Data with Our Web Scraping Services! Our team is adept in the art of data extraction from the web, harnessing the capabilities of Python-based technologies. Whether you`re on a quest for market insights, aiming to outshine your competitors, or pursuing any data-driven ambition, our web scraping expertise has you covered. We`re your passport to a world of valuable data, empowering you with the insights needed for informed, strategic decision-making.',
 'image'=>'assets/images/web1.jpg',
-'imageAlt'=>'Software Development'])
+'imageAlt'=>'Web-scrap'])
 
 @include('_partials.set-us-part', [
         'heading' => 'What',
@@ -51,7 +52,7 @@
                 'image' => '/assets/images/ii.png',
                 'title' => 'Compliance and Ethics',
                 'description' => 'We prioritize ethical and legal web scraping practices by respecting terms of use and privacy policies, ensuring your data collection is reliable and responsible. Maintaining your compliance and reputation while delivering valuable data.'
-                
+
             ]
         ]
 

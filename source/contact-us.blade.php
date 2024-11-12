@@ -1,45 +1,87 @@
 @extends('_layouts.main')
 
-@section('title', 'ITRetina - Contact Us')
+@section('title', 'Contact Us')
 
 @section('body')
 
-<!-- Contact Details Section -->
-<div class="container my-5">
-      <h1 class="text-center mb-4">Reach Us At</h1>
-      <div class="row">
-        <!-- <div class="col-lg-6">
-          <div class="d-flex flex-column">
-            <div class="mb-3">
-              <h5>USA, Texas</h5>
-              <p>
-                827 Overdell Dr Sugarland TX 77479<br>
-                +18015574513
-              </p>
+<section class="banner home-banner" id="banner-layer" style="background-image: url('{{ $page->baseUrl }}/assets/images/banner-bg.svg'); background-size: cover; background-position: center;" >
+<img class="banner-shape1"  src="{{ $page->baseUrl }}/assets/images/banner-shap1.svg" alt="Banner Shape 1" />
+<img class="banner-shape2" src="{{ $page->baseUrl }}/assets/images/banner-shap2.svg" alt="Banner Shape 2" />
+
+@php
+    $title = 'Contact Us';
+   
+@endphp
+
+@include('_partials.contact-us-dynamic-heading', compact('title'))
+
+
+</section>
+
+
+<section class="get-quote-sec pb-4">
+        <div class="container">
+            <h2 class="sec-title">Get <span>in Touch:</span>
+            </h2>
+            <div class="row">
+                <div class="col-md-8 mt-2 mb-2">
+                    <form class="form-holder">
+                        <fieldset>
+                            <div class="field-icon">
+                                <img src="assets/images/profile.svg" alt="" />
+                            </div>
+                            <div class="field-input">
+                                <input type="text" placeholder="Enter Name" required />
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="field-icon">
+                                <img src="assets/images/email-icon.svg" alt="" />
+                            </div>
+                            <div class="field-input">
+                                <input type="email" placeholder="Enter Email" required />
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="field-icon">
+                                <img src="assets/images/mobile.svg" alt="" />
+                            </div>
+                            <div class="field-input">
+                                <input id="phone-number" type="text" placeholder="Your Phone Number" required />
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="field-icon">
+                                <img src="assets/images/service-icon.svg" alt="" />
+                            </div>
+                            <div class="field-input">
+                                <select>
+                                    <option value="Web Development">Software Development </option>
+                                    <option value="Software Development">Web Scrapping and Data Solution</option>
+                                    <option value="Software Development">ERP Next</option>
+                                    <option value="Software Development"> Cloud Services</option>
+                                    <option value="Software Development"> IT Support</option>
+                                    <option value="Software Development">Integration and Customization</option>
+
+                                </select>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="field-icon">
+                                <img src="assets/images/document-text.svg" alt="" />
+                            </div>
+                            <div class="field-input">
+                                <input id="phone-number" type="text" placeholder="Describe You Project" required />
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <button class="gredient-btn" type="submit">Get More Info</button>
+                        </fieldset>
+                    </form>
+                </div>
+             
             </div>
-          </div>
-        </div> -->
-        <div class="col-lg-6">
-          <div class="d-flex flex-column ">
-            <div class="mb-3">
-              <h5>Pakistan, Karachi</h5>
-              <p>
-                <br>
-                +923132604692
-              </p>
-            </div>
-          </div>
+
         </div>
-      </div>
-      <div class="mb-3">
-        <h5>Email</h5>
-        <p>
-          <a href="mailto:info@itretina.com">info@itretina.com</a>
-        </p>
-      </div>
-    </div>
-
-
-<!-- Footer -->
-@include('_partials.footer')
-    @endsection
+    </section>
+@endsection

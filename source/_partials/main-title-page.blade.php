@@ -1,13 +1,14 @@
+@php
+    $words = explode(' ', $title);
+@endphp
 <div class="container">
     <div class="banner-content" id="banner-content">
-        <h1>
-            <span style="color: #314252;">{{ explode(' ', string: $maintitlepage)[0] }}</span>
-            <span style="color: #314252;">{{ explode(' ', string: $maintitlepage)[1] }}</span>
-            <span style="color: #314252;">{{ explode(separator: ' ', string: $maintitlepage)[2] }}</span>
-            <span style="color: orange;">{{ explode(separator: ' ', string: $maintitlepage)[3] }}</span>
-            <span style="color: orange;">{{ explode(separator: ' ', string: $maintitlepage)[4] }}</span>
-           
-
+    <h1>
+            @foreach ($words as $index => $word)
+                <span style="color: {{ $index >= 3 ?'#F38313': '#314252'  }};">
+                    {{ $word }}
+                </span>
+            @endforeach
         </h1>
         <p class="">
             {{$desc1}}
@@ -16,3 +17,4 @@
 
     </div>
 </div>  
+
