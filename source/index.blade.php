@@ -248,7 +248,7 @@ with confidence',
                         <p>Join hands with a team that`s committed to your success. Get in touch with us today.
 
                         </p>
-                        <a class="site-btn mt-4" href="android-mobile-app-service.html"> Contact Us
+                        <a class="site-btn mt-4" href="/contact-us"> Contact Us
                         </a>
                     </div>
                 </div>
