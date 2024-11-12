@@ -7,8 +7,8 @@
                     </h1>                                 
                      <h4>Company</h4>
                     <ul>
-                        <li><a href="./about-us.html">About us</a></li>
-                        <li><a href="./contact-us.html">Contact us</a></li>
+                        <li><a href="/about-us">About us</a></li>
+                        <li><a href="/contact-us">Contact us</a></li>
                     </ul>
                     <div class="footer-follows">
                         <h4>Follow Us</h4>
@@ -29,23 +29,20 @@
                 <div class="footer-link">
                     <h3>Services</h3>
                     <ul>
-                        <li> <a href="/mobile-app-development.html">Software Development</a></li>
-                        <li> <a href="/android-app-development.html">Web Scrapping and Data Solution</a></li>
-                        <li><a href="/iphone-app-development.html">
+                        <li> <a href="/services/software-development">Software Development</a></li>
+                        <li> <a href="/services/web-scrapping">Web Scrapping and Data Solution</a></li>
+                        <li><a href="/services/erp-next">
                             ERP Next</a></li>
-                        <li> <a href="/flutter-app-development.html">
+                        <li> <a href="/services/cloud-services">
                             Cloud Services
                         </a></li>
-                        <li><a href="/react-native-app-development.html">
+                        <li><a href="/services/it-support">
                             IT Support </a></li>
-                        <li><a href="/custom-software-development.html">Integration and Customization</a></li>
+                        <li><a href="/services/integration-and-customization">Integration and Customization</a></li>
                        
 
                     </ul>
-                    <!-- <div class="footer-see-more">
-                    <a href="#">see more</a>
-                </div> -->
-
+                
                 </div>
         
                 <div class="footer-visit">

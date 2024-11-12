@@ -21,7 +21,7 @@
 
 @include('_partials.same-sec-left-text',
 [
-'cardHeading2' => 'Unlock Your Business Potential with ERPNext.',
+'cardHeading2' => 'Unlock Business Potential with ERPNext.',
 'desc2' => 'Our team of ERP enthusiasts is committed to diving deep into your unique business needs and crafting tailored solutions that drive results. With our data-powered ERP services, you`ll unlock real-time insights, analytics, and streamlined workflows, propelling your growth and enhancing customer relationships. We`re here to empower you with the tools and strategies needed to not only succeed but to excel in today`s dynamic business environment. With our data-powered ERP services, you`ll unlock real-time insights, analytics, and streamlined workflows. Your exciting journey to success starts right here, and we`re here to guide you every step of the way, ensuring you make the most of your ERP system and achieve your goals.',
 'image'=>'assets/images/web1.jpg',
 'imageAlt'=>'erp-next'

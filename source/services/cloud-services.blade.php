@@ -20,7 +20,7 @@
         </section>
 
         @include('_partials.same-sec-left-text',
-        ['cardHeading2'=>'Migrating in-house IT infrastructure to-the cloud.',
+        ['cardHeading2'=>'Migrating in-house IT infrastructure to-the-cloud.',
         'desc2' => ' We specialize in seamlessly moving your in-house IT infrastructure to leading cloud platforms, including AWS, Amazon`s cloud platform, Azure by Microsoft,and Google Cloud Platform GCP. Our expert team creates a customized migration plans for each platform, ensuring a smooth transition of your data, applications, and workloads. This process minimizes disruptions and maximizes the the scalability and security benefits of each cloud provider. Whether you choose AWS, Azure, or GCP, we enable you to increase agility, reduce costs, and embrace the future of cloud computing with confidence in our capable hands.',
         'image'=>'assets/images/cloud-services.jpg',
         'imageAlt'=>'Software Development'])

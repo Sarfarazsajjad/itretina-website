@@ -8,6 +8,7 @@
                     <span style="color: #F38313;">{{ explode(' ', $cardHeading2)[2] }}</span>
                     <span style="color: #F38313;">{{ explode(' ', $cardHeading2)[3] }}</span>
                     <span style="color: #FFFFFF;">{{ explode(' ', $cardHeading2)[4] }}</span>
+                    
                      </h1>
                             <p>{{$desc2}}</p>
                 </div>

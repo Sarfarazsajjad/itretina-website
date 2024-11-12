@@ -20,7 +20,7 @@
 </section>
 
 @include('_partials.same-sec-left-text',
-['cardHeading2'=>'Comprehensive IT Infrastructure Support and Monitoring',
+['cardHeading2'=>'Comprehensive IT Infrastructure-Support and Monitoring',
 'desc2' => ' Experience the peace of mind that comes with our all-encompassing IT support services. We diligently monitor both cloud and in-house infrastructure, proactively addressing issues like server patching, security updates, and resource upgrades. Our expert team excels at swiftly implementing network changes and granting access permissions. When additional resources are needed, we seamlessly provision virtual machines with the required networking configurations. Your IT needs are efficiently managed.',
 'image'=>'assets/images/support.jpg',
 'imageAlt'=>'it-support'])

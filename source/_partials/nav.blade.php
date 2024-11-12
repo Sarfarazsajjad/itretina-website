@@ -24,12 +24,12 @@
                                
                                 </li>
                             </a>         
-                            <a href="{{ $page->baseUrl }}/services/erp-next">
+                            <a href="{{ $page->baseUrl }}/services/cloud-services">
                                 <li>Cloud Services
                                
                                 </li>
                             </a>    
-                            <a href="{{ $page->baseUrl }}/services/erp-next">
+                            <a href="{{ $page->baseUrl }}/services/it-support">
                                 <li>IT Support 
                                
                                 </li>
