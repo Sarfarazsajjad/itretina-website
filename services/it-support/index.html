@@ -30,7 +30,7 @@
         <script src="assets/js/wow.js"></script>
         <script src="assets/js/swiper.min.js"></script>
         <script src="assets/js/tab-sliders.js"></script>
-        <script src="assets/js/custom.js"></script>
+        <script src="/assets/build/js/main.js"></script>
         <script src="assets/js/bootstrap.bundle.min.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
@@ -369,69 +369,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </footer>
 
     
-<script type="text/javascript ">
-function openTab(tabName) {
-    document.querySelectorAll('.mobile-tab-content').forEach(function(content) {
-        content.classList.remove('active');
-    });
-    document.querySelectorAll('.mobile-tab').forEach(function(tab) {
-        tab.classList.remove('active');
-    });
-    document.getElementById(tabName + 'Content').classList.add('active');
-    document.querySelector('[onclick="openTab(\'' + tabName + '\')"]').classList.add('active');
-}
-
-function openTab2(tabName2) {
-    document.querySelectorAll('.desktop-tab-content').forEach(function(content) {
-        content.classList.remove('active');
-    });
-    document.querySelectorAll('.desktop-tab').forEach(function(tab) {
-        tab.classList.remove('active');
-    });
-    document.getElementById(tabName2 + 'Content').classList.add('active');
-    document.querySelector('[onclick="openTab2(\'' + tabName2 + '\')"]').classList.add('active');
-}
-
-function openTab3(tabName3) {
-    document.querySelectorAll('.digital-media-content').forEach(function(content) {
-        content.classList.remove('active');
-    });
-    document.querySelectorAll('.digital-media-tab').forEach(function(tab) {
-        tab.classList.remove('active');
-    });
-    document.getElementById(tabName3 + 'Content').classList.add('active');
-    document.querySelector('[onclick="openTab3(\'' + tabName3 + '\')"]').classList.add('active');
-}
-
-function openTab4(tabName4) {
-    document.querySelectorAll('.Prowess-content').forEach(function(content) {
-        content.classList.remove('active');
-    });
-    document.querySelectorAll('.Prowess-tab').forEach(function(tab) {
-        tab.classList.remove('active');
-    });
-    document.getElementById(tabName4 + 'Content').classList.add('active');
-    document.querySelector('[onclick="openTab4(\'' + tabName4 + '\')"]').classList.add('active');
-}
-
-function showNextTab(section) {
-    var tabs = document.querySelectorAll('.' + section + '-tab');
-    var activeIndex = Array.from(tabs).findIndex(tab => tab.classList.contains('active'));
-
-    if (activeIndex < tabs.length - 1) {
-        openTab(section + (activeIndex + 1));
-    }
-}
-
-function showPrevTab(section) {
-    var tabs = document.querySelectorAll('.' + section + '-tab');
-    var activeIndex = Array.from(tabs).findIndex(tab => tab.classList.contains('active'));
-
-    if (activeIndex > 0) {
-        openTab(section + (activeIndex - 1));
-    }
-}
-</script>
+ 
 
 
     </body>
