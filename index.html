@@ -630,6 +630,7 @@ with confidence</p>
 
     
 <script type="text/javascript ">
+    
 function openTab(tabName) {
     document.querySelectorAll('.mobile-tab-content').forEach(function(content) {
         content.classList.remove('active');
@@ -674,37 +675,23 @@ function openTab4(tabName4) {
     document.querySelector('[onclick="openTab4(\'' + tabName4 + '\')"]').classList.add('active');
 }
 
-function showNextTab(section) {
-    var tabs = document.querySelectorAll('.' + section + '-tab');
-    var activeIndex = Array.from(tabs).findIndex(tab => tab.classList.contains('active'));
+// function showNextTab(section) {
+//     var tabs = document.querySelectorAll('.' + section + '-tab');
+//     var activeIndex = Array.from(tabs).findIndex(tab => tab.classList.contains('active'));
 
-    if (activeIndex < tabs.length - 1) {
-        openTab(section + (activeIndex + 1));
-    }
-}
+//     if (activeIndex < tabs.length - 1) {
+//         openTab(section + (activeIndex + 1));
+//     }
+// }
 
-function showPrevTab(section) {
-    var tabs = document.querySelectorAll('.' + section + '-tab');
-    var activeIndex = Array.from(tabs).findIndex(tab => tab.classList.contains('active'));
+// function showPrevTab(section) {
+//     var tabs = document.querySelectorAll('.' + section + '-tab');
+//     var activeIndex = Array.from(tabs).findIndex(tab => tab.classList.contains('active'));
 
-    if (activeIndex > 0) {
-        openTab(section + (activeIndex - 1));
-    }
-}
-
-// $(window).on('load', function() {
-
-wow = new WOW({
-    animateClass: 'animated',
-    offset: 100,
-    callback: function(box) {
-        //  console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-    }
-});
-wow.init();
-
-// });
-
+//     if (activeIndex > 0) {
+//         openTab(section + (activeIndex - 1));
+//     }
+// }
 
 
 $(window).scroll(function() {
@@ -738,21 +725,6 @@ more_option.addEventListener("click", (e) => {
 //     more_option.classList.remove("nav-open");
 // });
 
-
-
-
-
-var object1 = $('#banner-content');
-var layer = $('#banner-layer');
-
-layer.mousemove(function(e) {
-    var valueX = (e.pageX * -1 / 220);
-    var valueY = (e.pageY * -1 / 220);
-
-    object1.css({
-        'transform': 'translate3d(' + valueX + 'px,' + valueY + 'px,0)'
-    });
-});
 
 
 var acc = document.getElementsByClassName("accordion");
