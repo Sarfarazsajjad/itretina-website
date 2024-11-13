@@ -692,6 +692,20 @@ function showPrevTab(section) {
     }
 }
 
+// $(window).on('load', function() {
+
+wow = new WOW({
+    animateClass: 'animated',
+    offset: 100,
+    callback: function(box) {
+        //  console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+});
+wow.init();
+
+// });
+
+
 
 $(window).scroll(function() {
     var scroll = $(window).scrollTop();
@@ -724,6 +738,21 @@ more_option.addEventListener("click", (e) => {
 //     more_option.classList.remove("nav-open");
 // });
 
+
+
+
+
+var object1 = $('#banner-content');
+var layer = $('#banner-layer');
+
+layer.mousemove(function(e) {
+    var valueX = (e.pageX * -1 / 220);
+    var valueY = (e.pageY * -1 / 220);
+
+    object1.css({
+        'transform': 'translate3d(' + valueX + 'px,' + valueY + 'px,0)'
+    });
+});
 
 
 var acc = document.getElementsByClassName("accordion");
