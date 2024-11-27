@@ -1510,7 +1510,7 @@ button.site-btn {
 .footer-visit p {
   font-size: 14px;
   line-height: 26px;
-  color: var(--background-color);
+  color: var(--background-color) !important;
 }
 
 .footer-visit img {
@@ -1718,7 +1718,7 @@ button.site-btn {
 }
 
 .footer-address h3 {
-  color: #f38313;
+  color: var(--primary-color);
   font-size: 14px;
   font-weight: bold;
   height: inherit;
@@ -1728,8 +1728,13 @@ button.site-btn {
 
 .footer-address p {
   font-size: 12px;
+  color: var(--background-color);
+
   font-weight: 400;
   margin-bottom: 5px;
+}
+.footer-address a {
+  color: var(--background-color);
 }
 
 .email-address h2 {
@@ -1752,6 +1757,12 @@ button.site-btn {
   font-size: 65px;
 }
 
+.sec-title h2 b {
+  color: var(--secondary-color);
+
+}
+.solan-banner-btn-cus {
+  margin-left: inherit !important;}
 .slider-container {
   background-color: #EBEBEB;
   padding: 0px 0px 80px 0;

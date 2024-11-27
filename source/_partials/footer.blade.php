@@ -51,10 +51,6 @@
                     
                     <div class="footer-address">
                         <div class="karachi">
-                            <h3>Phone No
-                            </h3>
-                            <p>+18015574513 </p>
-
                             <h3>
                             <h3>Email Address</h3>
                                 <a href="mailto:info@itretina.com">info@itretina.com</a>

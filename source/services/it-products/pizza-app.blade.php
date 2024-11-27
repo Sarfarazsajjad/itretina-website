@@ -34,7 +34,7 @@
     'banner_description' => 'Pizza App is a versatile mobile application, developed with Flutter, empowers restaurant owners to efficiently manage their menus and orders on various platforms. The robust Node.js back end, enhanced by TypeScript and TypeORM, simplifies data management, ensuring a smooth experience. Additionally, our `Pizza App` admin panel website, built using Angular and HTML, provides an intuitive interface for restaurant owners to effortlessly control menus and orders, ensuring an efficient and user-friendly experience for their customers',
     'banner_button_text' => 'Get More Info',
     'banner_button_link' => 'contact-us.html',
-    'banner_image_url' => '/assets/images/pizza-app.webp'
+    'banner_image_url' => '/assets/images/pizza-app.jpeg'
 ])
 
 @include('_partials.highlights-section-burger-app', [
