@@ -2176,6 +2176,9 @@ button.site-btn {
   .sec-title {
     font-size: 37px !important;
   }
+  .oppor-card-holder {
+    grid-template-columns: repeat(2, 1fr);
+}
 
   .lan-wan-main-sec,
   .network-cyber-main-sec {
@@ -2258,6 +2261,9 @@ button.site-btn {
   .main-footer-content {
     margin-top: 60px;
   }
+      .oppor-card-holder {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
   .footer-bottom {
     flex-direction: column;
