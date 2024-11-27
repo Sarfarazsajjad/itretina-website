@@ -8,8 +8,8 @@
 
 <section class="banner home-banner" id="banner-layer"
     style="background-image: url('{{ $page->baseUrl }}/assets/images/banner-bg.svg'); background-size: cover; background-position: center;">
-    <img class="banner-shape1" src="{{ $page->baseUrl }}/assets/images/banner-shap1.svg" alt="Banner Shape 1" />
-    <img class="banner-shape2" src="{{ $page->baseUrl }}/assets/images/banner-shap2.svg" alt="Banner Shape 2" />
+    <!-- <img class="banner-shape1" src="{{ $page->baseUrl }}/assets/images/banner-shap1.svg" alt="Banner Shape 1" />
+    <img class="banner-shape2" src="{{ $page->baseUrl }}/assets/images/banner-shap2.svg" alt="Banner Shape 2" /> -->
 
     @php
         $title = 'Pizza App';
@@ -34,7 +34,7 @@
     'banner_description' => 'Pizza App is a versatile mobile application, developed with Flutter, empowers restaurant owners to efficiently manage their menus and orders on various platforms. The robust Node.js back end, enhanced by TypeScript and TypeORM, simplifies data management, ensuring a smooth experience. Additionally, our `Pizza App` admin panel website, built using Angular and HTML, provides an intuitive interface for restaurant owners to effortlessly control menus and orders, ensuring an efficient and user-friendly experience for their customers',
     'banner_button_text' => 'Get More Info',
     'banner_button_link' => 'contact-us.html',
-    'banner_image_url' => '/assets/images/pizza-app.jpeg'
+    'banner_image_url' => '/assets/images/pizza-app.webp'
 ])
 
 @include('_partials.highlights-section-burger-app', [

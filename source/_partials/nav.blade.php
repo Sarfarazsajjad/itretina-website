@@ -1,7 +1,7 @@
 <header class="pixcile-header white-header" >
         <div class="container">
         <div class="header-content align-items-center justify-content-between banner-logo d-flex"><h1>
-                    <span>IT</span>Retina
+                    <span style='var(--secondary-color)'>IT</span>Retina
                 </h1>              
                   <nav class="header-nav">
                     <ul>
@@ -10,7 +10,7 @@
                             
                         </li>
                         <li>
-                            <a href="#"> IT Services</a> <img src="{{ $page->baseUrl }}/assets/images/down-icon.png" alt="Down Icon">
+                            <a href="#"> IT Services</a> 
 
                             <ul>
                               <a  href="{{ $page->baseUrl }}/services/software-development"> <li>Software Development </li></a> 

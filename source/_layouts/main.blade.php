@@ -16,39 +16,16 @@
         <!-- End Google Tag Manager -->
         <script defer src="{{ mix('js/main.js', '/assets/build') }}"></script>
         <script defer src="{{ $page->baseUrl }}/assets/build/js/main.js"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+        <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="{{ mix('styles/styles.css', '/assets/build') }}">
         <link rel="stylesheet" href="{{ $page->baseUrl }}/assets/build/css/styles.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js "></script>
+         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <!-- Include Bootstrap JavaScript -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
-        crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
-        crossorigin="anonymous"></script>
-       <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
-       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="assets/js/wow.js"></script>
-        <script src="assets/js/swiper.min.js"></script>
-        <script src="assets/js/tab-sliders.js"></script>
-        <script src="assets/js/custom.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js "></script>
-        <script src="assets/js/custom.js "></script>
-        <script src="assets/js/bootstrap.bundle.min.js "></script>
-        <script src="assets/js/bootstrap.min.js "></script>
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js "></script>
-        <script src="https://kit.fontawesome.com/c5e5090d10.js " crossorigin="anonymous "></script>
         </head>
 
    
@@ -63,5 +40,95 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     </body>
     
+    
+<script type="text/javascript ">
+
+function openTab(tabName) {
+    document.querySelectorAll('.mobile-tab-content').forEach(function(content) {
+        content.classList.remove('active');
+    });
+    document.querySelectorAll('.mobile-tab').forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+    document.getElementById(tabName + 'Content').classList.add('active');
+    document.querySelector('[onclick="openTab(\'' + tabName + '\')"]').classList.add('active');
+}
+
+function openTab2(tabName2) {
+    document.querySelectorAll('.desktop-tab-content').forEach(function(content) {
+        content.classList.remove('active');
+    });
+    document.querySelectorAll('.desktop-tab').forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+    document.getElementById(tabName2 + 'Content').classList.add('active');
+    document.querySelector('[onclick="openTab2(\'' + tabName2 + '\')"]').classList.add('active');
+}
+
+function openTab3(tabName3) {
+    document.querySelectorAll('.digital-media-content').forEach(function(content) {
+        content.classList.remove('active');
+    });
+    document.querySelectorAll('.digital-media-tab').forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+    document.getElementById(tabName3 + 'Content').classList.add('active');
+    document.querySelector('[onclick="openTab3(\'' + tabName3 + '\')"]').classList.add('active');
+}
+
+function openTab4(tabName4) {
+    document.querySelectorAll('.Prowess-content').forEach(function(content) {
+        content.classList.remove('active');
+    });
+    document.querySelectorAll('.Prowess-tab').forEach(function(tab) {
+        tab.classList.remove('active');
+    });
+    document.getElementById(tabName4 + 'Content').classList.add('active');
+    document.querySelector('[onclick="openTab4(\'' + tabName4 + '\')"]').classList.add('active');
+}
+
+function showNextTab(section) {
+    var tabs = document.querySelectorAll('.' + section + '-tab');
+    var activeIndex = Array.from(tabs).findIndex(tab => tab.classList.contains('active'));
+
+    if (activeIndex < tabs.length - 1) {
+        openTab(section + (activeIndex + 1));
+    }
+}
+
+function showPrevTab(section) {
+    var tabs = document.querySelectorAll('.' + section + '-tab');
+    var activeIndex = Array.from(tabs).findIndex(tab => tab.classList.contains('active'));
+
+    if (activeIndex > 0) {
+        openTab(section + (activeIndex - 1));
+    }
+}
+
+$(window).scroll(function() {
+            var scroll = $(window).scrollTop();
+            if (scroll >= 200) {
+                $(".pixcile-header").addClass("white-header");
+            } else {
+                $(".pixcile-header").removeClass("white-header");
+            }
+        });
+        
+        const more_option = document.getElementById("nav-btn");
+        const mega_option = document.querySelector(".header-nav");
+        
+        more_option.addEventListener("click", (e) => {
+            e.preventDefault();
+            mega_option.classList.toggle("open-menu");
+            more_option.classList.toggle("nav-open");
+        });
+        
+        
+        more_option.addEventListener("click", (e) => {
+            if (e.defaultPrevented) return;
+            mega_option.classList.remove("open-menu");
+            more_option.classList.remove("nav-open");
+        }); 
+
+</script>
 </html>
-<body>

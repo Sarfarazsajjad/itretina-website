@@ -6,7 +6,7 @@
     <div class="banner-content" id="banner-content">
         <h1>
             @foreach ($words as $index => $word)
-                <span style="color: {{ $index >= 1 ?'#F38313': '#314252'  }};">
+                <span style="color: {{ $index >= 1 ?'var(--secondary-color)' : 'var(--primary-color)' }};">
                     {{ $word }}
                 </span>
             @endforeach

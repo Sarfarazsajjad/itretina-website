@@ -3,8 +3,8 @@
             <div class="lan-wan-main-sec">
                 <div class="lan-wan-title">                 
                 <h1>
-                    <span style="color: white;">{{ explode(' ', $cardHeading1)[0] }}</span>
-                    <span style="color: Orange;">{{ explode(' ', $cardHeading1)[1] }}</span>
+                    <span style='color: var(--secondary-color);'>{{ explode(' ', $cardHeading1)[0] }}</span>
+                    <span style='color: var(--primary-color);'>{{ explode(' ', $cardHeading1)[1] }}</span>
 
 
                     </h1>

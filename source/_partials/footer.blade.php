@@ -3,7 +3,7 @@
             <div class="footer-content-holder">
                 <div class="footer-start footer-logo">
                     <h1>
-                        <span>IT</span>Retina
+                        <span style='var(--secondary-color)'>IT</span>Retina
                     </h1>                                 
                      <h4>Company</h4>
                     <ul>
@@ -15,11 +15,10 @@
                         <div class="follows-logos">
                             <!-- <a href="#"><img src="assets/images/whatsapp-icon.svg" alt /></a> -->
 
-                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/facebook-icon.svg" alt /></a>
-                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/instagram-icon.svg" alt /></a>
-                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/linkedin-icon.svg" alt /></a>
-                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/youtube-icon.svg" alt /></a>
-                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/twitter-icon.svg" alt /></a>
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/facebook-red-black-strict.webp" alt /></a>
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/instagram-red-black-strict.webp" alt /></a>
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/linkedin-red-black-strict.webp" alt /></a>
+                            <a href="#"><img src="{{ $page->baseUrl }}/assets/images/youtube-red-black-strict.webp" alt /></a>
                         </div>
                     </div>
 
@@ -52,21 +51,15 @@
                     
                     <div class="footer-address">
                         <div class="karachi">
-                            <h3>Pakistan, Karachi
-                            </h3>
-                            <p>827 Overdell Dr Sugarland TX 77479
-                            </p>
                             <h3>Phone No
                             </h3>
                             <p>+18015574513 </p>
 
                             <h3>
+                            <h3>Email Address</h3>
                                 <a href="mailto:info@itretina.com">info@itretina.com</a>
-                            </p>                            <h3>Email Address</h3>
+                            </p>                           
                            
-
-
-
                             </p>
                         </div>
                     </div>
